@@ -3,7 +3,7 @@ general info section
 	use the terms in the title
 	like: 
 		skin
-		skin cancer (imagery types), 
+		skin cancer and lesions(imagery types), 
 		detection and classification (using traditionnal methods, ie: without AI)
 		AI in general
 		machine learning,
