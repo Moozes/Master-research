@@ -1,0 +1,15 @@
+general info section
+	defining every thing (it is like you are writing to a small child, and making him understand every thing) 
+	use the terms in the title
+	like: 
+		skin
+		skin cancer (imagery types), 
+		detection and classification (using traditionnal methods, ie: without AI)
+		AI in general
+		machine learning,
+		machine learning methods, 
+		machine learning methods used with images and videos
+		skin cancer detection, 
+		skin cancer classification, 
+
+
