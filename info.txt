@@ -1,0 +1,47 @@
+tiitle:
+    comparative study for machine learning methods used for skin cancer detection and clasification
+
+search: 
+    memoireonline.com (examples of memoires just to get a clear view) 
+
+    Google scholar
+
+    (Sndl, D-space, Asjp, Pnst) algerian universities memoires
+
+    https://www.sndl.cerist.dz/
+    username: imeddah
+    password: Esisba22*
+
+    =============================================================
+    in SNDL:
+        science direct: Multidisciplinaires
+        springer link: Multidisciplinaires
+        e marifa: Multidisciplinaires
+        jstor: Multidisciplinaire
+        pro quest: Multidisciplinaires
+        scopus: Multidisciplinaires
+        OPU-LU : multidisciplinaires (universitaire)
+        arcif: arab database
+
+        acm digital library: Informatique
+        ieee: Informatique, Electronique, Télécommunication
+
+        springer materials: Sciences Techniques
+
+        clinical key: Médecine
+        jstor global plants: Sciences de la Vie & de la Terre
+        nature.com: Sciences et technique, Sciences de la vie et de la terre
+        springer protocols: Sciences et technique, Sciences de la vie et de la terre
+
+        cairn: Sciences Humaines et Sociales
+        zentralblat math: Mathématiques
+
+    =============================================================
+NOTES:
+    validate each section by your supervisor
+    at least 50 pages
+    at least 30 RECENT acedemics references  (use the format that meddah told you about)
+
+
+Master memoire:
+    problematique --> solution

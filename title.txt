@@ -1,1 +1,0 @@
-comparative study for machine learning methods used for skin cancer detection and clasification

@@ -7,9 +7,10 @@ general info section
 		skin cancer and lesions(imagery types), 
 		detection and classification (using traditionnal methods, ie: without AI)
 		AI in general
-		machine learning,
-		machine learning methods, 
-		machine learning methods used with images and videos
+		machine learning and deep learning,
+		machine learning  and deep learning methods, 
+		machine learning  and deep learning methods used with images and videos
+		
 		skin cancer detection, 
 		skin cancer classification, 
 
