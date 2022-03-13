@@ -12,8 +12,10 @@ general info section (or domain information)
 		machine learning  and deep learning methods used with images and videos
 		
 
-applying these methods in skin cancer detection
+applying these methods in skin cancer detection and clasification (comparative study using common points of comparaison)
 		skin cancer detection, 
 		skin cancer classification, 
+
+the best method/architecture and the solution we propose
 
 
