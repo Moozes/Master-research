@@ -1,4 +1,4 @@
-general info section
+general info section (or domain information)
 	defining every thing (it is like you are writing to a small child, and making him understand every thing) 
 	use the terms in the title
 	like: 
@@ -11,6 +11,8 @@ general info section
 		machine learning  and deep learning methods, 
 		machine learning  and deep learning methods used with images and videos
 		
+
+applying these methods in skin cancer detection
 		skin cancer detection, 
 		skin cancer classification, 
 

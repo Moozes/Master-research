@@ -1,6 +1,12 @@
 tiitle:
     comparative study for machine learning methods used for skin cancer detection and clasification
 
+problematique: 
+    what are the methods?
+    best method?
+    are they usefull (did they bring actual advancment to the medical society)?
+    the method we propose?
+
 search: 
     memoireonline.com (examples of memoires just to get a clear view) 
 
@@ -40,8 +46,27 @@ search:
 NOTES:
     validate each section by your supervisor
     at least 50 pages
-    at least 30 RECENT acedemics references  (use the format that meddah told you about)
+    at least 30 RECENT acedemics references  (use the format that meddah told you about - APA)
 
 
 Master memoire:
     problematique --> solution
+
+    read --> make notes --> paraphrase --> write
+
+    MEDDAH meeting
+    he said : "you neen to justify you method used in PFE" for example: we found CNN is the best that is why we used it
+    comparaison des approche de mem chese dans un seul article
+    ta9dar hata memoire nta3ek tkon f chapitre wahed
+    khayar 10 article en ligne max
+    chaque article rah yadik vers dautre article, article yedilek max smana bih bles article related nta3o
+
+    articles avec des aproche deffirent
+    point commun de comparaison
+    meme algo deffirent domaine (skin cancer and other cancer for example)
+
+
+
+
+
+
