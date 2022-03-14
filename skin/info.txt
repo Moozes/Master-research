@@ -1,5 +1,0 @@
-1.definition of skin
-
-2.definition, structure and functions
-    section "discussion" page 8 is interesting
-
