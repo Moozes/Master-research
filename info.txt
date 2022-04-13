@@ -1,5 +1,5 @@
 tiitle:
-    comparative study for machine learning methods used for skin cancer detection and clasification
+    comparative study of machine learning methods used for skin cancer detection and clasification
 
 problematique: 
     what are the methods?
@@ -65,6 +65,28 @@ Master memoire:
     point commun de comparaison
     meme algo deffirent domaine (skin cancer and other cancer for example)
 
+
+APA citing
+    https://www.citationmachine.net/apa
+    An APA in-text citation includes only three items: the last name(s) of the author(s), the year the source was published, and sometimes the page or location of the information. 
+    References include more information such as the name of the author(s), the year the source was published, the full title of the source, and the URL or page range.
+
+    @article{key,
+        author={lastname, firstname and lastname2, firstname2 and Khodja, Moussa J. and ...},
+        year=1999
+        title={......}
+        pages={1-12}
+    }
+    
+    there is also 
+    publisher, address, institution, 
+
+    url
+        @misc{...,
+            ...,
+            howpublished = "\url{http://...}"
+        }
+        dont forget to use \usepackage{url} or \usepackage{hyperref}
 
 
 

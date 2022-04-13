@@ -1,0 +1,9 @@
+@article{mcgrath2004anatomy,
+  title={Anatomy and organization of human skin},
+  author={McGrath, JA and Eady, RAJ and Pope, FM},
+  journal={Rook’s textbook of dermatology},
+  volume={1},
+  pages={3--2},
+  year={2004},
+  publisher={Wiley-Blackwell, London, UK,}
+}

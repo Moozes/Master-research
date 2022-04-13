@@ -1,0 +1,159 @@
+1. Introduction
+Skin has several functions. It provides a barrier to water loss and
+pathogens and protects against diverse forms of trauma, including
+thermal, chemical and ultraviolet radiation. Skin keeps us in touch with
+our environment through a host of nerve endings, regulates body
+temperature and enhances metabolic functions, as well as synthesizing
+vitamin D [1]. To fulfill this purpose, regenerated skin requires three
+integrated structural characteristics: 1. a layered interface, 2. epidermal
+appendages, and 3. mechanical stability.
+
+
+
+5. Functions
+
+5.1. Barrier function
+The importance of the skin as a barrier is illustrated by the mortality
+associated with large surface area burns, where increased transepi-
+dermal water loss culminates in dehydration, renal failure and shock.
+Whereas other land-living animals such as insects have adapted by
+possessing a rigid cuticle coated with hydrocarbons, mammals have
+evolved a unique tough, flexible stratum corneum [21].
+
+5.2. Immunological barriers
+5.2.1. Innate immunity
+Skin is an active immunological organ, and dysfunctional innate
+defenses have serious clinical implications. Products of the stratum
+corneum, including free fatty acids, polar lipids, and glycosphingolipids
+accumulate in the intercellular spaces and horny layer, exhibiting an-
+timicrobial properties, and functioning as a first line of defense.
+Antimicrobial peptides (AMPs) exhibit potent and targeted resistance
+against a wide spectrum of common pathogens [28]. When this barrier
+is breached, second lines of protection are provided by inflammatory
+cascades in the subepithelial tissue.
+
+5.2.2. Adaptive immunity
+Most types of bacteria have been shown to increase the number of T
+cells in the skin [66]. Interactions between T cells and microbial anti-
+gens trigger the promotion of various immune cells to attack specific
+microbes in the dermal compartments (Fig. 6). Skin provides targeted
+protection against invasive pathogens and regulates barrier immunity
+via symbiotic chemo-signaling, highlighting that innate and adaptive
+immune responses work together as a robust first line of defense. These
+findings demonstrate that the skin’s immune defense system is highly
+dynamic and can be rapidly and specifically remodeled by a full spec-
+trum of micro-organisms.
+
+5.3. Ultra-violet light protection
+Biosynthesis of melanin involves a complex pathway that occurs in
+melanocytes, within membrane-bound organelles called melanosomes.
+Melanocytes are present in the basal and suprabasal layers of the skin
+and in the hair follicles and transfer melanosomes through dendritic
+processes where they form melanin caps that reduce the harmful effects
+of ultra-violet light. Each melanocyte communicates with 30–40 kera-
+tinocytes [67].
+
+
+5.4. Sensory function
+The skin receives, processes and transmits environmental informa-
+tion from multiple sensory receptors. Its information processing system
+and ability to release neurotransmitters and hormones that influence
+whole-body states and emotions, has prompted Denda to liken the
+organ to an auxiliary brain [69]. His analogy suggests encoding of the
+various sensory modalities requires keratinocyte-neuronal signaling.
+The resulting stimulus is translated into an action potential, which is
+transmitted via afferent nerve fibers to the central nervous system.
+Scattered throughout the skin are specific epidermal cell receptors.
+Amongst the basal keratinocytes in the epidermis are Merkle cells [70].
+These slowly adapting mechanoreceptor cells detect light touch, as well
+as spatial features such as curvature and edge. Myelinated axons (dia-
+meter about 5 μm) lose their myelin sheath, penetrate the basal lamina
+and branch extensively to supply up to 50 Merkel cells. Hoffman et al.
+have elegantly shown that Merkel cells communicate with sensory
+neurons through α2-adrenergic receptors at excitatory synapses [71].
+Two types of sensory receptors are found in the dermis; bare nerve
+endings, for nociception, thermal sensation (heat and cold); and cap-
+sulated mechanoreceptors such as Meissner’s corpuscles, that detect
+moving touch, and Pacinian corpuscles, perceiving vibration and brief
+touch [72].
+The skin, however, has the capacity to detect a pattern of me-
+chanical stimuli on a smaller scale than would be expected merely by
+the location of the nerve terminals [73]. This is due to the keratinocytes
+themselves containing sensors that can recognize and respond to a wide
+range of physical and chemical environmental factors. Members of the
+transient receptor potential family (TRP) are expressed with the ability
+to sense a range of environmental stimuli. For example, TRPV1 is
+strongly expressed near the surface of the skin which is consistent with
+its role in detecting temperature changes [74]. TRPV3 and 4 are acti-
+vated by mechanical stress and changes in osmotic pressure,
+
+respectively [75,76]. In addition, a variety of environmental factors,
+including visible light and sound can influence epidermal permeability
+barrier homeostasis. Indeed, keratinocytes express photo-receptor like
+proteins present in the retina [77].
+Other modes of communication exist between the epidermis and the
+central nervous system. Keratinocytes release neurotransmitters, neu-
+ropeptides, hormones and cytokines which transmit and process sen-
+sory information in the CNS and can affect the physiology of multiple
+systems [78]
+
+
+5.5. Vitamin D synthesis
+The skin is a ready source of vitamin D following sun exposure. It is
+a fat-soluble prohormone steroid primarily acknowledged for its
+endocrine role in calcium homeostasis maintaining levels of serum
+calcium through control of calcium and phosphate absorption from the
+intestine, and resorption of bone [79]. However, it also has other bio-
+logical effects playing a lesser role in the regulation of skin differ-
+entiation, immune function, hair follicle cycling, photo-protection,
+upregulation of innate immune defenses and wound healing [80–82].
+Vitamin D exists in the plasma membranes of basal and suprabasal
+keratinocytes and dermal fibroblasts in its inactive form 7-dehy-
+drocholesterol, and is first converted to previtamin D3 prior to hydro-
+xylation in the liver and in the kidneys to its active form 1,25-dihy-
+droxyvitamin D. Overproduction of vitamin D is prevented by a
+feedback loop whereby previtamin D3 is converted to the inactive
+photoproducts lumistrol and tachysterol (Fig. 7).
+
+5.6. Temperature control
+The skin controls body temperature. The underlying adipose tissue
+insulates against conductive heat loss, whereas loss of heat is facilitated
+actively by evaporation of sweat from the skin surface and by increased
+blood flow through the rich vascular network within the dermis.
+From the thermoregulation perspective, our skin is heterogeneous.
+There is non-hairy glabrous skin that covers the most distal body parts
+and hairy non-glaborous skin, covering the rest of the body.
+The main thermosensory-related role of non-hairy glabrous skin is
+to assess local temperatures and tactile signals. It is characterized by the
+absence of hair, dense vascularization, the presence of arteriovenous
+anastomoses and a large surface-to-volume ratio. It can mount two
+opposite responses. The body’s thermoregulatory response to over-
+heating is achieved by vasodilatation with increasing blood flow and
+rapid release of heat into the environment. Remarkably, in the human
+finger, the flow can increase by 500 % [83]. Secondly, cutaneous va-
+soconstriction and closing of the anastomoses cause an abrupt cessation
+of heat loss.
+The body is covered, however, mostly by hairy (non-glabrous) skin,
+which is typically insulated from the environment (with clothes in
+humans and with fur in non-human mammals). Thermal signals from
+hairy skin represent a temperature of the insulated superficial layer of
+the body and provide feedback to the thermoregulation system [84].
+The hairy skin is characterized by the lack of arteriovenous anasto-
+moses and by the presence of hair follicles. Both features make the skin
+better suited to serve as a thermal insulator.
+
+
+6. Discussion
+Skin is an intricate, self-renewing organ that is our primary defense
+barrier against a hostile environment. It protects against harmful anti-
+gens and chemicals, dehydration and overhydration, and ultraviolet
+radiation. It provides structural integrity and resilience, allows selective
+absorption, antioxidant storage, controls thermoregulation through
+fluctuations in cutaneous blood supply and perspiration and can sti-
+mulate epidermal regeneration when injured.
+The clinical significance of skin is illustrated by the morbidity as-
+sociated with burns and cutaneous defects. Current models of biological
+research have not yet surpassed the skin graft as a standard of care for
+the resurfacing of full-thickness wounds. We highlight the importance
+of attaining induced organ regeneration to replicate all essential pro-
+cesses of skin.

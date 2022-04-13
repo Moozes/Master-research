@@ -1,0 +1,26 @@
+Abstract
+The skin is a complex and multifunctional organ, in which the static versus dynamic balance is responsible for its
+constant adaptation to variations in the external environment that is continuously exposed. One of the most
+important functions of the skin is its ability to act as a protective barrier, against the entry of foreign substances
+and against the excessive loss of endogenous material. Human skin imposes physical, chemical and biological
+limitations on all types of permeating agents that can cross the epithelial barrier. For a molecule to be passively
+permeated through the skin, it must have properties, such as dimensions, molecular weight, pKa and hydrophilic-
+lipophilic gradient, appropriate to the anatomy and physiology of the skin. These requirements have limited the
+number of commercially available products for dermal and transdermal administration of drugs. To understand
+the mechanisms involved in the drug permeation process through the skin, the approach should be multidisci-
+plinary in order to overcome biological and pharmacotechnical barriers. The study of the mechanisms involved in
+the permeation process, and the ways to control it, can make this route of drug administration cease to be a
+constant promise and become a reality. In this work, we address the physicochemical and biopharmaceutical
+aspects encountered in the pathway of drugs through the skin, and the potential added value of using solid lipid
+nanoparticles (SLN) and nanostructured lipid vectors (NLC) to drug permeation/penetration through this route.
+The technology and architecture for obtaining lipid nanoparticles are described in detail, namely the composition,
+production methods and the ability to release pharmacologically active substances, as well as the application of
+these systems in the vectorization of various pharmacologically active substances for dermal and transdermal
+applications. The characteristics of these systems in terms of dermal application are addressed, such as
+biocompatibility, occlusion, hydration, emollience and the penetration of pharmacologically active substances.
+The advantages of using these systems over conventional formulations are described and explored from a phar-
+maceutical point of view.
+
+
+
+------------contains some structural info also-----------------------
