@@ -157,3 +157,50 @@ research have not yet surpassed the skin graft as a standard of care for
 the resurfacing of full-thickness wounds. We highlight the importance
 of attaining induced organ regeneration to replicate all essential pro-
 cesses of skin.
+
+
+
+
+=====================================MY paraphrarsing=========================
+interactive
+self-renewing
+primary defense against hostile environment
+selective absorbtion
+stimulate regenerated when injured
+barrier to water loss and pathogens
+protection against thermal chamical unltraviolet radiation
+provides touch sensitivity
+temprerature regulation
+synthesizing vitamin D
+To fulfill this purpose, regenerated skin requires three integrated structural characteristics: 1. a layered interface, 2. epidermal appendages, and 3. mechanical stability.
+
+Immunological barriers
+    Innate immunity
+        skin is an active immunological organ
+        fatty acids, polar lipids, and glycosphingolipids accumulate in the intercellular spaces providing antimicrobal properties and first line of defense
+        if this barrier breached
+        second line of protection is inflamatory cascades
+    Adaptive immunity
+        most types of bacteria causes the number of T cells to increase in the skin
+        interactions between microbes and T cells trigger other immune cells to attack.
+        skin regulates barrier immunity via symbiotic chemo-signaling
+        innate immunity and adabtive immunity work together as a robust first line of defense
+    Ultra-violet light protection
+        Biosynthesis of melanin involves a complex pathway that reduces the harmful effects of ultra-violet light
+Sensory function
+    multiple receptors
+    receive process transmit info of the environment
+    light touch
+    spatial features like curvature and edge
+    thermal sensation
+    detect moving touch
+    vibration
+Vitamin D synthesis
+    source of vitamin D when exposed to the sun,
+    it exists in the plasma membranes of basal and suprabasal keratinocytes in its inactive form then it is converted to previtamin D3 then to Vitamin D in the liver and kidneys
+
+Temperature control
+    control of temperature
+    underlying adipose tissue prevents temperature loss
+    whereas loss heat is facilitated by evaporation of sweat
+    hairy (non-glaborous) skin provides thermal insulation ie: keep temperature as it is. 
