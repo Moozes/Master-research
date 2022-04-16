@@ -14,7 +14,7 @@ skin
         ref4 
         the balance between its static and dynamic properties makes it highly adaptive the variations of the outer world
 
-        the skin is a complex organ and it is composed of several cell populations [ref1], it is interactive, self renewing and represents the first and primary defense line against hostile environment and it has several characteristics such as selective absoption, auto regeneration when injured, barrier to water loss, touch sensitivity ...etc[ref2]. It represents the largest sensory organ (15% of total body weight and a total area of 1.86 m²)[ref3], it has a highly adaptive structure that makes it vital for the survival of the human body, the balance between its static and dynamic properties makes it highly adaptive to the variations of the outer world[ref4].
+        the skin is a complex organ a[ref1], it is interactive, self renewing and represents the first and primary defense line against hostile environment and it has several characteristics such as selective absoption, auto regeneration when injured, barrier to water loss, touch sensitivity ...etc[ref2]. It represents the largest sensory organ (15% of total body weight and a total area of 1.86 m²)[ref3], it has a highly adaptive structure that makes it vital for the survival of the human body, the balance between its static and dynamic properties makes it highly adaptive to the variations of the outer world[ref4].
 
     structure
         the skin is primary composed of 3 main layers, each layer has its unique properties and functions [ref3].
