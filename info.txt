@@ -86,7 +86,7 @@ APA citing
             ...,
             howpublished = "\url{http://...}"
         }
-        dont forget to use \usepackage{url} or \usepackage{hyperref}
+        \usepackage{hyperref}
 
 
 
