@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: head.aux
+The style file: unsrt.bst
+Database file #1: bibliography.bib
+Warning--entry type for "eliana2022" isn't style-file defined
+--line 1 of file bibliography.bib
+I was expecting a `,' or a `}'---line 86 of file bibliography.bib
+ :    
+ :    title={What Is Cancer?},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 92 of file bibliography.bib
+ :    
+ :    title={Cancer Statistics},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 3 entries,
+            1791 wiz_defined-function locations,
+            466 strings with 4373 characters,
+and the built_in function-call counts, 675 in all, are:
+= -- 42
+> -- 57
+< -- 0
++ -- 20
+- -- 17
+* -- 53
+:= -- 125
+add.period$ -- 8
+call.type$ -- 3
+change.case$ -- 3
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 22
+empty$ -- 56
+format.name$ -- 17
+if$ -- 138
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 2
+newline$ -- 17
+num.names$ -- 3
+pop$ -- 11
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 11
+stack$ -- 0
+substring$ -- 21
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 4
+width$ -- 4
+write$ -- 31
+(There were 2 error messages)
