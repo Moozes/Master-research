@@ -1,5 +1,18 @@
 \begin{thebibliography}{1}
 
+\bibitem{fig-skin}
+Skin, cleveland clinic.
+\newblock \url{https://my.clevelandclinic.org/health/articles/10978-skin}.
+
+\bibitem{fig-hair}
+Hair and human skin anatomy.
+\newblock
+  \url{https://www.vecteezy.com/vector-art/3190201-hair-and-human-skin-anatomy}.
+
+\bibitem{vitaminD}
+Vitamin d and the skin: Focus on a complex relationship.
+\newblock \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4642156/}.
+
 \bibitem{elin2018}
 Elin Jørgensen, Giulia Lazzarini, Andrea Pirone, Stine Jacobsen, and Vincenzo
   Miragliotta.
@@ -7,16 +20,19 @@ Elin Jørgensen, Giulia Lazzarini, Andrea Pirone, Stine Jacobsen, and Vincenzo
   morphological and immunohistochemical study.
 \newblock {\em Annals of Anatomy}, 218:205--212, 7 2018.
 
+\bibitem{joseph2020}
+Joseph~M. Abdo, Nikolai~A. Sopko, and Stephen~M. Milner.
+\newblock The applied anatomy of human skin: A model for regeneration, 3 2020.
+
+\bibitem{sarah2021}
+Sarah~A Mohamed and Rachel Hargest.
+\newblock Surgical anatomy of the skin, 2021.
+
 \bibitem{eliana2022}
 Eliana~B. Souto, Joana~F. Fangueiro, Ana~R. Fernandes, Amanda Cano, Elena
   Sanchez-Lopez, Maria~L. Garcia, Patrícia Severino, Maria~O. Paganelli,
   Marco~V. Chaud, and Amélia~M. Silva.
 \newblock Physicochemical and biopharmaceutical aspects influencing skin
   permeation and role of sln and nlc for skin drug delivery, 2 2022.
-
-\bibitem{whatiscancer2021}
-What is cancer?, national cancer institute.
-\newblock
-  \url{https://www.cancer.gov/about-cancer/understanding/what-is-cancer}, 2021.
 
 \end{thebibliography}
