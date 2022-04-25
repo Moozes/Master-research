@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{fig-skin}
 Skin, cleveland clinic.
@@ -9,9 +9,30 @@ Hair and human skin anatomy.
 \newblock
   \url{https://www.vecteezy.com/vector-art/3190201-hair-and-human-skin-anatomy}.
 
+\bibitem{protectiveBarrier}
+Skin barrier basics for people with eczema, national eczema association.
+\newblock \url{https://nationaleczema.org/what-is-my-skin-barrier/}.
+
 \bibitem{vitaminD}
 Vitamin d and the skin: Focus on a complex relationship.
 \newblock \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4642156/}.
+
+\bibitem{mutations}
+What is a mutation?
+\newblock \url{https://www.yourgenome.org/facts/what-is-a-mutation}.
+
+\bibitem{reaarangement}
+Chromothripsis.
+\newblock \url{https://en.wikipedia.org/wiki/Chromothripsis}.
+
+\bibitem{benignMalignant}
+Differences between a malignant and benign tumor, verywell health.
+\newblock
+  \url{https://www.verywellhealth.com/what-does-malignant-and-benign-mean-514240}.
+
+\bibitem{cancerStat}
+Cancer, world health organization.
+\newblock \url{https://www.who.int/news-room/fact-sheets/detail/cancer}.
 
 \bibitem{elin2018}
 Elin Jørgensen, Giulia Lazzarini, Andrea Pirone, Stine Jacobsen, and Vincenzo
@@ -34,5 +55,24 @@ Eliana~B. Souto, Joana~F. Fangueiro, Ana~R. Fernandes, Amanda Cano, Elena
   Marco~V. Chaud, and Amélia~M. Silva.
 \newblock Physicochemical and biopharmaceutical aspects influencing skin
   permeation and role of sln and nlc for skin drug delivery, 2 2022.
+
+\bibitem{whatiscancer2021}
+What is cancer?, national cancer institute.
+\newblock
+  \url{https://www.cancer.gov/about-cancer/understanding/what-is-cancer}, 2021.
+
+\bibitem{mahsa2022}
+Mahsa Alidoust~Saharkhiz Lahiji and Fatemeh Safari.
+\newblock Potential therapeutic effects of hamscs secretome on panc1 pancreatic
+  cancer cells through downregulation of sgk269, e-cadherin, vimentin, and
+  snail expression.
+\newblock {\em Biologicals}, 2022.
+
+\bibitem{rachita2021}
+Rachita Pandya, Kaitlyn Grace~San Diego, Talha Shabbir, Arnav~P. Modi, Justin
+  Wang, Joseph Dhahbi, and Sanford~H. Barsky.
+\newblock The cell of cancer origin provides the most reliable roadmap to its
+  diagnosis, prognosis (biology) and therapy.
+\newblock {\em Medical Hypotheses}, 157, 12 2021.
 
 \end{thebibliography}
