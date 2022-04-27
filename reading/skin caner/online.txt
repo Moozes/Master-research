@@ -1,4 +1,12 @@
 https://www.mayoclinic.org/diseases-conditions/skin-cancer/symptoms-causes/syc-20377605#:~:text=Skin%20cancer%20%E2%80%94%20the%20abnormal%20growth,squamous%20cell%20carcinoma%20and%20melanoma.
+https://www.mayoclinic.org/diseases-conditions/skin-cancer/diagnosis-treatment/drc-20377608
 https://www.skincancer.org/skin-cancer-information/
+https://www.skincancer.org/skin-cancer-prevention/
 https://www.nhs.uk/conditions/non-melanoma-skin-cancer/
-https://www.aad.org/public/diseases/skin-cancer/types/common
+
+figures 
+    basal https://www.europeanpharmaceuticalreview.com/news/142524/libtayo-first-immunotherapy-for-advanced-basal-cell-carcinoma-approved-in-us/
+    squamous https://walkindermatology.com/patient-education/squamous-cell-carcinoma/
+    melanoma https://fr.wikipedia.org/wiki/M%C3%A9lanome
+    tannig bed https://www.byrdie.com/do-you-get-vitamin-d-from-tanning-beds-5089819
+    sunlamp https://www.sperti.com/
