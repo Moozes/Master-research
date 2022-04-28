@@ -7,7 +7,14 @@
 \contentsline {section}{\numberline {2.2}Cancer}{9}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Origin}{9}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Types}{11}{subsection.2.2.2}%
-\contentsline {subsubsection}{according to fatality}{11}{section*.6}%
-\contentsline {subsubsection}{according to origin}{11}{section*.7}%
-\contentsline {chapter}{\numberline {3}Artificial Intelligence}{14}{chapter.3}%
-\contentsline {chapter}{\numberline {4}State Of The Art}{15}{chapter.4}%
+\contentsline {subsubsection}{according to fatality}{11}{section*.13}%
+\contentsline {subsubsection}{according to origin}{11}{section*.15}%
+\contentsline {section}{\numberline {2.3}skin cancer}{13}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}symptoms}{13}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}types}{13}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}causes}{14}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}risk factors}{14}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}prevention}{15}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}treatement}{15}{subsection.2.3.6}%
+\contentsline {chapter}{\numberline {3}Artificial Intelligence}{17}{chapter.3}%
+\contentsline {chapter}{\numberline {4}State Of The Art}{18}{chapter.4}%
