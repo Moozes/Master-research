@@ -30,6 +30,12 @@ Differences between a malignant and benign tumor, verywell health.
 \newblock
   \url{https://www.verywellhealth.com/what-does-malignant-and-benign-mean-514240}.
 
+\bibitem{versus}
+Yulia Gavrilova.
+\newblock Artificial intelligence vs. machine learning vs. deep learning:
+  Essentials, serokell.io.
+\newblock \url{https://serokell.io/blog/ai-ml-dl-difference}, 2020.
+
 \bibitem{cancerStat}
 Cancer, world health organization.
 \newblock \url{https://www.who.int/news-room/fact-sheets/detail/cancer}.
@@ -114,5 +120,22 @@ Skin cancer diagnosis, mayo clinic.
 \newblock
   \url{https://www.mayoclinic.org/diseases-conditions/skin-cancer/diagnosis-treatment/drc-20377608},
   2020.
+
+\bibitem{ai}
+Artificial intelligence, built in.
+\newblock \url{https://builtin.com/artificial-intelligence}.
+
+\bibitem{turing}
+JAKE FRANKENFIELD.
+\newblock Turing test, investopedia.
+\newblock \url{https://www.investopedia.com/terms/t/turing-test.asp}, 2022.
+
+\bibitem{ml}
+machine learning, built in.
+\newblock \url{https://builtin.com/machine-learning}.
+
+\bibitem{dl}
+Deep learning: An in-depth look into the ai-based tech, built in.
+\newblock \url{https://builtin.com/artificial-intelligence/deep-learning}.
 
 \end{thebibliography}
