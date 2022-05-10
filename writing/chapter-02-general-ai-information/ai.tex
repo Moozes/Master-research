@@ -91,7 +91,7 @@
 
 
 \section{Ai vs Machine Learning vs Deep Learning}
-    after all what we have talked about it is obvious that the relationship between three is an inclusion relationship, deep learning is a subset of machine learning which is a subset of artificial intelligence as shown in Figure ~\ref{fig:versus} 
+    after all what we have talked about it is obvious that the relationship between the three is an inclusion relationship, deep learning is a subset of machine learning which is a subset of artificial intelligence as shown in Figure ~\ref{fig:versus} 
 
 \begin{figure}[htbp]
 \begin{center}
@@ -100,6 +100,63 @@
 \caption{Skin Anatomy ~\cite{versus}}
 \label{fig:versus}
 \end{figure}
+
+
+
+computer vision
+    overview
+        yet another subfield of artificial intelligence which is used to train machines to see, and by see we mean process analyse and extract usefull information from images/videos just like us human beings, although our vision is far more advanced in many aspects because our brains were trained since birth to see, analyse objects, understand the distance and relationship between objects, attribute abstract information to objects...etc but it is safe to say that machines can surpass our vision in certain specialised tasks because of there ability to process thousands of images/frames in a short period of time due to the constant increase in computational power especialy (graphical processing). computer vision is used in a wide variety of idustries and its market is estimated to reach 48,6 billion USD by 2022 [ref1]
+
+
+    using machine learning methods
+        in the case of using machine learning for computer vision there are mainly 4 steps to execute, the first step is data preparation (preprocessing) in this step we need to preform some manipulations and transformations to clean the image data, some of these manipulations are cleaning noise, convertion images to the same format, cropping, using gray scale instead of RBG...etc, each case requires its own set of manipulations and transformations. The second step is feature extraction which represents the hard work in most of the cases, in this step we extract a certain set of predefined features to be feeded later to the algorithm, the third step is model training using the prelabeled feature vectors, and the last step is predictions made for new image data, and for this we can chose from a variety of machine learning algorithms depending on our problem: Bayesian Nets, Decision Trees, Nearest Neighbors...etc[ref2]
+        ---figure---
+    using deep learning 
+        applying deep learning in computer vision is totaly different from applying classical machine learning algorithms, firstly,  deep learning requires quantity (huge amounts of image data) over quality to have a robust model with accurate predictions, secondly neural networks saves us the trouble of feature extraction especialy when using Convolution Neural Networks [ref3](Convolution: a mathematical operation on two functions to produce a third function [ref1]) this architecture of neural networks is specialised in processing image data and it is built on three primaty layers Convolution layer, pooling layer and fully connected layer [ref2]
+
+        Convolution layer
+            this layer does most of the hard work by identifying and extracting the features, this is done by applying a filter of random size to blocks of the input image using the dot product between matrices
+        pooling layer 
+            after the feature extraction resulting from the Convolution layer we need to Simplify (by reducing a bloc of values to a single value) the image for easy learning, there are 2 pooling operations max pooling and average pooling 
+        fully connected layer
+            it operates on a flatened input, where each input is connected to all of the neurons, it is usualy found at the and of the network connecting the hidden layers to the output which help in optimizing the class scores
+        ---figure---
+    
+
+    applications of computer vision
+        there are alot of indsutries using computer vision and these are just a few examples [ref2]
+        medical imaging: 
+            it helps medical professionals interpret faster and diagnose abnormalities.
+        law enforcement en security
+            like in surveillance and authentication
+        self driving machines like cars and robots
+        gaming: augmented reality and virtual reality
+        pattern recognition
+
+    some technologies of computer vision
+        because of the wide utility of computer vision and its benefits there are alot of libraries and frameworks that facilitates alot of the hard and repeated tasks, here we mention a few of them [ref2]
+        openCV 
+            a python library for computer vision, 
+                super easy to use, 
+                a huge library of image processing algorithms, 
+                open source, 
+                works with GPUs
+        Tensorflow
+            made by Google and one of the most popular machine learning frameworks 
+                with a wide rane of machine/deep learning algorithms, 
+                open source, 
+                GPU configured
+        PyTorch
+            made by facebook a neural network framework, 
+                used alot by researchers, 
+                open source, 
+                works with GPUs
+        Caffe
+            a deep learning framework developed by Berkeley AI Research
+                open source
+                c++ based 
+                easy to use
+                fats execution 
 
 
 
