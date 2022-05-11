@@ -36,6 +36,12 @@ Yulia Gavrilova.
   Essentials, serokell.io.
 \newblock \url{https://serokell.io/blog/ai-ml-dl-difference}, 2020.
 
+\bibitem{mldlcv}
+Vihar Kurama.
+\newblock Ml-based image processing, nanonets.
+\newblock \url{https://nanonets.com/blog/machine-learning-image-processing/},
+  2021.
+
 \bibitem{cancerStat}
 Cancer, world health organization.
 \newblock \url{https://www.who.int/news-room/fact-sheets/detail/cancer}.
@@ -137,5 +143,14 @@ machine learning, built in.
 \bibitem{dl}
 Deep learning: An in-depth look into the ai-based tech, built in.
 \newblock \url{https://builtin.com/artificial-intelligence/deep-learning}.
+
+\bibitem{machine-learning-ibm}
+What is computer vision?, ibm.
+\newblock \url{https://www.ibm.com/topics/computer-vision}.
+
+\bibitem{machine-learning-full-scale}
+machine learning in computer vision, full scale.
+\newblock \url{https://fullscale.io/blog/machine-learning-computer-vision/},
+  2019.
 
 \end{thebibliography}
