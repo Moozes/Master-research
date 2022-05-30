@@ -1,0 +1,11 @@
+Ebrahim Mohammed Senan, Mukti E Jadhav,
+Analysis of dermoscopy images by using ABCD rule for early detection of skin cancer,
+Global Transitions Proceedings,
+Volume 2, Issue 1,
+2021,
+Pages 1-7,
+ISSN 2666-285X,
+https://doi.org/10.1016/j.gltp.2021.01.001.
+(https://www.sciencedirect.com/science/article/pii/S2666285X21000017)
+Abstract: Melanoma is the most deadly type of skin cancer in humans. Which occurs as a result of a change in the pigment of the skin, which is known as pigment cells. Which produces a pigment known as melanin. Which appear in multiple colors. And asymmetry from one part to another. Its borders are irregular. And grow continuously. This disease can be treated and cured if there is an early diagnosis of the disease. Effective techniques are required for early detection using a Computer-Aided Diagnosis (CAD). In this paper ABCD rules have applied for automatic detecting skin cancer. In order to test the proposed system PH2 standard dataset has used, PH2 contains three types of skin diseases namely Atypical Nevi, Melanoma and Common Nevus. The propose system is divided into two stages: the first stage: pre-processing stage use to enhance the quality of image, the Gaussian filter method is employed to enhance the images and remove unwanted pixels. For extracting the Region of Interest (RoI) from dermoscopy images the contour method has been applied. Furthermore, Morphology method is considered for increasing the quality of skin lesions. The second stage: ABCD (Asymmetry, Border, Color and Diameter) rules have implemented to extract appropriate features. The obtaining features are processed by using Total Dermoscopic Score (TDS) for detection benign and malignant. Standard performance measures namely, Accuracy, Specificity and Sensitivity are used to calculate the results of proposed system. It is observed that the results of proposed system is satisfactory.
+Keywords: ABCD rules; Active contour technique; Gaussian filter; Image processing; Morphological method; Skin cancer

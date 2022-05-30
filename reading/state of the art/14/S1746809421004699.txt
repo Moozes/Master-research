@@ -1,0 +1,20 @@
+Carolina Magalhaes, João Manuel R.S. Tavares, Joaquim Mendes, Ricardo Vardasca,
+Comparison of machine learning strategies for infrared thermography of skin cancer,
+Biomedical Signal Processing and Control,
+Volume 69,
+2021,
+102872,
+ISSN 1746-8094,
+https://doi.org/10.1016/j.bspc.2021.102872.
+(https://www.sciencedirect.com/science/article/pii/S1746809421004699)
+Abstract: Objective
+The aim of this work was to explore the potential of infrared thermal imaging as an aiding tool for the diagnosis of skin cancer lesions, using artificial intelligence methods.
+Methods
+Thermal parameters of skin tumours were retrieved from thermograms and used as input features for two machine learning based strategies: ensemble learning and deep learning.
+Results
+The deep learning strategy outperformed the ensemble learning one, showing good predictive performance for the differentiation of melanoma and nevi (Precision = 0.9665, Recall = 0.9411, f1-score = 0.9536, ROC(AUC) = 0.9185) and melanoma and non-melanoma skin cancer (Precision = 0.9259, Recall = 0.8852, f1-score = 0.9051, ROC(AUC) = 0.901).
+Conclusion
+IRT imaging combined with deep learning techniques is promising for simplifying and accelerating the diagnosis of skin cancer.
+Significance
+Despite ongoing awareness campaigns for skin cancer’ risk factors, its incidence rate has continuously been growing worldwide, becoming a major public health issue. The standard first detection method – dermoscopy –, is largely experience-dependent and mostly used to assess melanocytic lesions. As infrared thermal imaging is an innocuous imaging technique that maps skin surface temperature, which may be associated to pathological states, e.g., tumorous lesions, it could be a potential aiding tool for all skin cancer conditions. The application of artificial intelligence methods to process the collected temperature data can save time and assist health care professionals with low experience levels in the diagnosis task. To the best of our knowledge, this is the first study where a data set of skin cancer thermograms is expanded and used for skin lesion differentiation with a deep learning approach.
+Keywords: Biomedical; Deep learning; Ensemble learning; Infrared thermal imaging

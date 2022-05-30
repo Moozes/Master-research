@@ -1,0 +1,20 @@
+Mohammad Ali Kadampur, Sulaiman Al Riyaee,
+Skin cancer detection: Applying a deep learning based model driven architecture in the cloud for classifying dermal cell images,
+Informatics in Medicine Unlocked,
+Volume 18,
+2020,
+100282,
+ISSN 2352-9148,
+https://doi.org/10.1016/j.imu.2019.100282.
+(https://www.sciencedirect.com/science/article/pii/S2352914819302047)
+Abstract: Background
+Skin cancer is a common form of cancer, and early detection increases the survival rate.
+Objective
+To build deep learning models to classify dermal cell images and detect skin cancer.
+Methods
+A model-driven architecture in the cloud, that uses deep learning algorithms in its core implementations, is used to construct models that assist in predicting skin cancer with improved accuracy. The study illustrates the method of building models and applying them to classify dermal cell images.
+Results
+The deep learning models built here are tested on standard datasets, and the metric area under the curve of 99.77% was observed.
+Conclusions
+A practitioner can use the model-driven architecture and quickly build the deep learning models to predict skin cancer.
+Keywords: Deep learning; AI; Model driven architecture; Deep cognition studio; CNN; Cancer; Image classification

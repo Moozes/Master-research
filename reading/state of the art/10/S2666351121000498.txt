@@ -1,0 +1,11 @@
+Priyanti Paul Tumpa, Md Ahasan Kabir,
+An artificial neural network based detection and classification of melanoma skin cancer using hybrid texture features,
+Sensors International,
+Volume 2,
+2021,
+100128,
+ISSN 2666-3511,
+https://doi.org/10.1016/j.sintl.2021.100128.
+(https://www.sciencedirect.com/science/article/pii/S2666351121000498)
+Abstract: Melanoma being the most unpredictable and life-threating cancer, has been on the rise in recent times. In most of the cases being fatal, if treated early, the fatality rate might be lowered severely. Hands-on Melanoma detection at primary stages with the unassisted eye is error-prone and requires vast knowledge and experience. Number of expert dermatologists being inadequate, a computerized and automated approach is needed to accurately detect Melanoma. The following study tries to achieve this feat by developing a neural network that can effectively detect and classify Melanoma. The process begins with preprocessing of dermoscopic images to remove hairs with the Maximum Gradient Intensity algorithm and also enhancement of the images is done. Segmentation based on Otsu Thresholding algorithm is applied to separate skin lesions from the images. Multiple features like ABCD, GLCM, and LBP are then calculated from the segmented images which will be used to train a neural network. The network was successful to attain an accuracy of 97.7% on the combined dataset of ISIC archive the PH2 dermoscopic image database. The proposed method was found to be more accurate than existing methods and encorporates much more feature information from the images.
+Keywords: Maximum gradient intensity; Skin cancer; Hybrid texture features; Malignant

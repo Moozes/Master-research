@@ -1,0 +1,11 @@
+Shilpa Saravanan, B. Heshma, A.V. Ashma Shanofer, R. Vanithamani,
+Skin cancer detection using dermoscope images,
+Materials Today: Proceedings,
+Volume 33, Part 7,
+2020,
+Pages 4823-4827,
+ISSN 2214-7853,
+https://doi.org/10.1016/j.matpr.2020.08.388.
+(https://www.sciencedirect.com/science/article/pii/S221478532036260X)
+Abstract: Skin cancer is an abnormal growth of skin cells which develops on the body when exposed to the sunlight. Most of the skin cancers are curable when detected at early stage. Early diagnosis can help to treat the patients effectively. Formal method for diagnosing skin cancer is biopsy. In this paper, skin cancer detection system is developed using LabVIEW. The proposed method uses vision development module in LabVIEW to process dermoscope images. Preprocessing steps such as median filtering and contrast stretching is performed for noise removal and image enhancement. Threshold based segmentation is adopted to segment the affected area. Features such as Asymmetry, Border, Color and Diameter (ABCD) are extracted. The presence of cancer is detected using ABCD rule.
+Keywords: Skin Cancer; Dermoscope image; Asymmetry; Border; Color; Diameter

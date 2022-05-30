@@ -1,0 +1,11 @@
+Yuheng Wang, Daniel C. Louie, Jiayue Cai, Lioudmila Tchvialeva, Harvey Lui, Z. Jane Wang, Tim K. Lee,
+Deep learning enhances polarization speckle for in vivo skin cancer detection,
+Optics & Laser Technology,
+Volume 140,
+2021,
+107006,
+ISSN 0030-3992,
+https://doi.org/10.1016/j.optlastec.2021.107006.
+(https://www.sciencedirect.com/science/article/pii/S0030399221000943)
+Abstract: Polarization speckle is a growing research field, especially for the purposes of biomedical imaging and diagnostics. The statistical uniformity of speckle creates novel opportunities for AI methods to analyze speckle patterns, as they are difficult for a human to interpret. We employed deep learning and traditional machine learning methods (Support Vector Machine, K Nearest Neighbor, and Random Forests) to analyze polarization speckle images generated from the general categories of malignant and benign lesions, a classification task previously found to be very difficult. Their performance in classifying the patterns were compared both to each other and to the previous statistical methods of speckle analysis. A collection of 122 malignant and 196 benign skin lesion speckle images were augmented for deep learning using patch cropping, an advantageous method given the patterns’ statistical homogeneity. The machine learning technique performed with a diagnostic accuracy of less than 65%, a result comparable to those of previous statistical methods, despite the fact that the same machine learning technique could achieve a high 90% accuracy in the simpler classification task of differentiating malignant melanoma and the benign lookalike seborrheic keratosis. However, ResNet, our chosen deep learning architecture, achieved the best performance of 82% diagnostic accuracy in the general classification task of malignant and benign. These results show that deep learning extracts previously hidden information from polarization speckle, which further develops towards a rapid, real-time, analysis technique for an automatic skin cancer detection system.
+Keywords: Deep learning; Polarization speckle; Skin cancer detection; Machine learning

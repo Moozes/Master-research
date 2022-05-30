@@ -1,0 +1,10 @@
+Rasmiranjan Mohakud, Rajashree Dash,
+Designing a grey wolf optimization based hyper-parameter optimized convolutional neural network classifier for skin cancer detection,
+Journal of King Saud University - Computer and Information Sciences,
+2021,
+,
+ISSN 1319-1578,
+https://doi.org/10.1016/j.jksuci.2021.05.012.
+(https://www.sciencedirect.com/science/article/pii/S1319157821001270)
+Abstract: In recent history, Convolutional Neural Networks have attained breakthroughs in addressing many intractable problems in the domain of image processing. But its performance builds upon its chosen hyper parameters and it is a tedious job to manually fine tune these hyper parameters. Hence, in this research, an Automated Hyper-parameter Optimized Convolution Neural Net is proposed which is further applied to uncover the class of skin cancer. The method has utilized a Grey Wolf Optimization algorithm for optimizing the hyper parameters of CNN, by adopting a proper encoding scheme. The effectiveness of the model is verified by comparing it with the performance of Particle Swarm Optimization and Genetic algorithm based hyper-parameter optimized CNN applied on the International Skin Imaging Collaboration skin lesion multi class data set. Simulation results infer that the proposed model is able to produce a testing accuracy up to 98.33% which is around 4% and 1% more compared to PSO and GA based models respectively. Similarly with the proposed model, the testing loss realized is around 0.17% which is 39.2% and 15% less compared to PSO and GA based models respectively. The experimental results clearly demonstrate that the proposed model performs competitively compared to other reported models.
+Keywords: CNN; GWO; Hyper parameter optimization; Cancer detection

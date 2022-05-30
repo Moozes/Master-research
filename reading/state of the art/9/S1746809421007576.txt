@@ -1,0 +1,11 @@
+Zexian Fu, Jing An, Qiuyu Yang, Haojun Yuan, Yuhang Sun, Homayoun Ebrahimian,
+Skin cancer detection using Kernel Fuzzy C-means and Developed Red Fox Optimization algorithm,
+Biomedical Signal Processing and Control,
+Volume 71, Part A,
+2022,
+103160,
+ISSN 1746-8094,
+https://doi.org/10.1016/j.bspc.2021.103160.
+(https://www.sciencedirect.com/science/article/pii/S1746809421007576)
+Abstract: The present study provides an optimal pipeline methodology for the accurate diagnosis of melanoma from dermoscopy images. Here, after image preprocessing, the region of interest is segmented by a method based on the Kernel Fuzzy C-means method. Afterward, the main characteristics of the segmented area have been optimally extracted and selected based on a new optimized algorithm. Finally, an optimized classification methodology based on multi-layer perceptron is proposed for the final diagnosis. The optimization of feature selection and classification is accomplished by a newly developed version of the Red Fox Optimization (DRFO) Algorithm to provide a result with higher accuracy and reliability. Simulations are applied to the ISIC 2020 database concerning some performance indexes and are compared with the results and some famous approaches to demonstrate the effectiveness of the method toward the others.
+Keywords: Melanoma diagnosis; Gray-level co-occurrence matrix; Developed Red Fox Optimization (DRFO) Algorithm; Kernel Fuzzy C-means; Multi-layer perceptron

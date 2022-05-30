@@ -1,0 +1,11 @@
+Mesut Toğaçar, Zafer Cömert, Burhan Ergen,
+Intelligent skin cancer detection applying autoencoder, MobileNetV2 and spiking neural networks,
+Chaos, Solitons & Fractals,
+Volume 144,
+2021,
+110714,
+ISSN 0960-0779,
+https://doi.org/10.1016/j.chaos.2021.110714.
+(https://www.sciencedirect.com/science/article/pii/S0960077921000679)
+Abstract: Melanocytes are skin cells that give color to the skin and form melanin color pigments. The unbalanced division and proliferation of these cells result in skin cancer. The early diagnosis and proper treatment of skin cancer are so important. In this scope, a novel model that relies upon the autoencoder, spiking, and convolutional neural networks is proposed to ensure a useful decision support tool in this study. The experiments were carried out on an open-access dataset called the ISIC skin cancer consisting of 1800 being and 1497 malignant tumor images. In the proposed approach, the dataset is reconstructed using the autoencoder model. The original dataset and structured dataset were trained and classified by the MobileNetV2 model that consists of residual blocks, and the spiking networks. The classification success rate of the study was 95.27%. As a result, it was seen that the autoencoder model and spiking networks contributed to enhancing the performance of the MobileNetV2 model. Thanks to the proposed model, a novel fully automated decision support tool with high sensitivity was ensured for skin cancer detection.
+Keywords: Biomedical signal processing; Decision support; Spiking neural network; Autoencoder; MobileNet; Skin cancer

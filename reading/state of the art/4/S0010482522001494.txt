@@ -1,0 +1,11 @@
+Pegah Tabarisaadi, Abbas Khosravi, Saeid Nahavandi,
+Uncertainty-aware skin cancer detection: The element of doubt,
+Computers in Biology and Medicine,
+Volume 144,
+2022,
+105357,
+ISSN 0010-4825,
+https://doi.org/10.1016/j.compbiomed.2022.105357.
+(https://www.sciencedirect.com/science/article/pii/S0010482522001494)
+Abstract: Artificial intelligence (AI)-based medical diagnosis has received huge attention due to its potential to improve and accelerate the decision-making process at the patient level in a range of healthcare settings. Despite the recent signs of progress in this field, reliable quantification and proper communication of predictive uncertainties have been fully or partially overlooked in the existing literature on AI applications for medical diagnosis. This paper studies the automatic diagnosis of skin cancer using dermatologist spot images. Three different uncertainty-aware training algorithms (MC dropout, Bayesian Ensembling, and Spectral Normalized Neural Gaussian Process) are utilized to detect skin cancer. The performances of the three above-mentioned algorithms are compared from different perspectives. In addition, some images from the Cifar10 dataset are applied as the out-of-domain data and the performances of the algorithms are evaluated and compared for images that are far from the training samples. The accuracy, uncertainty accuracy, uncertainty accuracy for out-of-domain distribution samples, and the uncertainties of the predictions are reported in all cases and compared.
+Keywords: Uncertainty quantification; Skin cancer; Monte Carlo (MC) dropout; Bayesian ensembling; Spectral-normalized Neural Gaussian Process (SNGP)
