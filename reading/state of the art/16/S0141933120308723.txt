@@ -1,0 +1,11 @@
+A. Murugan, S. Anu H Nair, A. Angelin Peace Preethi, K. P. Sanal Kumar,
+Diagnosis of skin cancer using machine learning techniques,
+Microprocessors and Microsystems,
+Volume 81,
+2021,
+103727,
+ISSN 0141-9331,
+https://doi.org/10.1016/j.micpro.2020.103727.
+(https://www.sciencedirect.com/science/article/pii/S0141933120308723)
+Abstract: Generally, skin disease is a common one in human diseases. In computer vision application, the skin color is the powerful indication for this disease. This system identifies the skin cancer disease based on the images of skin. Initially, the skin is filtered using median filter and segmented using Mean shift segmentation. Segmented images are fed as input to feature extraction. GLCM, Moment Invariants and GLRLM features are extracted in this research work. The extracted features are classified by using classification techniques like Support vector machine, Probabilistic Neural Networks and Random forest and Combined SVM+ RF classifiers. Here combined SVM+RF classifier provided better results than other classifiers.
+Keywords: Skin cancer; GLCM; GLRLM; Moment invariants; SVM

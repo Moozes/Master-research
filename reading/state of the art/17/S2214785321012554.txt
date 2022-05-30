@@ -1,0 +1,10 @@
+Ravisankar Malladi, Prashanthi Vempaty, Goutham Raju k, Vyshnavi Pogaku,
+Advanced machine learning based approach for prediction of skin cancer,
+Materials Today: Proceedings,
+2021,
+,
+ISSN 2214-7853,
+https://doi.org/10.1016/j.matpr.2021.02.173.
+(https://www.sciencedirect.com/science/article/pii/S2214785321012554)
+Abstract: In the present situation, the healthcare sector is one of the leading areas in which technologies and data are easily improved. The vast volume of medical data is impossible to manage. Big data processing makes it easy to manage these data. There are several medical methods worldwide for many diseases. Machine learning is an emerging solution to disease detection and prediction. This document explains the diagnosis of disease through machine learning based on symptoms. Algorithms such as Naive Bayes, Decision Tree and the Random Forest are used in a given data collection and estimate of disease machines. The python programming language is used to execute it. The analysis demonstrates the proper detailed algorithm. By the data set the accuracy of an algorithm is determined.
+Keywords: Machine learning disease prediction; Cancer prediction

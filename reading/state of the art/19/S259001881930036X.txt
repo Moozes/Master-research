@@ -1,0 +1,11 @@
+J.S. Hooiveld-Noeken, R.S.N. Fehrmann, E.G.E. de Vries, M. Jalving,
+Driving innovation for rare skin cancers: utilizing common tumours and machine learning to predict immune checkpoint inhibitor response,
+Immuno-Oncology Technology,
+Volume 4,
+2019,
+Pages 1-7,
+ISSN 2590-0188,
+https://doi.org/10.1016/j.iotech.2019.11.002.
+(https://www.sciencedirect.com/science/article/pii/S259001881930036X)
+Abstract: Metastatic Merkel cell carcinoma (MCC) and cutaneous squamous cell carcinoma (cSCC) are rare and both show impressive responses to immune checkpoint inhibitor treatment. However, at least 40% of patients do not respond to these expensive and potentially toxic drugs. Development of predictive biomarkers of response and rational, effective combination treatment strategies in these rare, often frail patient populations is challenging. This review discusses the pathophysiology and treatment of MCC and cSCC, with a particular focus on potential biomarkers of response to immunotherapy, and discusses how transfer learning using big data collected from patients with common tumours can be used in combination with deep phenotyping of rare tumours to develop predictive biomarkers and elucidate novel treatment targets.
+Keywords: Immune checkpoint inhibitor; Machine learning; Merkel cell carcinoma; Squamous cell skin cancer

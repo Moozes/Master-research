@@ -1,0 +1,10 @@
+S. Naresh Kumar, B. Mohammed Ismail,
+Systematic investigation on Multi-Class skin cancer categorization using machine learning approach,
+Materials Today: Proceedings,
+2020,
+,
+ISSN 2214-7853,
+https://doi.org/10.1016/j.matpr.2020.11.484.
+(https://www.sciencedirect.com/science/article/pii/S2214785320391483)
+Abstract: In recent years, AI emerging as a technology capable of solving problems related to agriculture, health care, business, and soon. To reduce the risk to human life we can adopt machine learning algorithms in the health care domain and can predict the deadliest skin diseases such as malignant melanoma in early stages. The aim of the paper is to provide insights about different categories of skin lesions and methodologies implemented to classify and predict skin cancers, and the role of dermatologists while developing the models, finally provides an overall summary of existing work. The work here presents a systematic comparative study on various algorithms with their advantages and limitations leading to effective conclusions on further directions of research in this area.
+Keywords: Skin diseases; Machine learning; Deep neural network; Medical applications; Melanoma

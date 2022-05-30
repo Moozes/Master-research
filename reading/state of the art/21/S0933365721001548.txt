@@ -1,0 +1,11 @@
+Daniella Castro Araújo, Adriano Alonso Veloso, Renato Santos de Oliveira Filho, Marie-Noelle Giraud, Leandro José Raniero, Lydia Masako Ferreira, Renata Andrade Bitar,
+Finding reduced Raman spectroscopy fingerprint of skin samples for melanoma diagnosis through machine learning,
+Artificial Intelligence in Medicine,
+Volume 120,
+2021,
+102161,
+ISSN 0933-3657,
+https://doi.org/10.1016/j.artmed.2021.102161.
+(https://www.sciencedirect.com/science/article/pii/S0933365721001548)
+Abstract: Early-stage detection of cutaneous melanoma can vastly increase the chances of cure. Excision biopsy followed by histological examination is considered the gold standard for diagnosing the disease, but requires long high-cost processing time, and may be biased, as it involves qualitative assessment by a professional. In this paper, we present a new machine learning approach using raw data for skin Raman spectra as input. The approach is highly efficient for classifying benign versus malignant skin lesions (AUC 0.98, 95% CI 0.97–0.99). Furthermore, we present a high-performance model (AUC 0.97, 95% CI 0.95–0.98) using a miniaturized spectral range (896–1039 cm−1), thus demonstrating that only a single fragment of the biological fingerprint Raman region is needed for producing an accurate diagnosis. These findings could favor the future development of a cheaper and dedicated Raman spectrometer for fast and accurate cancer diagnosis.
+Keywords: Machine learning; Melanoma; Raman spectroscopy; Optical diagnosis; Explanatory modeling

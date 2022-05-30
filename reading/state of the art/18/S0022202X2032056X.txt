@@ -1,0 +1,9 @@
+Xinyi Du-Harpur, Callum Arthurs, Clarisse Ganier, Rick Woolf, Zainab Laftah, Manpreet Lakhan, Amr Salam, Bo Wan, Fiona M. Watt, Nicholas M. Luscombe, Magnus D. Lynch,
+Clinically Relevant Vulnerabilities of Deep Machine Learning Systems for Skin Cancer Diagnosis,
+Journal of Investigative Dermatology,
+Volume 141, Issue 4,
+2021,
+Pages 916-920,
+ISSN 0022-202X,
+https://doi.org/10.1016/j.jid.2020.07.034.
+(https://www.sciencedirect.com/science/article/pii/S0022202X2032056X)

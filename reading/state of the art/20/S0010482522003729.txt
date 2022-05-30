@@ -1,0 +1,11 @@
+Deepak Painuli, Suyash Bhardwaj, Utku köse,
+Recent advancement in cancer diagnosis using machine learning and deep learning techniques: A comprehensive review,
+Computers in Biology and Medicine,
+Volume 146,
+2022,
+105580,
+ISSN 0010-4825,
+https://doi.org/10.1016/j.compbiomed.2022.105580.
+(https://www.sciencedirect.com/science/article/pii/S0010482522003729)
+Abstract: Being a second most cause of mortality worldwide, cancer has been identified as a perilous disease for human beings, where advance stage diagnosis may not help much in safeguarding patients from mortality. Thus, efforts to provide a sustainable architecture with proven cancer prevention estimate and provision for early diagnosis of cancer is the need of hours. Advent of machine learning methods enriched cancer diagnosis area with its overwhelmed efficiency & low error-rate then humans. A significant revolution has been witnessed in the development of machine learning & deep learning assisted system for segmentation & classification of various cancers during past decade. This research paper includes a review of various types of cancer detection via different data modalities using machine learning & deep learning-based methods along with different feature extraction techniques and benchmark datasets utilized in the recent six years studies. The focus of this study is to review, analyse, classify, and address the recent development in cancer detection and diagnosis of six types of cancers i.e., breast, lung, liver, skin, brain and pancreatic cancer, using machine learning & deep learning techniques. Various state-of-the-art technique are clustered into same group and results are examined through key performance indicators like accuracy, area under the curve, precision, sensitivity, dice score on benchmark datasets and concluded with future research work challenges.
+Keywords: Cancer diagnosis; Classification; Deep learning; Feature extraction; Machine learning; Medical diagnosis; Medical image processing; Segmentation

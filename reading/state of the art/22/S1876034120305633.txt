@@ -1,0 +1,11 @@
+Tanzila Saba,
+Recent advancement in cancer detection using machine learning: Systematic survey of decades, comparisons and challenges,
+Journal of Infection and Public Health,
+Volume 13, Issue 9,
+2020,
+Pages 1274-1289,
+ISSN 1876-0341,
+https://doi.org/10.1016/j.jiph.2020.06.033.
+(https://www.sciencedirect.com/science/article/pii/S1876034120305633)
+Abstract: Cancer is a fatal illness often caused by genetic disorder aggregation and a variety of pathological changes. Cancerous cells are abnormal areas often growing in any part of human body that are life-threatening. Cancer also known as tumor must be quickly and correctly detected in the initial stage to identify what might be beneficial for its cure. Even though modality has different considerations, such as complicated history, improper diagnostics and treatement that are main causes of deaths. The aim of the research is to analyze, review, categorize and address the current developments of human body cancer detection using machine learning techniques for breast, brain, lung, liver, skin cancer leukemia. The study highlights how cancer diagnosis, cure process is assisted using machine learning with supervised, unsupervised and deep learning techniques. Several state of art techniques are categorized under the same cluster and results are compared on benchmark datasets from accuracy, sensitivity, specificity, false-positive metrics. Finally, challenges are also highlighted for possible future work.
+Keywords: Cancer; Life expectancy; Health systems; Image analysis; Machine learning

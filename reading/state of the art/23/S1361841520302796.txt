@@ -1,0 +1,11 @@
+Simon M. Thomas, James G. Lefevre, Glenn Baxter, Nicholas A. Hamilton,
+Interpretable deep learning systems for multi-class segmentation and classification of non-melanoma skin cancer,
+Medical Image Analysis,
+Volume 68,
+2021,
+101915,
+ISSN 1361-8415,
+https://doi.org/10.1016/j.media.2020.101915.
+(https://www.sciencedirect.com/science/article/pii/S1361841520302796)
+Abstract: We apply for the first-time interpretable deep learning methods simultaneously to the most common skin cancers (basal cell carcinoma, squamous cell carcinoma and intraepidermal carcinoma) in a histological setting. As these three cancer types constitute more than 90% of diagnoses, we demonstrate that the majority of dermatopathology work is amenable to automatic machine analysis. A major feature of this work is characterising the tissue by classifying it into 12 meaningful dermatological classes, including hair follicles, sweat glands as well as identifying the well-defined stratified layers of the skin. These provide highly interpretable outputs as the network is trained to represent the problem domain in the same way a pathologist would. While this enables a high accuracy of whole image classification (93.6-97.9%), by characterising the full context of the tissue we can also work towards performing routine pathologist tasks, for instance, orientating sections and automatically assessing and measuring surgical margins. This work seeks to inform ways in which future computer aided diagnosis systems could be applied usefully in a clinical setting with human interpretable outcomes.
+Keywords: Deep learning; Machine learning; Computational Pathology; Skin cancer; Segmentation; Classification
