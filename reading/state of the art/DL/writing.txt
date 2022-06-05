@@ -73,3 +73,10 @@ An artificial neural network based detection and classification of melanoma skin
         for the evaluation of there classifier they calculated accuracy, specificity, sensitivity and precision shown in figure [evaluation.png] where all the mesures are > 97%, and further more they also studied the effect of each feature on the discrimination process between benign and malignant lesion and they found that the minimum sensitivity per single feature is 69%, minimum specificity per single feature is 73 and minimum accuracy per single feature is 71% which goes to show that all the used features are playing an important role in the classification process and lastly they did a comparative evaluation between there work and previous works on the basis of extracted featues which showed that more featues implies higher performance rates, an example of that is the accuracy of previous works using a combination of some but not all features in (ABCD, GLCM, LBP) always presented an accuracy < 97%
 
     in conclusion the use of hybrid features provided a higher performant model in the detection and classification of benign and malignant melanoma skin cancer 
+
+[ref13]
+sonification could solve the problem between primary and professional dermatoscopic images
+
+[ref23]
+analyse the whole image with haire and sweat glands ... as a real doctor sees it, no processing to remove any thing
+
