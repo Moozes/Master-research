@@ -1,3 +1,29 @@
+
+some stuff to include maybe in intro
+    the effect of doctor experience on accuracy of normal diagnosis[ref2]
+    computer-aided diagnosis (CAD)
+
+    to oussama 
+        we present the methods and data
+        presented experiments and results
+        we provide a discussion about the results 
+        we draw our conclusions.
+
+state of the art sections
+    images+ML
+    new approaches+ML
+    images+DL
+    new approaches+DL
+
+    DL better then ML in images
+    but ML using Raman spectroscopy AUC >= 97%
+
+    DL need alot of data (augmentation of data)
+    ML only need a few images
+
+
+
+
 [ref11]
 skin cancer detection and classification using machine learning
 3.proposed methodology

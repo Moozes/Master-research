@@ -1,0 +1,50 @@
+[ref12]
+Skin cancer detection: Applying a deep learning based model driven architecture in the cloud for classifying dermal cell images
+in this paper the researchers are presenting a model driven approach to develop deep learning algorithms for detecting skin cancer by using a tool called DLS (deep learning studio) which is a software that allows you to build deep learning algorithms without being a specialist in programming languages, it presents a simple drag and drop interface for building models it also commes with desktop / cloud versions and community / enterprise editions with multi-GPU trainning and the possibility to obtain the code of the model, download the model and host it as a REST API (Representational state transfer Application programming interface), the interface dashboard is shown in figure [dls.png]
+
+the advantage of this non programatic approach is for researchers and practitionners to be able to create and test there own models without the need for prior programming knowledge
+
+
+and then they procede using this tool DLS to show it efficacy and ease of use, they have built and tested 5 models using famous architectures squeeznet, densenet, and inception v3
+with model1 aquiring an AUC of 99.77% 
+
+
+[ref2]
+in this work the researchers propose a new idea, which is the use  of clinical information in addition to the image dataset and the study of this addition's effect on the deep learning model's performance
+
+dataset
+Dermatological Assistance Program (PAD) dataset at the Federal University of Espírito Santo (UFES), mobile application (used by doctors and students) to build a new dataset  
+
+to collect images of the lesion, there clinical diagnosis and 8 clinical information based on common questions that dermotologists ask
+    age
+    part of the body where the lesion is located,
+    if the lesion itches,
+    bleeds or has bled,
+    hurts, 
+    has recently increased, 
+    has changed its pattern, 
+    and if it has an elevation
+
+a total of 1612 image of 6 lesions
+
+because the image dataset is imbalanced they used multiple strategies to overcome that such as, transfer learning (refining a pretrained model on there dataset) , data augmentation, horizontal and vetical rotations, adjusting brightness...etc, and for the clinical data they used one-hot encoding (converting categorical data to augment the performance) which transformed the 8 features collected to an array of 28 values 
+
+trainning
+    they used 4 CNN architectures VGGNet-13/19-bn, ResNet-50/101, MobileNet, GoogleNet
+    now a problem arised when trying to combine (by concatenation) clinical data with image features extracted by the CNN feature extractor because image features are far more great in size then clinical data, this imbalance is not good for the trainning and classification because the effect of image features will be greater then the clinical data, that is why they  they implimented an NN feature reducer on the extracted image features before combining it with the clinical data as shown in figure [clinical-image.png] and the classifier is another neural network that assigns the probabilities for each skin lesion
+
+testing the effect of adding clinical data
+    they executed 2 scenarios for that, 1 using models trained only with images, 2 using models trained with images + clinical data then they calculated multiple  performance metrics accuracy , balanced accuracy , weighted precision , weighted recall , weighted F1 score  and area under the curve and they found almost all models was improved by 7% in almost all metrics and the best model ResNet-50 presented an AUC >= 95.8% 
+
+conclusion 
+    clinical information does make a difference when trainning ML models to classify skin cancer 
+
+
+
+
+[ref10]
+    dataset ISIC+PH2
+    preprocess to remove hair and enhancement
+    segmentation
+    multiple features extracted
+    train, accuracy 97.7%
