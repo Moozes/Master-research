@@ -43,8 +43,33 @@ conclusion
 
 
 [ref10]
+An artificial neural network based detection and classification of melanoma skin cancer using hybrid texture features
     dataset ISIC+PH2
     preprocess to remove hair and enhancement
     segmentation
     multiple features extracted
     train, accuracy 97.7%
+
+    in this work they try to combine multiple texture features from famous methods such as  ABCD GLCM and LBP and pass all of these features to an ANN for learning
+
+    dataset
+    they prefered to use images captured using a dermatoscope because of their quality over images captured using a phone or normal camera and they have obtained these images by combinnig 2 datasets: ISIC archive dataset (jpg format) and PH2 dataset (a dermoscopic image dataset in BMP format) they formed a unified dataset containning 1940 benign and 1448 malignant lesion images
+
+    preprocessing
+    because the images are obtained from various sources, they needed to process them to standardized them in size, shape, format ...etc
+    and also to remove noise and enhance image quality using enhancement algorithms such as histogram equalization process that increases image contrast, and to remove body hair from the images using Maximum Gradient Intensity (MGI) algorithm 
+
+    image segmentation
+    for better analysis and to remove unwanted parts they segmented the images to keep only the lesion area and for that they used a segmentation method called Otsu's Thresholding 
+
+    feature extraction
+    they used ABCD (Asymmetry, Border, Color, Diameter), GLCM (energy, contrast, correlation, homogeneity) and LBP (local binary pattern used for textural analysis) as features to train there neural network
+
+    classification
+        a feed-forward neural network with backprobagation mechanism is used with the input layer receiving the extracted features and a hidden layer of 100 neurons and an output layer for the final result (1 is malignant and 0 is benign) with baises and weights initialised randomly, Levenberg-Marquardt trainning and optimization functions are used and while the performance function being Mean Square Error and 2 activation function "tansig" for the hidden layer and "purelin" for the final output
+        the structure of the ANN is shown in figure [ann.png]  
+    
+    evaluation
+        for the evaluation of there classifier they calculated accuracy, specificity, sensitivity and precision shown in figure [evaluation.png] where all the mesures are > 97%, and further more they also studied the effect of each feature on the discrimination process between benign and malignant lesion and they found that the minimum sensitivity per single feature is 69%, minimum specificity per single feature is 73 and minimum accuracy per single feature is 71% which goes to show that all the used features are playing an important role in the classification process and lastly they did a comparative evaluation between there work and previous works on the basis of extracted featues which showed that more featues implies higher performance rates, an example of that is the accuracy of previous works using a combination of some but not all features in (ABCD, GLCM, LBP) always presented an accuracy < 97%
+
+    in conclusion the use of hybrid features provided a higher performant model in the detection and classification of benign and malignant melanoma skin cancer 
