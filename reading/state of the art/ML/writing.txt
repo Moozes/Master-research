@@ -52,7 +52,7 @@ Finding reduced Raman spectroscopy fingerprint of skin samples for melanoma diag
 
 data and method 
     dataset
-    for the dataset they brought 33 benign and 51 malignant smaples and cut them into regular cuts of 2mm³, a layser was used to excite the samples to collect the Raman signals using special tools after this they aquired 436 Raman spectra. and they focused on the biological fibgerprint spectral region from 800 to 1800 cm⁻¹
+    for the dataset they brought 33 benign and 51 malignant smaples and cut them into regular cuts of 2mm³, a layser was used to excite the samples to collect the Raman signals using special tools after this they aquired 436 Raman spectra. and they focused on the biological fingerprint spectral region from 800 to 1800 cm⁻¹
 
     Fluorescence background data pre-process
     Fluorescence is a radiation that is emitted by molecules after interacting with electromagnetic radiation and this could overshdow and disturb the study of Raman spectra, to deal with this noise they used a low frequency laser to lower the probability of fluorescence emissions and by this they could jump the preprocessing step.
