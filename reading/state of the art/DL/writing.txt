@@ -104,15 +104,15 @@ to try and explain our model [https://towardsdatascience.com/model-agnostic-meth
 we can acheive this with semantic segmentation methods
 
 dataset 
-    MyLab Pathology provided them with there pre-existing images on non-melanoma cancers, which was taken by a microscope (one image of a cancer is the result of multiple microscopic images concatenated together) for punch and shave biopsies (shave: the surface of the skin is removed with a sharp knife, punch: a round small part of the skin is removed) which meant high resolution images (1px=0.67µm) and each image was annotated by a pathologist to indicate important tissue section in the discrimination process, 
+    MyLab Pathology provided them with there pre-existing images on non-melanoma cancers, which was taken by a microscope (one image of a cancer is the result of multiple microscopic images concatenated together) for punch, shave and excision biopsies (shave: the surface of the skin is removed with a sharp knife, punch: a round small part of the skin is removed) which meant high resolution images (1px=0.67µm) and each image was annotated by a pathologist to indicate important tissue section in the discrimination process, 
 
     any imbalance of classes was solved using augmentation (rotation and flipping...etc)
 
 models 
     whole image segmentation
-        input: microscopic image
-        ouput: h x w x 12 (12 probability distribution maps)
-        the different tissue sections were colored 
+        input: microscopic image [seg-input.png]
+        ouput: h x w x 12 (12 probability distribution maps) [seg-output.png]
+        the different tissue sections were colored (to train the algorithm, image(RGB) has 12 layer result )
             1 Glands (GLD) 
             2 Inflammation (INF) 
             3 Hair Follicles (FOL) 
@@ -139,5 +139,9 @@ results and discussion
     the segmentation model achieved a per-pixel accuracy of 86% and overall class accuracy of 85%, they found that downgrading the images size before trainning to 10 times less increases the accuracy but only by a little bit ~2% which isnt much but this information is still usefull because it means that we can use low resolution images and still get high performant model with less computational power
 
     the classification model achieved an accuracy of 93.6% over the 4 classes compared to other algorithms trained with the same data such as (Random Forest 87.2%, KNN 80.9%, Single-layer Perceptron 85.1%)
+
+
+conclusion
+    further uses such as surgical, depth, invasion...
 
 
