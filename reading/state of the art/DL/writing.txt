@@ -90,8 +90,7 @@ most of dermatopathology work can be done by a machine
 include all tissue in analysis(skin, haire, sweat glands...) ==> interpretability because machine is seeing every thing that a pathologist would see and analyse
 whole tissue analysis ==> we can do other stuff such as sutgical margins ...
 
-
-outpreform experts but "black boxes" ==> no high stake decisions
+traditional models outpreform experts but "black boxes" ==> no high stake decisions
 
 we can use interpretability methods such as 
     ike permutation feature importance, 
@@ -100,37 +99,45 @@ we can use interpretability methods such as
     global surrogate models, 
     Local Interpretable Model-agnostic Explanations (LIME) 
     Shapley Additive Explanations (SHAP) 
-to try and explain our model [https://towardsdatascience.com/model-agnostic-methods-for-interpreting-any-machine-learning-model-4f10787ef504] but there is another way which is naturally interpretable models, which can be defined as models that try to solve the problem the way a human would, which means in the case of skin cance analysing the whole tissue and not just cancerous region of interest 
+to try and explain our model [https://towardsdatascience.com/model-agnostic-methods-for-interpreting-any-machine-learning-model-4f10787ef504] but there is another way which is naturally interpretable models, which can be defined as models that try to solve the problem the way a human would, which means in the case of skin cance analysing the whole tissue and not just cancerous regions of interest 
 
 we can acheive this with semantic segmentation methods
 
 dataset 
-    MyLab Pathology provided them with there pre-existing images on non-melanoma cancers, which was taken by a microscope (one image of a cancer is the result of multiple microscopic images concatenated together) which meant high resolution images (1px=0.67µm) and each image was annotated by a pathologist to indicate important tissue section in the discrimination process, 
+    MyLab Pathology provided them with there pre-existing images on non-melanoma cancers, which was taken by a microscope (one image of a cancer is the result of multiple microscopic images concatenated together) for punch and shave biopsies (shave: the surface of the skin is removed with a sharp knife, punch: a round small part of the skin is removed) which meant high resolution images (1px=0.67µm) and each image was annotated by a pathologist to indicate important tissue section in the discrimination process, 
 
-    any imbalance was solved using augmentation (rotation and flipping...etc)
+    any imbalance of classes was solved using augmentation (rotation and flipping...etc)
 
 models 
-whole image segmentation
-    the different tissue sections were colored 
-        1 Glands (GLD) 
-        2 Inflammation (INF) 
-        3 Hair Follicles (FOL) 
-        4 Hypodermis (HYP) 
-        5 Reticular Dermis (RET) 
-        6 Pap-illary Dermis (PAP) 
-        7 Epidermis (EPI) 
-        8 Keratin (KER) 
-        9 Background (BKG) 
-        10 BCC 
-        11 SCC 
-        12 IEC
-    to be fed to the segmentation model to train on semantic segmentation, this model was created using a combination of U-net-like architecture (U-net: a famous CNN architecture for biomedical image segmentation) and a pretrained headless ResNet50 network. now because of the high resolution of the microscopic images they were fed to the model in parts of 256x256 and 512x512 pixels
+    whole image segmentation
+        input: microscopic image
+        ouput: h x w x 12 (12 probability distribution maps)
+        the different tissue sections were colored 
+            1 Glands (GLD) 
+            2 Inflammation (INF) 
+            3 Hair Follicles (FOL) 
+            4 Hypodermis (HYP) 
+            5 Reticular Dermis (RET) 
+            6 Pap-illary Dermis (PAP) 
+            7 Epidermis (EPI) 
+            8 Keratin (KER) 
+            9 Background (BKG) 
+            10 BCC (Basal cell carcinoma)
+            11 SCC (Squamous cell carcinoma)
+            12 IEC (a very early treatable form of skin cancer)
+        to be fed to the segmentation model to train on semantic segmentation, this model was created using a combination of U-net-like architecture (U-net: a famous CNN architecture for biomedical image segmentation) and a pretrained headless ResNet50 network. now because of the high resolution of the microscopic images they were fed to the model in parts of 256x256 and 512x512 pixels
 
-whole image classification
-    the output of whole image segmantation (which was a probability distribution for each pixel on the 12 tissue classes) was fed to a CNN to train as a classifier using Adam optimizer and a learning rate of 0.0001, with a ration of 80:10:10 for trainning, validation and testing
+    whole image classification
+
+        input: output of segmantation (h x w x [12 images]) was given to classification
+        output: 4 classes Healthy, BCC, SCC and IEC
+
+        the output of whole image segmantation (which was a probability distribution for each pixel on the 12 tissue classes) was fed to a CNN to train as a classifier using Adam optimizer and a learning rate of 0.0001, with a ration of 80:10:10 for trainning, validation and testing
 
 
 results and discussion
+    the segmentation model achieved a per-pixel accuracy of 86% and overall class accuracy of 85%, they found that downgrading the images size before trainning to 10 times less increases the accuracy but only by a little bit ~2% which isnt much but this information is still usefull because it means that we can use low resolution images and still get high performant model with less computational power
 
+    the classification model achieved an accuracy of 93.6% over the 4 classes compared to other algorithms trained with the same data such as (Random Forest 87.2%, KNN 80.9%, Single-layer Perceptron 85.1%)
 
 
