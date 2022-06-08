@@ -40,3 +40,5 @@
 \contentsline {subsection}{\numberline {3.5.4}applications of computer vision}{24}{subsection.3.5.4}%
 \contentsline {subsection}{\numberline {3.5.5}some technologies of computer vision}{24}{subsection.3.5.5}%
 \contentsline {chapter}{\numberline {4}State Of The Art}{26}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{26}{section.4.1}%
+\contentsline {section}{\numberline {4.2}skin cancer detection and classification using machine learning}{26}{section.4.2}%

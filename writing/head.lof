@@ -13,3 +13,6 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Machine Learning in Computer Vision \nobreakspace {}\cite {mldlcv}\relax }}{23}{figure.caption.18}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Deep Learning in Computer Vision \nobreakspace {}\cite {mldlcv}\relax }}{24}{figure.caption.19}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Preprocessing: (a)Dull razor image, (b) Gray scale image, (c) Gaussian filter, (d) Median filter.\relax }}{27}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Segmentation: (a) Image labelled by cluster index, (b) Objects in cluster 1, (c) Objects in cluster 2, (d) Objects in cluster 3.\relax }}{27}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Confusion Matrix\relax }}{28}{figure.caption.22}%

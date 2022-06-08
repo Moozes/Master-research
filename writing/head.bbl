@@ -98,7 +98,7 @@ Skin cancer (non-melanoma), nhs.
 \bibitem{mayo2020}
 Skin cancer, mayo clinic.
 \newblock
-  \url{https://www.mayoclinic.org/diseases-conditions/skin-cancer/symptoms-causes/syc-20377605#:~:text=Skin%20cancer%20%E2%80%94%20the%20abnormal%20growth,squamous%20cell%20carcinoma%20and%20melanoma.},
+  \url{https://www.mayoclinic.org/diseases-conditions/skin-cancer/symptoms-causes/syc-20377605},
   2020.
 
 \bibitem{wiki2022}
@@ -152,5 +152,11 @@ What is computer vision?, ibm.
 machine learning in computer vision, full scale.
 \newblock \url{https://fullscale.io/blog/machine-learning-computer-vision/},
   2019.
+
+\bibitem{Krishna2020}
+M.~Krishna Monika, N.~Arun Vignesh, Ch~Usha Kumari, M.~N.V.S.S. Kumar, and
+  E.~Laxmi Lydia.
+\newblock Skin cancer detection and classification using machine learning.
+\newblock volume~33, pages 4266--4270. Elsevier Ltd, 2020.
 
 \end{thebibliography}
