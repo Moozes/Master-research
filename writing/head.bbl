@@ -159,4 +159,16 @@ M.~Krishna Monika, N.~Arun Vignesh, Ch~Usha Kumari, M.~N.V.S.S. Kumar, and
 \newblock Skin cancer detection and classification using machine learning.
 \newblock volume~33, pages 4266--4270. Elsevier Ltd, 2020.
 
+\bibitem{Daniella2021}
+Daniella~Castro Araújo, Adriano~Alonso Veloso, Renato~Santos
+  de~Oliveira~Filho, Marie~Noelle Giraud, Leandro~José Raniero, Lydia~Masako
+  Ferreira, and Renata~Andrade Bitar.
+\newblock Finding reduced raman spectroscopy fingerprint of skin samples for
+  melanoma diagnosis through machine learning.
+\newblock {\em Artificial Intelligence in Medicine}, 120, 10 2021.
+
+\bibitem{Edinburgh}
+What is raman spectroscopy?, edinburgh instruments ltd.
+\newblock \url{https://www.edinst.com/blog/what-is-raman-spectroscopy/}.
+
 \end{thebibliography}

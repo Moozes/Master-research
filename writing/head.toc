@@ -42,3 +42,4 @@
 \contentsline {chapter}{\numberline {4}State Of The Art}{26}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Introduction}{26}{section.4.1}%
 \contentsline {section}{\numberline {4.2}skin cancer detection and classification using machine learning}{26}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Finding reduced Raman spectroscopy fingerprint of skin samples for melanoma diagnosis through machine learning}{27}{section.4.3}%

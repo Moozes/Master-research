@@ -16,3 +16,4 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Preprocessing: (a)Dull razor image, (b) Gray scale image, (c) Gaussian filter, (d) Median filter.\relax }}{27}{figure.caption.20}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Segmentation: (a) Image labelled by cluster index, (b) Objects in cluster 1, (c) Objects in cluster 2, (d) Objects in cluster 3.\relax }}{27}{figure.caption.21}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Confusion Matrix\relax }}{28}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces ROC\relax }}{29}{figure.caption.23}%

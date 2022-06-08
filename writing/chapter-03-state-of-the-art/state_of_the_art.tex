@@ -1,5 +1,5 @@
 \section{Introduction}
-In this section we are going to present some of the recent work and research that was done regarding skin cancer detection and classification using machine learning , we are going to explore the various methods, tools, new ideas and challenges that was handeled by researchers for the hope of getting a clear understanding of the problem and how to go about solving it depending on each one's conditions, requirements and goals.
+In this chapter we are going to present some of the recent work and research that was done regarding skin cancer detection and classification using machine learning , we are going to explore the various methods, tools, new ideas and challenges that was handeled by researchers for the hope of getting a clear understanding of the problem and how to go about solving it depending on each one's conditions, requirements and goals.
 
 
 
@@ -51,6 +51,35 @@ In this section we are going to present some of the recent work and research tha
 \label{fig:confusion-matrix}
 \end{figure}
 
+
+
+%=================================================================
+
+\section{Finding reduced Raman spectroscopy fingerprint of skin samples for melanoma diagnosis through machine learning}
+    This article ~\cite{Daniella2021} uses a new non invasive approach to classify malignant and benign tumors, and that is by using Raman spectral data instead of images, Raman Spectroscopy is a way to analyse the chemical structure using light and vibrational energy modes of molecules ~\cite{Edinburgh}
+\begin{description}
+\item[data and method] \hfill \\
+    
+    \textbf{dataset: }
+    for the dataset they brought 33 benign and 51 malignant smaples and cut them into regular cuts of $2mm^3$, a layser was used to excite the samples to collect the Raman signals using special tools after this they aquired 436 Raman spectra. and they focused on the biological fingerprint spectral region from 800 to 1800 $cm^-1$
+
+    \textbf{Fluorescence background data pre-process: }
+    Fluorescence is a radiation that is emitted by molecules after interacting with electromagnetic radiation and this could overshdow and disturb the study of Raman spectra, to deal with this noise they used a low frequency laser to lower the probability of fluorescence emissions and by this they could jump the preprocessing step.
+\item[feature extraction]
+    they divided the obtained spectrums into subsequences (local spectrums) and extracted some statistical measures from it such as arithmetic mean, standard deviation, derivative ...etc
+
+\item[results and discussion]
+    these statistical features were then given to a machine learning classification algorithm, a complex dicision tree impimented using lightGBM (open source software), other algorithms were also used such as K-nearest neighbors and XGBOOST (Extreme Gradient Boosting an open source software) but the best performance was obtained using lightGBM.
+    further research led them to only use the derivative as a feature and a spectral region from 896 to 1039 $cm^-1$ because these two were proved the most discriminative information between malignant and benign tumors and by this they obtained a high performant model ($AUC \geq 0.97$) shown in figure \ref{fig:roc}
+\end{description}
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=10cm]{./chapter-03-state-of-the-art/ROC.png}
+\end{center}
+\caption{ROC}
+\label{fig:roc}
+\end{figure}
 
 % \begin{figure}[htbp]
 % \begin{center}
