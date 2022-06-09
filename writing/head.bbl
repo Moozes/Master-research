@@ -171,4 +171,16 @@ Daniella~Castro Araújo, Adriano~Alonso Veloso, Renato~Santos
 What is raman spectroscopy?, edinburgh instruments ltd.
 \newblock \url{https://www.edinst.com/blog/what-is-raman-spectroscopy/}.
 
+\bibitem{Kadampur2020}
+Mohammad~Ali Kadampur and Sulaiman~Al Riyaee.
+\newblock Skin cancer detection: Applying a deep learning based model driven
+  architecture in the cloud for classifying dermal cell images.
+\newblock {\em Informatics in Medicine Unlocked}, 18, 1 2020.
+
+\bibitem{Pacheco2020}
+Andre~G.C. Pacheco and Renato~A. Krohling.
+\newblock The impact of patient clinical information on automated skin cancer
+  detection.
+\newblock {\em Computers in Biology and Medicine}, 116, 1 2020.
+
 \end{thebibliography}

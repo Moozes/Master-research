@@ -10,45 +10,45 @@ Warning--entry type for "sarah2021" isn't style-file defined
 Warning--entry type for "joseph2020" isn't style-file defined
 --line 49 of file bibliography.bib
 Warning--empty booktitle in Krishna2020
-You've used 34 entries,
+You've used 36 entries,
             1791 wiz_defined-function locations,
-            603 strings with 8905 characters,
-and the built_in function-call counts, 4565 in all, are:
-= -- 355
-> -- 174
+            615 strings with 9310 characters,
+and the built_in function-call counts, 4871 in all, are:
+= -- 381
+> -- 190
 < -- 2
-+ -- 78
-- -- 44
-* -- 142
-:= -- 589
-add.period$ -- 77
-call.type$ -- 34
-change.case$ -- 34
++ -- 84
+- -- 48
+* -- 158
+:= -- 645
+add.period$ -- 83
+call.type$ -- 36
+change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 35
-duplicate$ -- 200
-empty$ -- 627
-format.name$ -- 44
-if$ -- 1123
+cite$ -- 37
+duplicate$ -- 216
+empty$ -- 655
+format.name$ -- 48
+if$ -- 1189
 int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 5
-newline$ -- 147
-num.names$ -- 11
-pop$ -- 197
+int.to.str$ -- 36
+missing$ -- 7
+newline$ -- 157
+num.names$ -- 13
+pop$ -- 199
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 175
+skip$ -- 185
 stack$ -- 0
 substring$ -- 57
-swap$ -- 46
+swap$ -- 48
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 14
-width$ -- 36
-write$ -- 281
+while$ -- 16
+width$ -- 38
+write$ -- 303
 (There were 4 warnings)

@@ -43,3 +43,5 @@
 \contentsline {section}{\numberline {4.1}Introduction}{26}{section.4.1}%
 \contentsline {section}{\numberline {4.2}skin cancer detection and classification using machine learning}{26}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Finding reduced Raman spectroscopy fingerprint of skin samples for melanoma diagnosis through machine learning}{27}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Skin cancer detection: Applying a deep learning based model driven architecture in the cloud for classifying dermal cell images}{29}{section.4.4}%
+\contentsline {section}{\numberline {4.5}The impact of patient clinical information on automated skin cancer detection}{30}{section.4.5}%
