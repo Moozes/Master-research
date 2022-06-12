@@ -8,7 +8,7 @@ In this chapter we are going to present some of the recent work and research tha
     \item [proposed methodology]
     the proposed methodology in this article ~\cite{Krishna2020} uses a 6 step process (input data - preprocessing - segmentation - feature extraction - classification - output data)
     \item [input data] 
-        dermoscopic images from the ISIC ( International Skin Imaging Collaboration) 2019 challenge containing 8 classes of skin cancer, and for simplisity reasons only 800 images out of 25000 is used.
+        dermoscopic images from the ISIC ( International Skin Imaging Collaboration) 2019 challenge containing 8 classes of skin lesions, and for simplisity reasons only 800 images out of 25000 is used.
     
     \item [preprocessing]
         because of the heteroginity of the input data a preprocessing step is required to inhance the quality of images and remove irrelevant parts. the main technices used here are gray scale conversion and the application of the Gaussian and median filter for noise removal and enhancement, and for the unwanted hair they applied the Dull Razor method (a preprocessing algorithm), as shown in figure ~\ref{fig:Preprocessing}
@@ -61,7 +61,7 @@ In this chapter we are going to present some of the recent work and research tha
 \item[data and method] \hfill \\
     
     \textbf{dataset: }
-    for the dataset they brought 33 benign and 51 malignant smaples and cut them into regular cuts of $2mm^3$, a layser was used to excite the samples to collect the Raman signals using special tools after this they aquired 436 Raman spectra. and they focused on the biological fingerprint spectral region from 800 to 1800 $cm^-1$
+    for the dataset they brought 33 benign and 51 malignant smaples and cut them into regular cuts of $2mm^3$, a layser was used to excite the samples to collect the Raman signals using special tools after this they aquired 436 Raman spectra (spectrum graphs y=f(x) where x is frequency or wavenumber $cm^-1$ and y is the intensity of scattered light ). and they focused on the biological fingerprint spectral region from 800 to 1800 $cm^-1$
 
     \textbf{Fluorescence background data pre-process: }
     Fluorescence is a radiation that is emitted by molecules after interacting with electromagnetic radiation and this could overshdow and disturb the study of Raman spectra, to deal with this noise they used a low frequency laser to lower the probability of fluorescence emissions and by this they could jump the preprocessing step.
@@ -70,7 +70,7 @@ In this chapter we are going to present some of the recent work and research tha
 
 \item[results and discussion]
     these statistical features were then given to a machine learning classification algorithm, a complex dicision tree impimented using lightGBM (open source software), other algorithms were also used such as K-nearest neighbors and XGBOOST (Extreme Gradient Boosting an open source software) but the best performance was obtained using lightGBM.
-    further research led them to only use the derivative as a feature and a spectral region from 896 to 1039 $cm^-1$ because these two were proved the most discriminative information between malignant and benign tumors and by this they obtained a high performant model ($AUC \geq 0.97$) shown in figure \ref{fig:roc}
+    further research led them to only use the derivative as a feature and a spectral region from 896 to 1039 $cm^-1$ because these two were proved to have the most discriminative information between malignant and benign tumors and by this they obtained a high performant model ($AUC \geq 0.97$) shown in figure \ref{fig:roc}
 \end{description}
 
 \begin{figure}[htbp]

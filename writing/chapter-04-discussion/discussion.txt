@@ -1,0 +1,54 @@
+dermoscopic images ISIC
+raman spectral data, Fluorescence background data problem
+
+some methods are none invasive some are, like the ones that take biobsies and micrscopic images
+
+machine learning need way less data then deep learning 
+
+msvm can classify 8 lesions with great accuracy
+
+you dont need to be a programmer to build deep learning algorithm (deep learning studio) AUC of 99%
+
+using hybrid data may create an imbalance like images with clinical info (categorical data: non numerical)
+
+hybrid data need alot of preprocessing to standardize them because of there differences such as format size shape 
+
+high quality of dermoscopic images over normal images
+
+multiple algoritms to remove haire Maximum Gradient Intensity (MGI), Dull Razor method
+
+
+article 1
+    800 dermoscopic images ISIC of 8 lesion
+    preprocessing
+    segmentation
+    feature extraction
+    classification MSVM accuracy 96.25%
+
+article 2
+    436 Raman spectra (x:frequency, y:intensity of scattered light) for benign and malignant
+    preprocessing of Fluorescence noise (ignoring for small frequencies of lazer)
+    statistical features extracted from graphs
+    classification lightGBM (complex dicision tree) AUC > 97% probability to differentiate between classes
+
+article 3
+    Kaggle image datasets
+    some preprocessing
+    CNN famous architectures (drag and drop) AUC 99%
+
+article 4
+    image (1612 image of 6 lesions)+ clinical info 
+    imbalanced data ==> transfer learning + augmentation + one-hot encoding for clinical info (8 features to 28 values) and NN feature reducer for images features
+    classification multiple CNN architectures AUC 95.8% and clinical added a 7% to almost all performance metrics
+
+article 5
+    hybrid features ABCD, GLCM, LBP from dermoscopic  ISIC+PH2 datasets (1940 benign + 1448 malignant)
+    preprocessing 
+    segmentation to keep only ROI
+    hybrid features ABCD, GLCM, LBP
+    classification 0 1 ANN, performance mesures all > 97%, effect of each feature > 69%
+
+article 6
+    
+
+
