@@ -7,7 +7,7 @@ machine learning need way less data then deep learning
 
 msvm can classify 8 lesions with great accuracy
 
-you dont need to be a programmer to build deep learning algorithm (deep learning studio) AUC of 99%
+you dont need to be a programmer to build deep learning algorithm (deep learning studio) AUC of 99%, automatic REST API, cloud hosting
 
 using hybrid data may create an imbalance like images with clinical info (categorical data: non numerical)
 
@@ -16,6 +16,12 @@ hybrid data need alot of preprocessing to standardize them because of there diff
 high quality of dermoscopic images over normal images
 
 multiple algoritms to remove haire Maximum Gradient Intensity (MGI), Dull Razor method
+
+look at computaion power and resources you have, high resolution images
+
+labeling is a pain, some times need experts in a domain 
+
+interpretability : deep algorithms defeated machine learning algorithms
 
 
 article 1
@@ -49,6 +55,10 @@ article 5
     classification 0 1 ANN, performance mesures all > 97%, effect of each feature > 69%
 
 article 6
-    
+    interpretability by statistics or analyse the same way a doctor would
+    dataset micrscopic images high resolution
+    some preprocessing like adding white padding
+    segmentation 12 classes CNN (U-net, Resnet)  85% accuracy
+    classification CNN 4 healty and 3 lesions 93.6% accuracy (Random Forest 87.2%, KNN 80.9%, Single-layer Perceptron 85.1%)
 
 
