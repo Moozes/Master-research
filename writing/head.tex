@@ -2,6 +2,8 @@
 
 \usepackage[margin=1in]{geometry}
 \usepackage{graphicx}
+\usepackage{arabtex}
+\usepackage{utf8}
 \usepackage{caption, subcaption}
 \usepackage{hyperref}
 \usepackage{cite}
@@ -13,6 +15,7 @@
 }
 \date{}
 \begin{document}
+\setcode{utf8}
 
 \input{cover-page/cover-page.tex}
 
@@ -25,7 +28,7 @@
 \newpage
 
 \input{abstract/abstract.tex}
-
+\newpage
 \input{general-intoduction/general-intoduction.tex}
 
 \chapter{General Medecal Information}
@@ -39,6 +42,11 @@
 
 \chapter{State Of The Art}
 \input{chapter-03-state-of-the-art/state_of_the_art.tex}
+
+\chapter{Results and Discussion}
+
+\chapter{Our Contribution}
+\input{chapter-05-our-contribution/contribution.tex}
 
 
 \bibliographystyle{unsrt}
