@@ -42,6 +42,13 @@ Vihar Kurama.
 \newblock \url{https://nanonets.com/blog/machine-learning-image-processing/},
   2021.
 
+\bibitem{JULIANA2021}
+JULIANA NEGRINI~DE ARAUJO.
+\newblock Ham10000: Analysis and model comparison.
+\newblock
+  \url{https://www.kaggle.com/code/jnegrini/ham10000-analysis-and-model-comparison/notebook},
+  2021.
+
 \bibitem{cancerStat}
 Cancer, world health organization.
 \newblock \url{https://www.who.int/news-room/fact-sheets/detail/cancer}.
@@ -154,5 +161,29 @@ What is computer vision?, ibm.
 machine learning in computer vision, full scale.
 \newblock \url{https://fullscale.io/blog/machine-learning-computer-vision/},
   2019.
+
+\bibitem{mayo2022}
+By~Mayo~Clinic Staff.
+\newblock Melanoma, mayo clinic.
+\newblock
+  \url{https://www.mayoclinic.org/diseases-conditions/melanoma/symptoms-causes/syc-20374884},
+  2022.
+
+\bibitem{scfm2022}
+Melanoma overview, skin cancer foundation.
+\newblock \url{https://www.skincancer.org/skin-cancer-information/melanoma/},
+  2022.
+
+\bibitem{Yamashita2018}
+Yamashita Rikiya, Mizuho Nishio, Do~Richard~Kinh Gian, and Kaori Togashi.
+\newblock Convolutional neural networks: an overview and application in
+  radiology.
+\newblock {\em Insights Into Imaging}, 9, 2018.
+
+\bibitem{Arief2019}
+Arief Budhiman, Suyanto Suyanto, and Anditya Arifianto.
+\newblock {\em Melanoma Cancer Classification Using ResNet with Data
+  Augmentation}.
+\newblock 2019.
 
 \end{thebibliography}

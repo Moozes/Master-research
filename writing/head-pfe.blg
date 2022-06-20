@@ -9,46 +9,46 @@ Warning--entry type for "sarah2021" isn't style-file defined
 --line 32 of file bibliography.bib
 Warning--entry type for "joseph2020" isn't style-file defined
 --line 49 of file bibliography.bib
-Warning--I didn't find a database entry for ""
-You've used 31 entries,
+Warning--empty publisher in Arief2019
+You've used 36 entries,
             1791 wiz_defined-function locations,
-            584 strings with 8179 characters,
-and the built_in function-call counts, 3855 in all, are:
-= -- 295
-> -- 139
+            609 strings with 8975 characters,
+and the built_in function-call counts, 4572 in all, are:
+= -- 351
+> -- 173
 < -- 0
-+ -- 65
-- -- 34
-* -- 95
-:= -- 500
-add.period$ -- 70
-call.type$ -- 31
-change.case$ -- 31
++ -- 79
+- -- 43
+* -- 119
+:= -- 612
+add.period$ -- 84
+call.type$ -- 36
+change.case$ -- 35
 chr.to.int$ -- 0
-cite$ -- 31
-duplicate$ -- 165
-empty$ -- 556
-format.name$ -- 34
-if$ -- 949
+cite$ -- 37
+duplicate$ -- 198
+empty$ -- 643
+format.name$ -- 43
+if$ -- 1116
 int.to.chr$ -- 0
-int.to.str$ -- 31
-missing$ -- 3
-newline$ -- 135
-num.names$ -- 11
-pop$ -- 183
+int.to.str$ -- 36
+missing$ -- 6
+newline$ -- 159
+num.names$ -- 15
+pop$ -- 211
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 144
+skip$ -- 160
 stack$ -- 0
 substring$ -- 21
-swap$ -- 31
+swap$ -- 36
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 12
-width$ -- 33
-write$ -- 255
+warning$ -- 1
+while$ -- 16
+width$ -- 38
+write$ -- 303
 (There were 4 warnings)

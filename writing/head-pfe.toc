@@ -38,10 +38,9 @@
 \contentsline {subsection}{\numberline {2.5.3}using deep learning}{24}{subsection.2.5.3}%
 \contentsline {subsection}{\numberline {2.5.4}applications of computer vision}{25}{subsection.2.5.4}%
 \contentsline {subsection}{\numberline {2.5.5}some technologies of computer vision}{25}{subsection.2.5.5}%
-\contentsline {chapter}{\numberline {3}Results and Discussion}{27}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Our Contribution}{28}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{28}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Proposed Convolutional Neural Network Model}{28}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Dataset (MNIST- HAM10000)}{29}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Pre-processing}{29}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Experimental results}{32}{section.4.5}%
+\contentsline {chapter}{\numberline {3}The Model}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{27}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Proposed Convolutional Neural Network Model}{27}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Dataset (MNIST- HAM10000)}{28}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Pre-processing}{28}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Experimental results}{31}{section.3.5}%

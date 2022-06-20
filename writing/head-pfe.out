@@ -36,10 +36,9 @@
 \BOOKMARK [2][-]{subsection.2.5.3}{using deep learning}{section.2.5}% 36
 \BOOKMARK [2][-]{subsection.2.5.4}{applications of computer vision}{section.2.5}% 37
 \BOOKMARK [2][-]{subsection.2.5.5}{some technologies of computer vision}{section.2.5}% 38
-\BOOKMARK [0][-]{chapter.3}{Results and Discussion}{}% 39
-\BOOKMARK [0][-]{chapter.4}{Our Contribution}{}% 40
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 41
-\BOOKMARK [1][-]{section.4.2}{Proposed Convolutional Neural Network Model}{chapter.4}% 42
-\BOOKMARK [1][-]{section.4.3}{Dataset \(MNIST- HAM10000\)}{chapter.4}% 43
-\BOOKMARK [1][-]{section.4.4}{Pre-processing}{chapter.4}% 44
-\BOOKMARK [1][-]{section.4.5}{Experimental results}{chapter.4}% 45
+\BOOKMARK [0][-]{chapter.3}{The Model}{}% 39
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 40
+\BOOKMARK [1][-]{section.3.2}{Proposed Convolutional Neural Network Model}{chapter.3}% 41
+\BOOKMARK [1][-]{section.3.3}{Dataset \(MNIST- HAM10000\)}{chapter.3}% 42
+\BOOKMARK [1][-]{section.3.4}{Pre-processing}{chapter.3}% 43
+\BOOKMARK [1][-]{section.3.5}{Experimental results}{chapter.3}% 44
