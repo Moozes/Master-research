@@ -1,0 +1,18 @@
+react front node express rest api usecase class digram material ui
+slack, github
+component diagram or hosting diagram
+
+relation between node flask
+
+flask , tenserflow, CUDA, aws ,nginx, panda , numpy, flutter,  app mobile  
+CNN detail
+
+
+
+
+
+https://www.coursera.org/learn/convolutional-neural-networks
+Programming Assignment: Residual Networks
+Andrew Ng
+Younes Bensouda Mourri
+Kian Katanforoosh

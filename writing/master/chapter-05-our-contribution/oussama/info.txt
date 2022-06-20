@@ -1,0 +1,7 @@
+(1) : https://www.mayoclinic.org/diseases-conditions/melanoma/symptoms-causes/syc-20374884
+(2) :https://www.skincancer.org/skin-cancer-information/melanoma/
+(4) : https://insightsimaging.springeropen.com/articles/10.1007/s13244-018-0639-9
+(5) : PDF(5.pdf)
+(7) : https://www.kaggle.com/code/jnegrini/ham10000-analysis-and-model-comparison/notebook
+(COURSERA) copy/past : (instructor:andrew ng):Deep Learning Specialization>Convolutional Neural Networks>WEEK2>Residual_Networks
+

@@ -1,0 +1,71 @@
+skin
+    definition
+        ref1
+        the skin is a complex organ and it is composed of several cell populations, 
+
+        ref2
+        it is interactive, self renewing and represents the primary and first defense line against hostile environment and it has severla characteristics such as selective absoption, auto regeneration when injured, barrier to water loss and pathogens, protection against various types of radiations, touch sensitivity, temperature regulation ...etc
+
+        ref3 
+        it represents the body largest sensory organ, and it has a highly adaptive structure that makes it vital for the survival of the human body
+        total area of 20 square feet
+        15% of total body weight
+
+        ref4 
+        the balance between its static and dynamic properties makes it highly adaptive the variations of the outer world
+
+        the skin is a complex organ a[ref1], it is interactive, self renewing and represents the first and primary defense line against hostile environment and it has several characteristics such as selective absoption, auto regeneration when injured, barrier to water loss, touch sensitivity ...etc[ref2]. It represents the largest sensory organ (15% of total body weight and a total area of 1.86 m²)[ref3], it has a highly adaptive structure that makes it vital for the survival of the human body, the balance between its static and dynamic properties makes it highly adaptive to the variations of the outer world[ref4].
+
+    structure
+        the skin is primary composed of 3 main layers, each layer has its unique properties and functions [ref3].
+        1epidermis
+            the outer most layer which is constantly regenerating and it contains the pigment melanin that determins the skin color and it also represents a physical and biological barrier
+        2dermis
+            the middle layer, it supports the flexibility and gives strength the epidermis and it is maily composed of connective tissue
+
+        3hypodermis
+            the last layer which is composed of subcutaneous fat which gives it its properties of being a main support of the overall structure of the skin and shock absoption 
+
+            -----------figure skin structure/anatomy ----------------
+
+        other entities also contained in the skin
+        hair
+            provides protection agains minor trauma, thermoregulation and filtering functions such as nasal hair and eyelashes
+
+            ----------figure skin hair---------------------
+        sweat glands
+            it is foucd across the entire body, it provides lubrication, temprerature regulation and salt and water balance.
+            -------------figure  sweat glands-----------------------------
+
+
+    functions
+        this skin has 6 main functions that can be summarized as follows[ref3]
+        protection
+            the skin is a direct interface between the entarnal organs and the environment so it works as a protective barrier against harmful objects and pathogens (innate/adaptive immunity and unltra-violet light protection [ref2])
+            ----------figure skin protective barrier-------------
+        thermostat
+            the skin works as a thermoregulator to keep the body at the optimal temperature of 37 C°, to achieve that is uses multiple strategies such as insensible perspiration, sweating ...etc
+        neural relay network
+            the skin contains a dense network of neural endings that works as receptors to various signals and provides sensations for touch, temperature and pain.
+        expression and communication
+            A more social function
+            is the ability for skin to enable individuals to display
+            emotions. It acts as an indicator of one’s physical state.
+            Skin is an important component of the stress response as it
+            acts as an immediate stress perceiver and as a target of
+            stress responses.
+            the skin also works as a social tool for interactions between human beings by indicatings the physical state of the individual and by showing sign of stress.
+        water storage
+            this skin works as a conservative barrier agains water and body fluids leakage (18-20% of totla body water)
+        Synthesis of vitamin D
+            the skin reperesents the main site of vitamin D production when exposed to the sun, it exists in the plasma membranes of basal and suprabasal keratinocytes in its inactive form then it is converted to previtamin D3 then to Vitamin D in the liver and kidneys [ref2]
+        -----------figure skin vitamin D-----------------
+
+
+figures figures figures from online to add references
+    skin structure/anatomy
+    skin vitamin D
+    skin protective barrier
+    skin hair
+    sweat glands
+    
