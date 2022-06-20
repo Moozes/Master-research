@@ -1,0 +1,55 @@
+\documentclass[12pt,a4paper]{report}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{arabtex}
+\usepackage{utf8}
+\usepackage{caption, subcaption}
+\usepackage{hyperref}
+\usepackage{cite}
+\title{comparative study for machine learning methods used for skin cancer detection and clasification}
+\author{
+	Khodja Moussa
+	\and
+	Balbal Oussama
+}
+\date{}
+\begin{document}
+\setcode{utf8}
+
+\input{cover-page/cover-page.tex}
+
+\section*{Acknowledgement}
+\newpage
+
+\tableofcontents
+\listoffigures
+\listoftables
+\newpage
+
+\input{abstract-pfe/abstract.tex}
+\newpage
+\input{general-intoduction-pfe/general-intoduction.tex}
+
+\chapter{General Medecal Information}
+\input{chapter-01-general-medical-information/skin.tex}
+\input{chapter-01-general-medical-information/cancer.tex}
+\input{chapter-01-general-medical-information/skin-cancer.tex}
+
+
+\chapter{Artificial Intelligence}
+\input{chapter-02-general-ai-information/ai.tex}
+
+\chapter{Results and Discussion}
+
+\chapter{Our Contribution}
+\input{chapter-05-our-contribution/contribution.tex}
+
+
+\bibliographystyle{unsrt}
+\bibliography{bibliography}
+
+
+
+
+\end{document}
