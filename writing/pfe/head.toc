@@ -44,3 +44,4 @@
 \contentsline {section}{\numberline {3.3}Dataset (MNIST- HAM10000)}{27}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Pre-processing}{27}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Experimental results}{30}{section.3.5}%
+\contentsline {chapter}{\numberline {4}The Implimentation of a Skin Cancer Diagnosis System}{32}{chapter.4}%

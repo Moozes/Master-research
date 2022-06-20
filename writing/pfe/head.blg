@@ -9,46 +9,46 @@ Warning--entry type for "sarah2021" isn't style-file defined
 --line 32 of file bibliography.bib
 Warning--entry type for "joseph2020" isn't style-file defined
 --line 49 of file bibliography.bib
-Warning--empty booktitle in Krishna2020
-You've used 39 entries,
+Warning--I didn't find a database entry for ""
+You've used 31 entries,
             1791 wiz_defined-function locations,
-            633 strings with 10017 characters,
-and the built_in function-call counts, 5332 in all, are:
-= -- 418
-> -- 216
-< -- 2
-+ -- 94
-- -- 55
-* -- 180
-:= -- 727
-add.period$ -- 92
-call.type$ -- 39
-change.case$ -- 39
+            583 strings with 8151 characters,
+and the built_in function-call counts, 3805 in all, are:
+= -- 291
+> -- 133
+< -- 0
++ -- 63
+- -- 32
+* -- 95
+:= -- 480
+add.period$ -- 68
+call.type$ -- 31
+change.case$ -- 31
 chr.to.int$ -- 0
-cite$ -- 40
-duplicate$ -- 237
-empty$ -- 701
-format.name$ -- 55
-if$ -- 1290
+cite$ -- 31
+duplicate$ -- 165
+empty$ -- 556
+format.name$ -- 32
+if$ -- 943
 int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 9
-newline$ -- 172
-num.names$ -- 16
-pop$ -- 207
+int.to.str$ -- 31
+missing$ -- 3
+newline$ -- 133
+num.names$ -- 9
+pop$ -- 185
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 197
+skip$ -- 146
 stack$ -- 0
-substring$ -- 57
-swap$ -- 51
-text.length$ -- 2
+substring$ -- 21
+swap$ -- 31
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 19
-width$ -- 41
-write$ -- 335
+warning$ -- 0
+while$ -- 10
+width$ -- 33
+write$ -- 251
 (There were 4 warnings)
