@@ -2,7 +2,8 @@
 \contentsline {table}{\numberline {1.1}{\ignorespaces Cancer Statistic \nobreakspace {}\cite {cancerStat}\relax }}{12}{table.caption.12}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces A comparative table of latest methods used in skin lesion detection. GLCM (Gray Level Cooccurrence Matrix), FCRN (Fully Convolutional Residual Networks) \nobreakspace {}\cite {}\relax }}{38}{table.caption.31}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces A comparative table of latest methods used in skin lesion detection. DCNN(Deep convolutional neural network), FCRN (Fully Convolutional Residual Networks) \nobreakspace {}\cite {}\relax }}{38}{table.caption.31}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Another comparative table of latest methods used in skin lesion detection and there limitations \nobreakspace {}\cite {}\relax }}{40}{table.3.2}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Evaluation Mesures\relax }}{45}{table.caption.37}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Evaluation Mesures\relax }}{47}{table.caption.37}%
