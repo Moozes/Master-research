@@ -1,0 +1,29 @@
+
+there are 3 comparative article i can use
+create table (something like this)
+    algo dataset result limitation
+    algo dataset results
+    best algos using KPI-accuracy
+    utilization shares of ML/DL
+        ml 54% dl 46%
+
+
+
+
+i can do a table to compare mesures of my state of the art
+
+
+
+in this section we are going to present a comprehensive comparative information for the various methods tested on benchmark datasets and there evaluation metrics
+
+    [ref22] latest years
+    algo dataset result
+
+    [ref15] latest years
+    algo dataset result limitation
+
+    [ref20] 6 past years 2016, 2021
+    algo feature-extraction dataset result  
+    best algos using KPI-accuracy
+    utilization shares of ML/DL
+            ml 54% dl 46%

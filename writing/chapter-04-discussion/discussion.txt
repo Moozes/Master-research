@@ -1,3 +1,10 @@
+
+
+
+
+
+i can do a table to compare mesures of my state of the art
+
 dermoscopic images ISIC
 raman spectral data, Fluorescence background data problem
 
@@ -22,6 +29,8 @@ look at computaion power and resources you have, high resolution images
 labeling is a pain, some times need experts in a domain 
 
 interpretability : deep algorithms defeated machine learning algorithms
+interpretability : increases the chance of application in real world scenarios
+
 
 
 article 1

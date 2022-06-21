@@ -44,10 +44,11 @@
 \BOOKMARK [1][-]{section.3.5}{The impact of patient clinical information on automated skin cancer detection}{chapter.3}% 44
 \BOOKMARK [1][-]{section.3.6}{An artificial neural network based detection and classification of melanoma skin cancer using hybrid texture features}{chapter.3}% 45
 \BOOKMARK [1][-]{section.3.7}{Interpretable deep learning systems for multi-class segmentation and classification of non-melanoma skin cancer}{chapter.3}% 46
-\BOOKMARK [0][-]{chapter.4}{Results and Discussion}{}% 47
-\BOOKMARK [0][-]{chapter.5}{Our Contribution}{}% 48
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 49
-\BOOKMARK [1][-]{section.5.2}{Proposed Convolutional Neural Network Model}{chapter.5}% 50
-\BOOKMARK [1][-]{section.5.3}{Dataset \(MNIST- HAM10000\)}{chapter.5}% 51
-\BOOKMARK [1][-]{section.5.4}{Pre-processing}{chapter.5}% 52
-\BOOKMARK [1][-]{section.5.5}{Experimental results}{chapter.5}% 53
+\BOOKMARK [1][-]{section.3.8}{Comprehensive Comarative Information}{chapter.3}% 47
+\BOOKMARK [0][-]{chapter.4}{Results and Discussion}{}% 48
+\BOOKMARK [0][-]{chapter.5}{Our Contribution}{}% 49
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 50
+\BOOKMARK [1][-]{section.5.2}{Proposed Convolutional Neural Network Model}{chapter.5}% 51
+\BOOKMARK [1][-]{section.5.3}{Dataset \(MNIST- HAM10000\)}{chapter.5}% 52
+\BOOKMARK [1][-]{section.5.4}{Pre-processing}{chapter.5}% 53
+\BOOKMARK [1][-]{section.5.5}{Experimental results}{chapter.5}% 54
