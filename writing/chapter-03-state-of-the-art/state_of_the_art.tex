@@ -306,8 +306,34 @@ to try and explain our model ~\cite{Hennie2020} which are statistical and visual
 % \end{figure}
 
 \section{Comprehensive Comarative Information}
-in this section we are going to present a comprehensive comparative information for the various methods tested on benchmark datasets and there evaluation metrics that were extracted from previous letirature work
-\bigskip
+In this section we are going to present a comprehensive comparative information for the various methods tested on benchmark datasets and there evaluation metrics that were extracted from previous letirature work, we present these tables as a recap since all the methods pass through the same steps (dataset, preprocessing, feature extraction and prediction), we present a table ~\ref{tab:outable} that recaps the methods  mentioned above and 2 more tables with other methods ~\ref{tab:first} ~\ref{tab:second}, and it is also worth mentionning that the best methods used in the last 6 years (2016, 2021) using KPI-accuracy are SVM in machine learning and CNN in deep learning and the utilization shares are 54\% for ML methods and 46\% for DL methods ~\cite{Painuli2022}
+% \bigskip
+
+
+\begin{table}[htbp]
+    \begin{center}
+        \begin{tabular}{p{3cm}|p{3cm}|p{6cm}}
+        \hline 
+        Method & Dataset & Results  \\ 
+        \hline 
+        classification using MSVM & 800 dermoscopic images ISIC of 8 lesion &  accuracy 96.25\% \\ 
+        \hline 
+        classification using lightGBM (complex dicision tree) & 436 Raman spectra (x:frequency, y:intensity of scattered light) for benign and malignant & AUC $>$ 97\%  \\ 
+        \hline 
+        CNN famous architectures (impimented using deep learning studio) & Kaggle image dataset &   AUC 99\% \\ 
+        \hline 
+        classification using multiple CNN architectures & images (1612 image of 6 lesions)+ clinical info &  AUC 95.8\% and clinical added a 7\% to almost all performance metrics \\ 
+        \hline 
+        binary classification ANN & hybrid features ABCD, GLCM, LBP from dermoscopic  ISIC+PH2 datasets (1940 benign + 1448 malignant) & performance mesures all $>$ 97\%, effect of each feature $>$ 69\%  \\ 
+        \hline 
+        segmentation to 12 tissue classes CNN (U-net, Resnet) and CNN classification (healty and 3 lesions) & MyLab Pathology provided access to their pre-existing collection of skin cancer slides & 93.6\% accuracy compared to (Random Forest 87.2\%, KNN 80.9\%, Single-layer Perceptron 85.1\%) \\ 
+        \hline 
+        \end{tabular} 
+    \end{center}
+\caption{A comparative table of the methods mentioned above in this article}
+\label{tab:outable}
+\end{table}
+
 \begin{table}[htbp]
     \begin{center}
         \begin{tabular}{p{3cm}|p{3cm}|p{6cm}}
@@ -330,9 +356,9 @@ in this section we are going to present a comprehensive comparative information 
         \hline 
         \end{tabular} 
     \end{center}
-    \caption{A comparative table of latest methods used in skin lesion detection. DCNN(Deep convolutional neural network), FCRN (Fully Convolutional Residual Networks) ~\cite{}}
-    \label{tab:}
-    \end{table}
+\caption{A comparative table of latest methods used in skin lesion detection. DCNN(Deep convolutional neural network), FCRN (Fully Convolutional Residual Networks) ~\cite{Saba2020}}
+\label{tab:first}
+\end{table}
 
 
 
@@ -382,7 +408,7 @@ in this section we are going to present a comprehensive comparative information 
         \hline
         DenseNet, ResNet model results compared with Dermatologist/ 10,135 dermoscopy images of HAM10000: 10015, PH2: 120 data sets are used & For Melanoma and BCC – achieved94.40\% for ResNet, 99.30\% for DenseNet whereas Dermatologist achieved – 82.26\% and 88.82\% accuracy & Model biased for the diverse dataset/ Model behaviour depends on skin tone colour\\
         \hline
-        \caption{Another comparative table of latest methods used in skin lesion detection and there limitations ~\cite{}}
-        \label{tab:}
+        \caption{Another comparative table of latest methods used in skin lesion detection and there limitations ~\cite{Naresh2020}}
+        \label{tab:second}
     \end{longtable} 
  

@@ -47,7 +47,7 @@ article 2
     classification lightGBM (complex dicision tree) AUC > 97% probability to differentiate between classes
 
 article 3
-    Kaggle image datasets
+    Kaggle image dataset
     some preprocessing
     CNN famous architectures (drag and drop) AUC 99%
 
