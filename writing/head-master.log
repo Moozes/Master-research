@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.17)  22 JUN 2022 22:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.17)  22 JUN 2022 22:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -531,7 +531,7 @@ File: ./cover-page/logo.png Graphic file (type png)
 Package pdftex.def Info: ./cover-page/logo.png  used on input line 12.
 (pdftex.def)             Requested size: 98.54976pt x 83.43878pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--49
+Underfull \hbox (badness 10000) in paragraph at lines 43--46
 
  []
 
@@ -1699,7 +1699,7 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/sha
 re/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1
 /public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /arabtex/xnsh14.pfb>
-Output written on head-master.pdf (56 pages, 6417746 bytes).
+Output written on head-master.pdf (56 pages, 6417740 bytes).
 PDF statistics:
  1066 PDF objects out of 1200 (max. 8388607)
  922 compressed objects within 10 object streams

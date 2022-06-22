@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.17)  21 JUN 2022 19:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.17)  22 JUN 2022 22:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -456,7 +456,7 @@ File: ./cover-page/logo.png Graphic file (type png)
 Package pdftex.def Info: ./cover-page/logo.png  used on input line 12.
 (pdftex.def)             Requested size: 98.54976pt x 83.43878pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--49
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
 
  []
 
@@ -664,16 +664,15 @@ File: ./chapter-05-our-contribution/4.png Graphic file (type png)
 Package pdftex.def Info: ./chapter-05-our-contribution/4.png  used on input lin
 e 72.
 (pdftex.def)             Requested size: 426.79134pt x 200.1668pt.
- [30 <./chapter-05-our-contribution/5.png> <./chapter-05-our-contribution/4.png
->]
-<./chapter-05-our-contribution/1.png, id=603, 498.86375pt x 497.86pt>
+<./chapter-05-our-contribution/1.png, id=596, 498.86375pt x 497.86pt>
 File: ./chapter-05-our-contribution/1.png Graphic file (type png)
 <use ./chapter-05-our-contribution/1.png>
 Package pdftex.def Info: ./chapter-05-our-contribution/1.png  used on input lin
 e 89.
 (pdftex.def)             Requested size: 426.79134pt x 425.9482pt.
 ) (./head-pfe.bbl
-[31 <./chapter-05-our-contribution/1.png>] [32]
+[30 <./chapter-05-our-contribution/5.png>] [31 <./chapter-05-our-contribution/4
+.png>] [32 <./chapter-05-our-contribution/1.png>]
 Underfull \hbox (badness 1092) in paragraph at lines 4--6
 []\OT1/cmr/m/n/12 Skin, cleve-land clinic.  []$\OT1/cmtt/m/n/12 https : / / my 
 . clevelandclinic . org / health / articles /
@@ -890,7 +889,7 @@ type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfr
 m1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/arabtex/xnsh14.pfb>
 
-Output written on head-pfe.pdf (36 pages, 2456338 bytes).
+Output written on head-pfe.pdf (36 pages, 2456328 bytes).
 PDF statistics:
  739 PDF objects out of 1000 (max. 8388607)
  642 compressed objects within 7 object streams
