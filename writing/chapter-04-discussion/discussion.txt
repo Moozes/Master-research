@@ -1,9 +1,58 @@
+dataset
+famous datasets
+do you have a good dataset
+labeling hard takes time and expertise
+non biased, all races, where are you going to use your data
+using hybrid data hard (preprocessing)
+
+doctors busy, labeled local data hard to find
+cant really work with doctors
+
+
+patient experience
+invasive or not
+
+methods and performance
+what are your expertise ML or DL
+multi class or binary class
+train from scratch is hard, transfer learning, 
+
+no programming experience needed
+
+
+your available resources (cpu gpu ram)
+train takes time and resources
+your budget
+
+
+interpritability creates other problems
+great theoretical accuracy, but non applicable in real life
+cant be trusted if it cant be explained
+
+MOUSSA MAKE A GRAPH TO SUMMORIZE THE ROAD FOR FUTURE RESEARCHERS
+OR A LINE OF QUESTIONNING
 
 
 
 
 
-i can do a table to compare mesures of my state of the art
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 dermoscopic images ISIC
 raman spectral data, Fluorescence background data problem

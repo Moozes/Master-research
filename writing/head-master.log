@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.17)  21 JUN 2022 19:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.17)  22 JUN 2022 19:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -403,7 +403,11 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count301
 \l__pdf_internal_box=\box66
 )
-(./head-master.aux)
+(./head-master.aux
+
+LaTeX Warning: Label `fig:mldlcv' multiply defined.
+
+)
 \openout1 = `head-master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -521,7 +525,7 @@ File: uxnsh.fd  1999/10/19 v3.10 ArabTeX Naskh extd. font definitions
 )
 LaTeX Font Info:    Font shape `U/xnsh/m/n' will be
 (Font)              scaled to size 17.28003pt on input line 3.
-<./cover-page/logo.png, id=4, 98.55pt x 83.439pt>
+<./cover-page/logo.png, id=245, 98.55pt x 83.439pt>
 File: ./cover-page/logo.png Graphic file (type png)
 <use ./cover-page/logo.png>
 Package pdftex.def Info: ./cover-page/logo.png  used on input line 12.
@@ -533,122 +537,975 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--49
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./cover-page/logo.png>]) (
-./head-master.bbl
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 5.
-
-Underfull \hbox (badness 1092) in paragraph at lines 4--6
-[]\OT1/cmr/m/n/12 Skin, cleve-land clinic.  []$\OT1/cmtt/m/n/12 https : / / my 
-. clevelandclinic . org / health / articles /
- []
-
-
-Underfull \hbox (badness 2790) in paragraph at lines 8--11
-[]\OT1/cmr/m/n/12 Hair and hu-man skin anatomy.  []$\OT1/cmtt/m/n/12 https : / 
-/ www . vecteezy . com / vector-[]art /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--51
-[]\OT1/cmr/m/n/12 JULIANA NE-GRINI DE ARAUJO.  Ham10000: Anal-y-sis and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--51
-\OT1/cmr/m/n/12 model com-par-i-son.  []$\OT1/cmtt/m/n/12 https : / / www . kag
-gle . com / code / jnegrini /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
-[]\OT1/cmr/m/n/12 Cancer, world health or-ga-ni-za-tion.  []$\OT1/cmtt/m/n/12 h
-ttps : / / www . who . int / news-[]room /
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./cover-page/logo.png>])pd
+fTeX warning (ext4): destination with the same identifier (name{page.1}) has be
+en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.82 \bibitem{eliana2022}
-                          [1
+l.25 \newpage
+              [1] (./head-master.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+ [2
 
 ]
-Underfull \hbox (badness 5893) in paragraph at lines 90--93
-[]\OT1/cmr/m/n/12 What is can-cer?, na-tional can-cer in-sti-tute.  []$\OT1/cmt
-t/m/n/12 https : / / www . cancer . gov /
+Overfull \hbox (16.5662pt too wide) in paragraph at lines 44--44
+ [][] [][]\OT1/cmr/m/n/12 Finding re-duced Ra-man spec-troscopy fin-ger-print o
+f skin sam-ples for melanoma 
+ []
+
+)
+\tf@toc=\write6
+\openout6 = `head-master.toc'.
+
+ [3] (./head-master.lof)
+\tf@lof=\write7
+\openout7 = `head-master.lof'.
+
+ [4
+
+] (./head-master.lot
+Overfull \hbox (28.51987pt too wide) in paragraph at lines 7--7
+ [][] [][]\OT1/cmr/m/n/12 A com-par-a-tive ta-ble of lat-est meth-ods used in s
+kin le-sion de-tec-tion. DCNN(Deep 
+ []
+
+)
+\tf@lot=\write8
+\openout8 = `head-master.lot'.
+
+ [5
+
+] (./abstract-master/abstract.tex [6]) [7]
+(./general-intoduction-master/general-intoduction.tex) [8]
+Chapter 1.
+(./chapter-01-general-medical-information/skin.tex
+<./chapter-01-general-medical-information/skin-anatomy.jpg, id=461, 803.0pt x 6
+02.25pt>
+File: ./chapter-01-general-medical-information/skin-anatomy.jpg Graphic file (t
+ype jpg)
+<use ./chapter-01-general-medical-information/skin-anatomy.jpg>
+Package pdftex.def Info: ./chapter-01-general-medical-information/skin-anatomy.
+jpg  used on input line 15.
+(pdftex.def)             Requested size: 426.79134pt x 320.10074pt.
+<./chapter-01-general-medical-information/hair-sweat-gland.jpg, id=465, 1927.2p
+t x 1060.96375pt>
+File: ./chapter-01-general-medical-information/hair-sweat-gland.jpg Graphic fil
+e (type jpg)
+<use ./chapter-01-general-medical-information/hair-sweat-gland.jpg>
+Package pdftex.def Info: ./chapter-01-general-medical-information/hair-sweat-gl
+and.jpg  used on input line 31.
+(pdftex.def)             Requested size: 426.79134pt x 234.9507pt.
+ [9
+
+] [10 <./chapter-01-general-medical-information/skin-anatomy.jpg> <./chapter-01
+-general-medical-information/hair-sweat-gland.jpg>]
+<./chapter-01-general-medical-information/protective-barrier.jpg, id=487, 963.6
+pt x 542.025pt>
+File: ./chapter-01-general-medical-information/protective-barrier.jpg Graphic f
+ile (type jpg)
+<use ./chapter-01-general-medical-information/protective-barrier.jpg>
+Package pdftex.def Info: ./chapter-01-general-medical-information/protective-ba
+rrier.jpg  used on input line 64.
+(pdftex.def)             Requested size: 426.79134pt x 240.06314pt.
+<./chapter-01-general-medical-information/vitaminD.jpg, id=490, 99.0099pt x 66.
+05478pt>
+File: ./chapter-01-general-medical-information/vitaminD.jpg Graphic file (type 
+jpg)
+<use ./chapter-01-general-medical-information/vitaminD.jpg>
+Package pdftex.def Info: ./chapter-01-general-medical-information/vitaminD.jpg 
+ used on input line 72.
+(pdftex.def)             Requested size: 284.52756pt x 189.84145pt.
+) (./chapter-01-general-medical-information/cancer.tex
+<./chapter-01-general-medical-information/mutation.png, id=503, 1204.5pt x 644.
+4075pt>
+File: ./chapter-01-general-medical-information/mutation.png Graphic file (type 
+png)
+<use ./chapter-01-general-medical-information/mutation.png>
+Package pdftex.def Info: ./chapter-01-general-medical-information/mutation.png 
+ used on input line 31.
+(pdftex.def)             Requested size: 426.79134pt x 228.33853pt.
+<./chapter-01-general-medical-information/dna-rearrangement.png, id=506, 450.93
+47pt x 315.42844pt>
+File: ./chapter-01-general-medical-information/dna-rearrangement.png Graphic fi
+le (type png)
+<use ./chapter-01-general-medical-information/dna-rearrangement.png>
+Package pdftex.def Info: ./chapter-01-general-medical-information/dna-rearrange
+ment.png  used on input line 39.
+(pdftex.def)             Requested size: 426.79134pt x 298.55794pt.
+[11] [12 <./chapter-01-general-medical-information/protective-barrier.jpg> <./c
+hapter-01-general-medical-information/vitaminD.jpg>]
+<./chapter-01-general-medical-information/benign-malignant.png, id=526, 276.031
+25pt x 183.68625pt>
+File: ./chapter-01-general-medical-information/benign-malignant.png Graphic fil
+e (type png)
+<use ./chapter-01-general-medical-information/benign-malignant.png>
+Package pdftex.def Info: ./chapter-01-general-medical-information/benign-malign
+ant.png  used on input line 54.
+(pdftex.def)             Requested size: 426.79134pt x 284.04083pt.
+ [13 <./chapter-01-general-medical-information/mutation.png>] [14 <./chapter-01
+-general-medical-information/dna-rearrangement.png> <./chapter-01-general-medic
+al-information/benign-malignant.png>]) (./chapter-01-general-medical-informatio
+n/skin-cancer.tex
+<./chapter-01-general-medical-information/Melanoma.jpg, id=552, 271.0125pt x 18
+8.57953pt>
+File: ./chapter-01-general-medical-information/Melanoma.jpg Graphic file (type 
+jpg)
+<use ./chapter-01-general-medical-information/Melanoma.jpg>
+Package pdftex.def Info: ./chapter-01-general-medical-information/Melanoma.jpg 
+ used on input line 38.
+(pdftex.def)             Requested size: 135.5059pt x 94.28954pt.
+<./chapter-01-general-medical-information/Squamous.png, id=555, 388.45125pt x 3
+53.32pt>
+File: ./chapter-01-general-medical-information/Squamous.png Graphic file (type 
+png)
+<use ./chapter-01-general-medical-information/Squamous.png>
+Package pdftex.def Info: ./chapter-01-general-medical-information/Squamous.png 
+ used on input line 44.
+(pdftex.def)             Requested size: 116.53627pt x 105.99681pt.
+<./chapter-01-general-medical-information/basal.jpeg, id=558, 260.975pt x 194.7
+275pt>
+File: ./chapter-01-general-medical-information/basal.jpeg Graphic file (type jp
+g)
+<use ./chapter-01-general-medical-information/basal.jpeg>
+Package pdftex.def Info: ./chapter-01-general-medical-information/basal.jpeg  u
+sed on input line 50.
+(pdftex.def)             Requested size: 130.48718pt x 97.3635pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15] [16 <./chapter-01-general-medical-information/Melanoma.jpg> <./chapter-01-
+general-medical-information/Squamous.png> <./chapter-01-general-medical-informa
+tion/basal.jpeg>]
+Overfull \hbox (7.18341pt too wide) in paragraph at lines 97--98
+[]\OT1/cmr/m/n/12 some harm-ful/unharmful sub-stances can in-crease your
+ []
+
+[17]) [18]
+Chapter 2.
+(./chapter-02-general-ai-information/ai.tex [19
+
+] [20] [21]
+Overfull \hbox (5.4355pt too wide) in paragraph at lines 85--86
+[]\OT1/cmr/m/n/12 one-shot learn-
+ []
+
+[22]
+<./chapter-02-general-ai-information/versus.jpg, id=641, 869.4081pt x 857.8449p
+t>
+File: ./chapter-02-general-ai-information/versus.jpg Graphic file (type jpg)
+<use ./chapter-02-general-ai-information/versus.jpg>
+Package pdftex.def Info: ./chapter-02-general-ai-information/versus.jpg  used o
+n input line 98.
+(pdftex.def)             Requested size: 284.52756pt x 280.74664pt.
+ [23 <./chapter-02-general-ai-information/versus.jpg>]
+<./chapter-02-general-ai-information/machine-learning-cv.png, id=650, 1606.0pt 
+x 688.5725pt>
+File: ./chapter-02-general-ai-information/machine-learning-cv.png Graphic file 
+(type png)
+<use ./chapter-02-general-ai-information/machine-learning-cv.png>
+Package pdftex.def Info: ./chapter-02-general-ai-information/machine-learning-c
+v.png  used on input line 117.
+(pdftex.def)             Requested size: 341.43306pt x 146.39063pt.
+ [24 <./chapter-02-general-ai-information/machine-learning-cv.png>]
+<./chapter-02-general-ai-information/cnn.png, id=663, 1606.0pt x 620.3175pt>
+File: ./chapter-02-general-ai-information/cnn.png Graphic file (type png)
+<use ./chapter-02-general-ai-information/cnn.png>
+Package pdftex.def Info: ./chapter-02-general-ai-information/cnn.png  used on i
+nput line 136.
+(pdftex.def)             Requested size: 426.79134pt x 164.84715pt.
+ [25 <./chapter-02-general-ai-information/cnn.png>]) [26]
+Chapter 3.
+(./chapter-03-state-of-the-art/state_of_the_art.tex [27
+
+]
+<./chapter-03-state-of-the-art/preprocessing.png, id=686, 1666.225pt x 494.8487
+5pt>
+File: ./chapter-03-state-of-the-art/preprocessing.png Graphic file (type png)
+<use ./chapter-03-state-of-the-art/preprocessing.png>
+Package pdftex.def Info: ./chapter-03-state-of-the-art/preprocessing.png  used 
+on input line 28.
+(pdftex.def)             Requested size: 426.79134pt x 126.74728pt.
+<./chapter-03-state-of-the-art/segmentation.png, id=687, 1667.22874pt x 467.747
+5pt>
+File: ./chapter-03-state-of-the-art/segmentation.png Graphic file (type png)
+<use ./chapter-03-state-of-the-art/segmentation.png>
+Package pdftex.def Info: ./chapter-03-state-of-the-art/segmentation.png  used o
+n input line 39.
+(pdftex.def)             Requested size: 426.79134pt x 119.73438pt.
+<./chapter-03-state-of-the-art/confusion-matrix.png, id=688, 658.46pt x 531.987
+5pt>
+File: ./chapter-03-state-of-the-art/confusion-matrix.png Graphic file (type png
+)
+<use ./chapter-03-state-of-the-art/confusion-matrix.png>
+Package pdftex.def Info: ./chapter-03-state-of-the-art/confusion-matrix.png  us
+ed on input line 48.
+(pdftex.def)             Requested size: 426.79134pt x 344.82181pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+[28 <./chapter-03-state-of-the-art/preprocessing.png> <./chapter-03-state-of-th
+e-art/segmentation.png>] [29 <./chapter-03-state-of-the-art/confusion-matrix.pn
+g>]
+<./chapter-03-state-of-the-art/ROC.png, id=705, 1037.8775pt x 737.75626pt>
+File: ./chapter-03-state-of-the-art/ROC.png Graphic file (type png)
+<use ./chapter-03-state-of-the-art/ROC.png>
+Package pdftex.def Info: ./chapter-03-state-of-the-art/ROC.png  used on input l
+ine 78.
+(pdftex.def)             Requested size: 284.52756pt x 202.24756pt.
+ [30 <./chapter-03-state-of-the-art/ROC.png>]
+<./chapter-03-state-of-the-art/dls.png, id=717, 2137.9875pt x 1303.87125pt>
+File: ./chapter-03-state-of-the-art/dls.png Graphic file (type png)
+<use ./chapter-03-state-of-the-art/dls.png>
+Package pdftex.def Info: ./chapter-03-state-of-the-art/dls.png  used on input l
+ine 105.
+(pdftex.def)             Requested size: 341.43306pt x 208.22575pt.
+ [31 <./chapter-03-state-of-the-art/dls.png>]
+<./chapter-03-state-of-the-art/clinical-image.png, id=727, 1652.1725pt x 523.95
+75pt>
+File: ./chapter-03-state-of-the-art/clinical-image.png Graphic file (type png)
+<use ./chapter-03-state-of-the-art/clinical-image.png>
+Package pdftex.def Info: ./chapter-03-state-of-the-art/clinical-image.png  used
+ on input line 152.
+(pdftex.def)             Requested size: 426.79134pt x 135.34628pt.
+ [32] [33 <./chapter-03-state-of-the-art/clinical-image.png>]
+<./chapter-03-state-of-the-art/ann.png, id=741, 429.605pt x 500.87125pt>
+File: ./chapter-03-state-of-the-art/ann.png Graphic file (type png)
+<use ./chapter-03-state-of-the-art/ann.png>
+Package pdftex.def Info: ./chapter-03-state-of-the-art/ann.png  used on input l
+ine 195.
+(pdftex.def)             Requested size: 284.52756pt x 331.73007pt.
+<./chapter-03-state-of-the-art/evaluation.png, id=742, 504.88625pt x 300.12125p
+t>
+File: ./chapter-03-state-of-the-art/evaluation.png Graphic file (type png)
+<use ./chapter-03-state-of-the-art/evaluation.png>
+Package pdftex.def Info: ./chapter-03-state-of-the-art/evaluation.png  used on 
+input line 203.
+(pdftex.def)             Requested size: 284.52756pt x 169.13376pt.
+
+Overfull \hbox (41.01186pt too wide) in paragraph at lines 218--218
+\OT1/cmr/bx/n/17.28 class seg-men-ta-tion and clas-si-fi-ca-tion of non-melanom
+a
+ []
+
+[34 <./chapter-03-state-of-the-art/ann.png>] [35 <./chapter-03-state-of-the-art
+/evaluation.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+
  []
 
 
-Underfull \hbox (badness 2903) in paragraph at lines 109--111
-[]\OT1/cmr/m/n/12 Skin can-cer 101, skin can-cer foun-da-tion.  []$\OT1/cmtt/m/
-n/12 https : / / www . skincancer . org /
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
+
+ []
+
+[36]
+<./chapter-03-state-of-the-art/seg-input.png, id=774, 294.09875pt x 339.2675pt>
+
+File: ./chapter-03-state-of-the-art/seg-input.png Graphic file (type png)
+<use ./chapter-03-state-of-the-art/seg-input.png>
+Package pdftex.def Info: ./chapter-03-state-of-the-art/seg-input.png  used on i
+nput line 282.
+(pdftex.def)             Requested size: 147.04901pt x 169.63333pt.
+
+Overfull \hbox (11.15727pt too wide) in paragraph at lines 282--283
+ [][] 
+ []
+
+<./chapter-03-state-of-the-art/seg-output.png, id=775, 307.1475pt x 330.23375pt
+>
+File: ./chapter-03-state-of-the-art/seg-output.png Graphic file (type png)
+<use ./chapter-03-state-of-the-art/seg-output.png>
+Package pdftex.def Info: ./chapter-03-state-of-the-art/seg-output.png  used on 
+input line 288.
+(pdftex.def)             Requested size: 153.57336pt x 165.11646pt.
+
+Overfull \hbox (17.68163pt too wide) in paragraph at lines 288--289
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+[]\OT1/cmr/m/n/12 classification
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+\OT1/cmr/m/n/12 us-ing light-
+ []
+
+
+Underfull \hbox (badness 3590) in paragraph at lines 321--321
+\OT1/cmr/m/n/12 GBM (com-plex
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+[]\OT1/cmr/m/n/12 436 Ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+\OT1/cmr/m/n/12 man spec-tra
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+\OT1/cmr/m/n/12 (x:frequency,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+\OT1/cmr/m/n/12 y:intensity of
+ []
+
+
+Underfull \hbox (badness 5147) in paragraph at lines 321--321
+\OT1/cmr/m/n/12 scat-tered light)
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 321--321
+\OT1/cmr/m/n/12 for be-nign and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--323
+[]\OT1/cmr/m/n/12 CNN fa-mous
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--323
+\OT1/cmr/m/n/12 ar-chi-tec-tures
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--323
+\OT1/cmr/m/n/12 (impi-mented
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--323
+\OT1/cmr/m/n/12 us-ing deep
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--323
+[]\OT1/cmr/m/n/12 Kaggle im-age
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
+[]\OT1/cmr/m/n/12 classification
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
+\OT1/cmr/m/n/12 us-ing mul-ti-ple
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
+\OT1/cmr/m/n/12 CNN ar-chi-tec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
+[]\OT1/cmr/m/n/12 images (1612
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 325--325
+\OT1/cmr/m/n/12 im-age of 6 le-
+ []
+
+
+Underfull \hbox (badness 4353) in paragraph at lines 325--325
+\OT1/cmr/m/n/12 sions)+ clin-i-cal
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 327--327
+[]\OT1/cmr/m/n/12 hybrid fea-tures
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 327--327
+\OT1/cmr/m/n/12 ABCD, GLCM,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
+\OT1/cmr/m/n/12 LBP from
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
+\OT1/cmr/m/n/12 der-mo-scopic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
+\OT1/cmr/m/n/12 ISIC+PH2
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
+\OT1/cmr/m/n/12 datasets (1940
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 327--327
+\OT1/cmr/m/n/12 be-nign + 1448
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+\OT1/cmr/m/n/12 CNN (U-net,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+\OT1/cmr/m/n/12 Resnet) and
+ []
+
+
+Underfull \hbox (badness 4391) in paragraph at lines 329--329
+\OT1/cmr/m/n/12 CNN clas-si-fi-ca-
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 329--329
+[]\OT1/cmr/m/n/12 MyLab Pathol-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+\OT1/cmr/m/n/12 ogy pro-vided
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 329--329
+\OT1/cmr/m/n/12 ac-cess to their
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+\OT1/cmr/m/n/12 pre-existing
+ []
+
+
+Underfull \hbox (badness 6396) in paragraph at lines 329--330
+[]\OT1/cmr/m/n/12 93.6% ac-cu-racy com-pared to
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 329--330
+\OT1/cmr/m/n/12 (Ran-dom For-est 87.2%, KNN
+ []
+
+
+Underfull \hbox (badness 3128) in paragraph at lines 329--330
+\OT1/cmr/m/n/12 80.9%, Single-layer Per-cep-tron
+ []
+
+[37 <./chapter-03-state-of-the-art/seg-input.png> <./chapter-03-state-of-the-ar
+t/seg-output.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
+[]\OT1/cmr/m/n/12 PH2/ISBI
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 345--345
+[]\OT1/cmr/m/n/12 GLCM fea-tures
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+[]\OT1/cmr/m/n/12 Skin Can-cer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+\OT1/cmr/m/n/12 and Be-nign
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+\OT1/cmr/m/n/12 Tu-mor Im-age
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+[]\OT1/cmr/m/n/12 91.7% (Ac-cu-racy) 94.1%(sen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+\OT1/cmr/m/n/12 si-tiv-ity) 88.7%(speci-ficity)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+[]\OT1/cmr/m/n/12 ABCD feat-ues
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 355--355
+[]\OT1/cmr/m/n/12 Large col-lec-tion
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 355--355
+\OT1/cmr/m/n/12 of Multi-Source
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--355
+\OT1/cmr/m/n/12 Der-mato-scopic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--391
+[]|\OT1/cmr/m/n/10.95 ResNet/ Hal-lym
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--391
+\OT1/cmr/m/n/10.95 dataset 19,398 in-
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 391--391
+[]|\OT1/cmr/m/n/10.95 For Basal Cell Car-ci-
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 391--391
+\OT1/cmr/m/n/10.95 the in-stances of cau-
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 391--391
+\OT1/cmr/m/n/10.95 96% for the in-stance
+ []
+
+
+Underfull \hbox (badness 6032) in paragraph at lines 393--393
+[]|\OT1/cmr/m/n/10.95 Whale al-go-rithm ap-
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 393--393
+\OT1/cmr/m/n/10.95 plied to op-ti-mize the
+ []
+
+
+Underfull \hbox (badness 3189) in paragraph at lines 393--393
+\OT1/cmr/m/n/10.95 CNN model/ Around
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
+\OT1/cmr/m/n/10.95 mquest and Der-mIS
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 393--393
+\OT1/cmr/m/n/10.95 Sensitivity-97%/ PPV-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
+[]|\OT1/cmr/m/n/10.95 Results are un-sat-is-fac-tory for
+ []
+
+
+Underfull \hbox (badness 5802) in paragraph at lines 395--395
+[]|\OT1/cmr/m/n/10.95 ResNet/ Clin-i-cal im-
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 397--397
+[]|\OT1/cmr/m/n/10.95 ResNet/ 1279 der-mo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
+\OT1/cmr/m/n/10.95 scopic in-stances are
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
+[]|\OT1/cmr/m/n/10.95 Achieved 89.2% for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
+\OT1/cmr/m/n/10.95 ResNet with-out der-
+ []
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 397--397
+\OT1/cmr/m/n/10.95 ma-tol-o-gist/ 94.3% for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
+[]|\OT1/cmr/m/n/10.95 ResNet/ HAM10000
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 399--399
+\OT1/cmr/m/n/10.95 dataset, ISIC archive-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
+\OT1/cmr/m/n/10.95 11,444 der-mato-scopic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
+[]|\OT1/cmr/m/n/10.95 Mean ac-cu-racy of/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
+[]|\OT1/cmr/m/n/10.95 ResNet/ Dermnet
+ []
+
+
+Underfull \hbox (badness 4024) in paragraph at lines 401--402
+\OT1/cmr/m/n/10.95 like/ Acne , Rosacea, He-man-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+[]|\OT1/cmr/m/n/10.95 Dragonfly op-ti-mized
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+\OT1/cmr/m/n/10.95 DNN model is as-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+\OT1/cmr/m/n/10.95 sessed us-ing ex-ist-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+\OT1/cmr/m/n/10.95 tech-niques such as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+\OT1/cmr/m/n/10.95 Sup-port Vec-tor Ma-
+ []
+
+
+Underfull \hbox (badness 3895) in paragraph at lines 403--403
+\OT1/cmr/m/n/10.95 chine, ANN, and to
+ []
+
+
+Underfull \hbox (badness 5985) in paragraph at lines 403--403
+\OT1/cmr/m/n/10.95 dis-play the ef-fi-ciency
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 403--403
+\OT1/cmr/m/n/10.95 of the sys-tem di-verse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+\OT1/cmr/m/n/10.95 eval-u-a-tion cri-te-ria's
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+\OT1/cmr/m/n/10.95 and speci-ficity are
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+[]|\OT1/cmr/m/n/10.95 Achieved/ Sen-si-tiv-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+\OT1/cmr/m/n/10.95 { 84%/ Specificity-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+\OT1/cmr/m/n/10.95 99.5%/ Ac-cu-racy {
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 405--405
+[]|\OT1/cmr/m/n/10.95 CNN model used to
+ []
+
+
+Underfull \hbox (badness 7613) in paragraph at lines 405--405
+\OT1/cmr/m/n/10.95 Cat-e-go-rized the skin
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 405--405
+\OT1/cmr/m/n/10.95 nevi, basal cell car-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
+\OT1/cmr/m/n/10.95 ci-noma/ 11,444 der-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
+\OT1/cmr/m/n/10.95 mo-scopic im-ages
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
+\OT1/cmr/m/n/10.95 HAM10000 dataset,
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 405--405
+\OT1/cmr/m/n/10.95 tained by the der-ma-
+ []
+
+
+Underfull \hbox (badness 4341) in paragraph at lines 405--405
+\OT1/cmr/m/n/10.95 CNN model achieved
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 405--405
+\OT1/cmr/m/n/10.95 98.8%. of sen-si-tiv-
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 405--406
+\OT1/cmr/m/n/10.95 im-ages CNN model di-ag-nosed it
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 405--406
+\OT1/cmr/m/n/10.95 ag-nosed it as melanoma/ model
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
+[]|\OT1/cmr/m/n/10.95 GoogleNet CNN
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
+\OT1/cmr/m/n/10.95 model/ 4800 clin-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
+[]|\OT1/cmr/m/n/10.95 Achieved/ Sen-si-tiv-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
+[]|\OT1/cmr/m/n/10.95 DenseNet, ResNet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
+\OT1/cmr/m/n/10.95 with Der-ma-tol-o-gist/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
+\OT1/cmr/m/n/10.95 10,135 der-moscopy
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 409--409
+\OT1/cmr/m/n/10.95 im-ages of HAM10000:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
+[]|\OT1/cmr/m/n/10.95 For Melanoma and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
+\OT1/cmr/m/n/10.95 for ResNet, 99.30%
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 409--409
+\OT1/cmr/m/n/10.95 for DenseNet whereas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+[]|\OT1/cmr/m/n/10.95 Model bi-ased for the di-verse
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 413
+ []
+
+[38]) [39] [40] [41]
+Chapter 4.
+(./chapter-04-discussion/results.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+[42
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 48.
+ [43]) [44]
+Chapter 5.
+(./chapter-05-our-contribution/contribution.tex
+<./chapter-05-our-contribution/3.png, id=828, 1003.75pt x 434.62375pt>
+File: ./chapter-05-our-contribution/3.png Graphic file (type png)
+<use ./chapter-05-our-contribution/3.png>
+Package pdftex.def Info: ./chapter-05-our-contribution/3.png  used on input lin
+e 22.
+(pdftex.def)             Requested size: 426.79134pt x 184.80217pt.
+ [45
+
+]
+<./chapter-05-our-contribution/2.png, id=842, 674.52pt x 1175.39125pt>
+File: ./chapter-05-our-contribution/2.png Graphic file (type png)
+<use ./chapter-05-our-contribution/2.png>
+Package pdftex.def Info: ./chapter-05-our-contribution/2.png  used on input lin
+e 39.
+(pdftex.def)             Requested size: 341.43306pt x 594.9758pt.
+<./chapter-05-our-contribution/5.png, id=845, 1189.44376pt x 508.90125pt>
+File: ./chapter-05-our-contribution/5.png Graphic file (type png)
+<use ./chapter-05-our-contribution/5.png>
+Package pdftex.def Info: ./chapter-05-our-contribution/5.png  used on input lin
+e 49.
+(pdftex.def)             Requested size: 426.79134pt x 182.59862pt.
+ [46 <./chapter-05-our-contribution/3.png>] [47 <./chapter-05-our-contribution/
+2.png>]
+<./chapter-05-our-contribution/4.png, id=860, 1003.75pt x 470.75874pt>
+File: ./chapter-05-our-contribution/4.png Graphic file (type png)
+<use ./chapter-05-our-contribution/4.png>
+Package pdftex.def Info: ./chapter-05-our-contribution/4.png  used on input lin
+e 72.
+(pdftex.def)             Requested size: 426.79134pt x 200.1668pt.
+ [48 <./chapter-05-our-contribution/5.png> <./chapter-05-our-contribution/4.png
+>]
+<./chapter-05-our-contribution/1.png, id=869, 498.86375pt x 497.86pt>
+File: ./chapter-05-our-contribution/1.png Graphic file (type png)
+<use ./chapter-05-our-contribution/1.png>
+Package pdftex.def Info: ./chapter-05-our-contribution/1.png  used on input lin
+e 89.
+(pdftex.def)             Requested size: 426.79134pt x 425.9482pt.
+)
+(./master-conclusion/conclusion.tex [49 <./chapter-05-our-contribution/1.png>])
+(./head-master.bbl [50]
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+[]\OT1/cmr/m/n/10.95 Skin, cleve-land clinic.  []$\OT1/cmtt/m/n/10.95 https : /
+ / my . clevelandclinic . org / health / articles /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
+[]\OT1/cmr/m/n/10.95 Hair and hu-man skin anatomy.  []$\OT1/cmtt/m/n/10.95 http
+s : / / www . vecteezy . com / vector-[]art /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--51
+\OT1/cmtt/m/n/10.95 / / www . kaggle . com / code / jnegrini / ham10000-[]analy
+sis-[]and-[]model-[]comparison /
+ []
+
+[51
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
+[]\OT1/cmr/m/n/10.95 Skin can-cer 101, skin can-cer foun-da-tion.  []$\OT1/cmtt
+/m/n/10.95 https : / / www . skincancer . org /
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 113--115
-[]\OT1/cmr/m/n/12 Skin can-cer (non-melanoma), nhs.  []$\OT1/cmtt/m/n/12 https 
-: / / www . nhs . uk / conditions /
+[]\OT1/cmr/m/n/10.95 Skin can-cer (non-melanoma), nhs.  []$\OT1/cmtt/m/n/10.95 
+https : / / www . nhs . uk / conditions /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--138
-[]\OT1/cmr/m/n/12 First im-munother-apy for ad-vanced basal cell car-ci-noma ap
--
+Overfull \hbox (20.63103pt too wide) in paragraph at lines 133--138
+\OT1/cmtt/m/n/10.95 libtayo-[]first-[]immunotherapy-[]for-[]advanced-[]basal-[]
+cell-[]carcinoma-[]approved-[]in-[]us/$[]\OT1/cmr/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--138
-\OT1/cmr/m/n/12 proved in us, eu-ro-pean phar-ma-cau-ti-cal re-view.  []$\OT1/c
-mtt/m/n/12 https :
+Underfull \hbox (badness 2326) in paragraph at lines 140--142
+[]\OT1/cmr/m/n/10.95 Skin can-cer pre-ven-tion, skin can-cer foun-da-tion.  []$
+\OT1/cmtt/m/n/10.95 https : / / www . skincancer . org /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--138
-\OT1/cmtt/m/n/12 / / www . europeanpharmaceuticalreview . com / news / 142524 /
-
+Underfull \hbox (badness 2635) in paragraph at lines 172--175
+[]\OT1/cmr/m/n/10.95 machine learn-ing in com-puter vi-sion, full scale.  []$\O
+T1/cmtt/m/n/10.95 https : / / fullscale . io / blog /
  []
 
-
-Overfull \hbox (54.92372pt too wide) in paragraph at lines 133--138
-\OT1/cmtt/m/n/12 libtayo-[]first-[]immunotherapy-[]for-[]advanced-[]basal-[]cel
-l-[]carcinoma-[]approved-[]in-[]us/$[]\OT1/cmr/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--149
-\OT1/cmtt/m/n/12 org / diseases-[]conditions / skin-[]cancer / diagnosis-[]trea
-tment / drc-[]20377608$[]\OT1/cmr/m/n/12 ,
- []
-
-[2]
-Underfull \hbox (badness 2103) in paragraph at lines 219--225
-[]\OT1/cmr/m/n/12 Hennie de Harder.  Model-agnostic meth-ods for in-ter-pret-in
-g any ma-chine
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 219--225
+[]\OT1/cmr/m/n/10.95 Hennie de Harder.  Model-agnostic meth-ods for in-ter-pret
+-ing any ma-chine
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 219--225
-\OT1/cmr/m/n/12 learn-ing model, to-wards-data-science.  []$\OT1/cmtt/m/n/12 ht
-tps : / / towardsdatascience . com /
+\OT1/cmr/m/n/10.95 learn-ing model, to-wards-data-science.  []$\OT1/cmtt/m/n/10
+.95 https : / / towardsdatascience . com /
  []
 
 
-Overfull \hbox (66.77373pt too wide) in paragraph at lines 219--225
-\OT1/cmtt/m/n/12 model-[]agnostic-[]methods-[]for-[]interpreting-[]any-[]machin
-e-[]learning-[]model-[]4f10787ef504$[]\OT1/cmr/m/n/12 ,
+Overfull \hbox (31.6284pt too wide) in paragraph at lines 219--225
+\OT1/cmtt/m/n/10.95 model-[]agnostic-[]methods-[]for-[]interpreting-[]any-[]mac
+hine-[]learning-[]model-[]4f10787ef504$[]\OT1/cmr/m/n/10.95 ,
  []
 
-[3])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
- [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
+
+Underfull \hbox (badness 1297) in paragraph at lines 232--237
+[]\OT1/cmr/m/n/10.95 By Mayo Clinic Staff.  Melanoma, mayo clinic.  []$\OT1/cmt
+t/m/n/10.95 https : / / www . mayoclinic . org /
+ []
+
+
+Underfull \hbox (badness 8151) in paragraph at lines 239--242
+[]\OT1/cmr/m/n/10.95 Melanoma overview, skin can-cer foun-da-tion.  []$\OT1/cmt
+t/m/n/10.95 https : / / www . skincancer . org /
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 62.
+ [53]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
  (./head-master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 62.
 
 
  *File List*
@@ -741,31 +1598,81 @@ head-master.out
 cover-page/cover-page2.tex
    Uxnsh.fd
 ./cover-page/logo.png
+abstract-master/abstract.tex
+general-intoduction-master/general-intoduction.tex
+chapter-01-general-medical-information/skin.tex
+./chapter-01-general-medical-information/skin-anatomy.jpg
+./chapter-01-general-medical-information/hair-sweat-gland.jpg
+./chapter-01-general-medical-information/protective-barrier.jpg
+./chapter-01-general-medical-information/vitaminD.jpg
+chapter-01-general-medical-information/cancer.tex
+./chapter-01-general-medical-information/mutation.png
+./chapter-01-general-medical-information/dna-rearrangement.png
+./chapter-01-general-medical-information/benign-malignant.png
+chapter-01-general-medical-information/skin-cancer.tex
+./chapter-01-general-medical-information/Melanoma.jpg
+./chapter-01-general-medical-information/Squamous.png
+./chapter-01-general-medical-information/basal.jpeg
+chapter-02-general-ai-information/ai.tex
+./chapter-02-general-ai-information/versus.jpg
+./chapter-02-general-ai-information/machine-learning-cv.png
+./chapter-02-general-ai-information/cnn.png
+chapter-03-state-of-the-art/state_of_the_art.tex
+./chapter-03-state-of-the-art/preprocessing.png
+./chapter-03-state-of-the-art/segmentation.png
+./chapter-03-state-of-the-art/confusion-matrix.png
+./chapter-03-state-of-the-art/ROC.png
+./chapter-03-state-of-the-art/dls.png
+./chapter-03-state-of-the-art/clinical-image.png
+./chapter-03-state-of-the-art/ann.png
+./chapter-03-state-of-the-art/evaluation.png
+./chapter-03-state-of-the-art/seg-input.png
+./chapter-03-state-of-the-art/seg-output.png
+chapter-04-discussion/results.tex
+chapter-05-our-contribution/contribution.tex
+./chapter-05-our-contribution/3.png
+./chapter-05-our-contribution/2.png
+./chapter-05-our-contribution/5.png
+./chapter-05-our-contribution/4.png
+./chapter-05-our-contribution/1.png
+master-conclusion/conclusion.tex
 head-master.bbl
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 62.
 Package rerunfilecheck Info: File `head-master.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
+(rerunfilecheck)             Checksum: AE3A642BC01A6A62335423D46FB61926;4491.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 62.
  ) 
 Here is how much of TeX's memory you used:
- 10461 strings out of 481239
- 151199 string characters out of 5920377
- 442747 words of memory out of 5000000
- 25443 multiletter control sequences out of 15000+600000
- 537426 words of font info for 41 fonts, out of 8000000 for 9000
+ 11036 strings out of 481239
+ 165132 string characters out of 5920377
+ 468647 words of memory out of 5000000
+ 25771 multiletter control sequences out of 15000+600000
+ 540884 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,4n,96p,256b,428s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/arabtex/xnsh14.pfb>
-Output written on head-master.pdf (5 pages, 104625 bytes).
+ 55i,10n,96p,1807b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/sha
+re/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1
+/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/arabtex/xnsh14.pfb>
+Output written on head-master.pdf (54 pages, 6411708 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
- 53 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1044 PDF objects out of 1200 (max. 8388607)
+ 902 compressed objects within 10 object streams
+ 216 named destinations out of 1000 (max. 500000)
+ 626 words of extra memory for PDF output out of 10000 (max. 10000000)
 

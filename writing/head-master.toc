@@ -48,9 +48,15 @@
 \contentsline {section}{\numberline {3.7}Interpretable deep learning systems for multi-class segmentation and classification of non-melanoma skin cancer}{35}{section.3.7}%
 \contentsline {section}{\numberline {3.8}Comprehensive Comarative Information}{37}{section.3.8}%
 \contentsline {chapter}{\numberline {4}Results and Discussion}{42}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Our Contribution}{43}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Introduction}{43}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Proposed Convolutional Neural Network Model}{43}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Dataset (MNIST- HAM10000)}{44}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Pre-processing}{44}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Experimental results}{46}{section.5.5}%
+\contentsline {section}{\numberline {4.1}Introduction}{42}{section.4.1}%
+\contentsline {section}{\numberline {4.2}datasets}{42}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Extracted Features}{43}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Methods}{43}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Applicability}{44}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Our Contribution}{45}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{45}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Proposed Convolutional Neural Network Model}{45}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Dataset (MNIST- HAM10000)}{46}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Pre-processing}{46}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Experimental results}{48}{section.5.5}%
+\contentsline {section}{\numberline {5.6}conclusion}{50}{section.5.6}%

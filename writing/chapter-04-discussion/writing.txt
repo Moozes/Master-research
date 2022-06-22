@@ -1,0 +1,55 @@
+in this chapter we are going to compare the various descussed methods  depending on multiple criterias and different point of views, in other terms the comparaison will be based on the different datasets used, the different methods and there performance, interpritability and applicability in real life scenarious
+
+datasets
+    ISIC 2019
+    Kaggle
+    PH2
+
+    Hallym problem ethnicity
+    Dermquest problem unsatisfactory for non-melanoma
+    DermIS problem unsatisfactory for non-melanoma
+    HAM10000 ISIC problem performance degrades for other datasets, problem with melanoma class, biased for diverse dataset (works good for binary though)
+    Dermnet problem able to identify only few skin lesions
+    ISBI
+    Atlas Contents
+    your own dataset if you have a new idea(insure quality, comprehensivenes (ages, races, sex...), work with doctors)
+        or you have a new idea like Raman spectra
+        raman spectra purpose (non invasive)
+        microscopic images purpose (interpritability)
+        clinical data
+
+    general problem 
+        haire
+
+    after talking about these datasets, we are going to talk about the features extracted from them, which are GLCM, ABCD, LBP, Autocorrelation, correlation, Standard vector and other statistical features (raman :arithmetic mean, standard deviation)
+
+methods
+    SVM 90%
+    hybrid adaboost SVM (Adaboost: adaptive boosting, it can be used with various algorithms to increase the performance)
+    MSVM (multi-class) >96%
+    lightGBM (complex decision tree open source software) 97%
+    ANN
+    DNN (deep neural networks) with Dragonfly optimization algorithm >95%
+    CNN and its famous architectures >80%
+        DCNN (deep CNN) 95%
+        u-net for medical image segmentation
+        Resnet >90%
+        FCRN (Fully Convolutional Residual Networks) 70%
+        CNN + Whale algorithm aplied for optimization
+        GoogleNet 96%
+        DenseNet 90%
+        MobileNet 90%
+        Inception v3
+        DLS (deep learning studio) auc 99%
+
+    interpretability will reduce your performance because hard
+
+    
+Applicability:
+    when we talk about applicability we need to consider 4 things (place, dataset, method, interpretability), I- where do plan on using your algorithm: in a local clinic or a national hospital or internationnaly ?,
+    
+    II- is the dataset used compatible with place off applicability, in other words if you plan on applying your method locally your trainning set need to be local also, and not from another country (so famous international datasets wont be sufficant) or if you plan on using your method in a national/international level your dataset need to be comprehensive and balanced in all ways: skin color tones, ethnicity, age, sex...etc 
+    
+    III- thirdly your method need to take into consideration the available dataset and the place of applicability, do you want milticlass classification or binary classification ?, is the place you planing on applying you method in capable of aquiring the needed technology ? (like in the case of Raman Spectroscopy, not all clinics are capable of having such a technology), is your method of diagnosis compatible with cultural specifications (invasive or non-invasive)? 
+
+    IV- lastly, is your method interpretabe? because most the mentioned algorithms above are not naturally interpretabe (black boxes), so unless they get interpreted they cant be trusted in high stakes scenarios.
