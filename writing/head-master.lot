@@ -1,10 +1,12 @@
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Cancer Statistic \nobreakspace {}\cite {cancerStat}\relax }}{12}{table.caption.12}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Cancer Statistic \nobreakspace {}\cite {cancerStat}\relax }}{12}{table.caption.11}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.3}{\ignorespaces Another comparative table of latest methods used in skin lesion detection and there limitations \nobreakspace {}\cite {Naresh2020}\relax }}{39}{table.3.3}%
-\contentsline {table}{\numberline {3.1}{\ignorespaces A comparative table of the methods mentioned above in this article\relax }}{40}{table.caption.31}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces A comparative table of latest methods used in skin lesion detection. DCNN(Deep convolutional neural network), FCRN (Fully Convolutional Residual Networks) \nobreakspace {}\cite {Saba2020}\relax }}{41}{table.caption.32}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Another comparative table of latest methods used in skin lesion detection and there limitations \nobreakspace {}\cite {Naresh2020}\relax }}{39}{table.4.3}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces A comparative table of the methods mentioned above in this article\relax }}{40}{table.caption.30}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces A comparative table of latest methods used in skin lesion detection. DCNN(Deep convolutional neural network), FCRN (Fully Convolutional Residual Networks) \nobreakspace {}\cite {Saba2020}\relax }}{41}{table.caption.31}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Evaluation Mesures\relax }}{50}{table.caption.38}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Evaluation Mesures\relax }}{51}{table.caption.37}%
+\addvspace {10\p@ }
