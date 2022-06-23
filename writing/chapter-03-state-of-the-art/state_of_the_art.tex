@@ -8,7 +8,7 @@ In this chapter we are going to present some recent work and research that was d
     \item [Proposed methodology] \hfill \\
     The proposed methodology in this article ~\cite{Krishna2020} uses a 6-step process (input data - preprocessing - segmentation - feature extraction - classification - output data).
     \item [Input data] \hfill \\ 
-        Dermoscopic images from the ISIC ( International Skin Imaging Collaboration) 2019 challenge containing 8 classes of skin lesions, and for simplicity reasons only 800 images out of, 25000 is used.
+        Dermoscopic images from the ISIC ( International Skin Imaging Collaboration) 2019 challenge containing 8 classes of skin lesions, and for simplicity reasons only 800 images out of, 25000 are used.
     
     \item [Preprocessing] \hfill \\
         Because of the heterogeneity of the input data, a preprocessing step is required to enhance the quality of images and remove irrelevant parts. The main techniques used here are gray scale conversion and the application of the Gaussian and median filter for noise removal and enhancement, and for the unwanted hair they applied the Dull Razor method (a preprocessing algorithm), as shown in figure ~\ref{fig:Preprocessing}.
@@ -63,7 +63,7 @@ In this chapter we are going to present some recent work and research that was d
     \textbf{dataset: }
     For the dataset they brought 33 benign and 51 malignant samples and cut them into regular cuts of $2mm^3$, a laser was used to excite the samples to collect the Raman signals using special tools after this they acquired 436 Raman spectra (spectrum graphs y=f(x) where x is frequency or wave number $cm^-1$ and y is the intensity of scattered light). And they focused on the biological fingerprint spectral region from 800 to 1800 $cm^-1$.
 
-    \textbf{Fluorescence background data pre-process: }
+    \textbf{Fluorescence background data pre-processing: }
     Fluorescence is a radiation that is emitted by molecules after interacting with electromagnetic radiation and this could overshadow and disturb the study of Raman spectra, to deal with this noise they used a low frequency laser to lower the probability of fluorescence emissions and by this they could jump the preprocessing step.
 \item[Feature extraction] \hfill \\
     They divided the obtained spectrums into subsequences (local spectrums) and extracted some statistical measures from it such as arithmetic mean, standard deviation, derivative ...etc.
@@ -95,7 +95,7 @@ In this paper ~\cite{Kadampur2020} the researchers are presenting a model driven
 \item[Advantage] \hfill \\
 The advantage of this non-programmatic approach is for researchers and practitioners to be able to create and test their own models without the need for prior programming knowledge.
 \item[Application and Results] \hfill \\
-And then they proceed using this tool DLS to show its efficacy and ease of use, they have built and tested 5 models using famous architectures squeeznet, densenet, and inception v3.
+And then they proceed using this tool DLS to show its efficacy and ease of use, they have built and tested 5 models using famous CNN architectures squeeznet, densenet, and inception v3.
 With model1 acquiring an AUC of 99.77\% .
 \end{description}
 
@@ -186,7 +186,7 @@ Because the image dataset is imbalanced they used multiple strategies to overcom
         The structure of the ANN is shown in figure ~\ref{fig:ann}.
     
     \item [Evaluation] \hfill \\
-        For the evaluation of their classifier they calculated accuracy, specificity, sensitivity and precision shown in figure ~\ref{fig:evaluation}  where all the measures are $>$ 97\%, and furthermore they also studied the effect of each feature on the discrimination process between benign and malignant lesion, and they found that the minimum sensitivity per single feature is 69\%, minimum specificity per single feature is 73 and minimum accuracy per single feature is 71\% which goes to show that all the used features are playing an important role in the classification process, and lastly they did a comparative evaluation between their work and previous works on the basis of extracted features which showed that more features implies higher performance rates, an example of that is the accuracy of previous works using a combination of some but not all features in (ABCD, GLCM, LBP) always presented an accuracy $<$ 97\%.
+        For the evaluation of their classifier they calculated accuracy, specificity, sensitivity and precision shown in figure ~\ref{fig:evaluation}  where all the measures are $>$ 97\%, and furthermore they also studied the effect of each feature on the discrimination process between benign and malignant lesion, and they found that the minimum sensitivity per single feature is 69\%, minimum specificity per single feature is 73\% and minimum accuracy per single feature is 71\% which goes to show that all the used features are playing an important role in the classification process, and lastly they did a comparative evaluation between their work and previous works on the basis of extracted features which showed that more features implies higher performance rates, an example of that is the accuracy of previous works using a combination of some but not all features in (ABCD, GLCM, LBP) always presented an accuracy $<$ 97\%.
 
     \item [In Conclusion: ] \hfill \\
     The use of hybrid features provided a higher performant model in the detection and classification of benign and malignant melanoma skin cancer.
@@ -234,13 +234,13 @@ To try and explain our model ~\cite{Hennie2020} which are statistical and visual
 
 \begin{description}
 \item[Dataset] \hfill \\
-    MyLab Pathology provided them with their pre-existing images on non-melanoma cancers, which were taken by a microscope (one image of a cancer is the result of multiple microscopic images concatenated together) for punch, shave and excision biopsies (shave: the surface of the skin is removed with a sharp knife, punch: a round small part of the skin is removed) which meant high resolution images (1px=0.67µm) and each image was annotated by a pathologist to indicate important tissue section in the discrimination process, any imbalance of classes was solved using augmentation (rotation and flipping...etc).
+    MyLab Pathology provided them with their pre-existing images on non-melanoma cancers, which were taken by a microscope (one image of a cancer is the result of multiple microscopic images concatenated together) for punch, shave and excision biopsies (shave: the surface of the skin is removed with a sharp knife, punch: a round small part of the skin is removed) which meant high resolution images (1px=0.67µm) and each image was annotated by a pathologist to indicate important tissue sections that will be usefull in the classification process, any imbalance of classes was solved using augmentation (rotation and flipping...etc).
 
 \item[Models] \hfill \\
     \begin{description}
     \item[Whole image segmentation] \hfill \\
-        input: microscopic image  see figure ~\ref{fig:seg-input} \hfill \\.
-        ouput: h x w x 12 (12 probability distribution maps), see figure ~\ref{fig:seg-output}  \hfill \\.
+        input: microscopic image  see figure ~\ref{fig:seg-input}. \hfill \\
+        ouput: h x w x 12 (12 probability distribution maps), see figure ~\ref{fig:seg-output}.  \hfill \\
         the different tissue sections were colored 
         \begin{enumerate}
             \item Glands (GLD) 
@@ -256,12 +256,12 @@ To try and explain our model ~\cite{Hennie2020} which are statistical and visual
             \item SCC (Squamous cell carcinoma)
             \item IEC (a very early treatable form of skin cancer)
         \end{enumerate}
-        To be fed to the segmentation model to train on semantic segmentation, this model was created using a combination of U-net-like architecture (U-net: a famous CNN architecture for biomedical image segmentation) and a pretrained headless ResNet50 network. Now because of the high resolution of the microscopic images they were fed to the model in parts of 256x256 and 512x512 pixels.
+        To be fed to the segmentation model to train on semantic segmentation, this model was created using a combination of U-net-like architecture (U-net: a famous CNN architecture for biomedical image segmentation) and a pretrained headless ResNet50 network. Because of the high resolution of the microscopic images they were fed to the model in parts of 256x256 and 512x512 pixels.
 
     \item[Whole image classification] \hfill \\
 
-        Input: output of segmentation (h x w x [12 images]) was given to classification \hfill \\.
-        Output: 4 classes Healthy, BCC, SCC and IEC \hfill \\.
+        Input: output of segmentation (h x w x [12 images]). \hfill \\
+        Output: 4 classes Healthy, BCC, SCC and IEC. \hfill \\
         The output of whole image segmentation (which was a probability distribution for each pixel on the 12 tissue classes) was fed to a CNN to train as a classifier using Adam optimizer (used to accelerate the gradient descent algorithm) and a learning rate of 0.0001, with a ratio of 80:10:10 for training, validation and testing.
     \end{description}
 
@@ -273,7 +273,7 @@ To try and explain our model ~\cite{Hennie2020} which are statistical and visual
 
 
 \item[Conclusion] \hfill \\
-    They showed that in order to build an interpretable model for skin cancer detection and classification you need to train your model the same way a real doctor would try to diagnose the skin cancer, and they did that by feeding and training the algorithm with the same data a dermatologist would use for diagnosis without ignoring anything such as hair, sweat glands ...etc. In the end they obtained a high performant model that is interpretable (which means that when a doctor sees the classification of the algorithm he can understand why it chose that classification) which will increase the possibility to use this approach in real life high stake scenarios, furthermore, because they used a diverse dataset said their algorithm can be used for more routine work that a dermatologist would do such as assessing aggressiveness, depth, direction of growth and even calculating surgical margins (to know how much tissue to remove to guarantee that all cancerous cells are removed).
+    They showed that in order to build an interpretable model for skin cancer detection and classification you need to train your model the same way a real doctor would try to diagnose the skin cancer, and they did that by feeding and training the algorithm with the same data a dermatologist would use for diagnosis without ignoring anything such as hair, sweat glands ...etc. In the end they obtained a high performant model that is interpretable (which means that when a doctor sees the classification of the algorithm he can understand why it chose that classification) which will increase the possibility to use this approach in real life high stake scenarios, furthermore, because they used a diverse dataset they said their algorithm can be used for more routine work that a dermatologist would do such as assessing aggressiveness, depth, direction of growth and even calculating surgical margins (to know how much tissue to remove to guarantee that all cancerous cells are removed).
 \end{description}
 
 

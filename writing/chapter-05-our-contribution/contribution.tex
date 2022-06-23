@@ -15,7 +15,7 @@
 \section{Proposed Convolutional Neural Network Model}
     The main aim of this implementation is to detect melanoma skin cancer through RGB images, to achieve this, we build a deep learning model that is capable of extracting features from the given dataset.
 
-    After delving into many articles and studies, we have found that the best convolutional neural network model we can suggest in this case is resnet50, and so we are going to implement i from scratch. As shown in figure ~\ref{fig:architecture}
+    After delving into many articles and studies, we have found that the best convolutional neural network model we can suggest in this case is resnet50, and so we are going to implement it from scratch. As shown in figure ~\ref{fig:architecture}
 
     \begin{figure}[htbp]
     \begin{center}
@@ -62,7 +62,8 @@
 
         \item[Data balancing: ] \hfill \\  When reclassifying the data set, we notice that the data set is numerically unbalanced. To solve this problem, we increase the number of images of the melanoma type by rotating, cropping and scaling. As for the non-melanoma type, we reduce the number of images by randomly selecting a specified number of images.
 
-        \item[Image resizing: ] \hfill \\  In this step, we reduce the image size to 75*100 to speed up the training process of the deep learning model. data splitting : Before the data set becomes usable, we divide it into two parts, the first part is the training set with 80 percent, and the second part is the test set with 20 percent
+        \item[Image resizing: ] \hfill \\  In this step, we reduce the image size to 75*100 to speed up the training process of the deep learning model. 
+        \item[data splitting :] Before the data set becomes usable, we divide it into two parts, the first part is the training set with 80 percent, and the second part is the test set with 20 percent
     \end{description}
 
         The diagram ~\ref{fig:steps} helps to understand these steps
@@ -78,9 +79,9 @@
 
 
 \section{Experimental results}
-    To judge the performance of the model for the task of predicting skin lesions, we use several evaluation metrics to evaluate our model. This is because the model may perform well using one measurement from one evaluation metric, but may perform poorly using another measurement from another evaluation metric. Using evaluation metrics are critical in ensuring that our model is operating correctly and optimally.
+    To judge the performance of the model for the task of predicting skin lesions, we use several evaluation metrics to evaluate our model. This is because the model may perform well using one measurement from one evaluation metric, but may perform poorly using another measurement from another evaluation metric. Using evaluation metrics is critical in ensuring that our model is operating correctly and optimally.
 
-    When the model was trained for 30 epochs, it was observed that the accuracy for both the training and test data started with rather large values and continued to increase small from epoch 4 until it reached its peak in epoch 30, where the test accuracy reached 93 percent and the training accuracy was 97 percent.
+    When the model was trained for 30 epochs, it was observed that the accuracy for both the training and test data started with rather large values and continued to increase slowly from epoch 4 until it reached its peak in epoch 30 (which goes to show that our chosen artchitecture is very good for this task). The test accuracy reached 93 percent and the training accuracy was 97 percent.
 
     The plot for the accuracy and loss obtained during the training and testing process is shown in Figure ~\ref{fig:acc-loss}
 

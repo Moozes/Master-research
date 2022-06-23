@@ -42,8 +42,8 @@ In this chapter we are going to compare the various discussed methods  depending
             \item DenseNet 
             \item MobileNet 
             \item Inception v3
-            \item DLS (deep learning studio) 
         \end{itemize}
+        \item DLS (deep learning studio) 
     \end{itemize}
     An overall view of literature tells us that the performance metric of both deep learning and machine learning is the same, with deep learning being slightly better. The best of both sides are: (MSVM reaching an accuracy of 96.25\% and lightGBM achieving an AUC $>$97\%) and (ANN performance metric, accuracy, specificity... all being above 97\% and inceptionv3 CNN architecture reaching and AUC of 99\%).
 
@@ -54,15 +54,15 @@ In this chapter we are going to compare the various discussed methods  depending
     
     \textbf{I-} where do plan on using your algorithm: in a local clinic or a national hospital or internationally?.
     
-    \textbf{II-} Is the dataset used compatible with place off applicability, in other words if you plan on applying your method locally your training set need to be local also, and not from another country (so famous international datasets won't be sufficient) or if you plan on using your method in a national/international level your dataset need to be comprehensive and balanced in all ways: skin color tones, ethnicity, age, sex...etc.
+    \textbf{II-} Is the dataset used compatible with the place off applicability, in other words if you plan on applying your method locally your training set need to be local also, and not from another country (so famous international datasets won't be sufficient) or if you plan on using your method in a national/international level your dataset need to be comprehensive and balanced in all ways: skin color tones, ethnicity, age, sex...etc.
     
-    \textbf{III-} Thirdly your method need to take into consideration the available dataset and the place of applicability, do you want milticlass classification or binary classification ?, is the place you're planing on applying your method in capable of acquiring the needed technology ? (like in the case of Raman Spectroscopy, not all clinics are capable of having such a technology), is your method of diagnosis compatible with cultural specifications (invasive or non-invasive)?.
+    \textbf{III-} Thirdly your method need to take into consideration the available dataset and the place of applicability, do you want multiclass classification or binary classification ?, is the place you're planing on applying your method in capable of acquiring the needed technology ? (like in the case of Raman Spectroscopy, not all clinics are capable of having such a technology), is your method of diagnosis compatible with cultural specifications (invasive or non-invasive)?.
 
     \textbf{IV-} Lastly, is your method interpretable? Because most of the mentioned algorithms above are not naturally interpretable (black boxes), so unless they get interpreted, they can't be trusted in high stakes scenarios.
 
 
 \section{Line Of Reasoning}
-    Here made a line of reasoning that could help future researchers and contributors to better navigate this field, from different point of views 
+    Here we present a line of reasoning that could help future researchers and contributors to better navigate this field, from different point of views 
     \begin{description}
         \item[Dataset] \hfill \\
             \textbf{Consider} the different datasets mentioned above, each with its benefits and limitations, some are underrepresenting of skin color tones or sex or age \\
@@ -73,7 +73,7 @@ In this chapter we are going to compare the various discussed methods  depending
             \begin{itemize}
                 \item \emph{bear in mind}:  that not all data can be discriminative, working with the wrong feature could lead you in the opposit way 
             \end{itemize}
-            An example of such dataset is the use of  image+clinical information, \\
+            An example of such dataset is the use of  images+clinical information, \\
             \begin{itemize}
                 \item \emph{problem}: the image features could overshadow the clinical information \\
                 \item \emph{solution}: use feature reducer NN on the image features before combining it with clinical data \\ 
@@ -86,7 +86,7 @@ In this chapter we are going to compare the various discussed methods  depending
                     \item But don't forget the labeling process, that needs expertise
                 \end{itemize}
         \item[Extracted Features] \hfill \\ 
-            There are famous features used in this field which are mentioned above use either one of them or a combination but take into consideration that depending on your situation not all features could be as helpful in the discrimination (classification) process.
+            There are famous features used in this field which are mentioned above, You can use either one of them or a combination but take into consideration that depending on your situation and method not all features could be as helpful in the discrimination (classification) process.
             
             So study the effect of each feature if you want to use hybrid features so you don't waste resources and time on a non-discriminative feature. 
         \item[Patient Experience and Target Users] \hfill \\ 
