@@ -1,7 +1,7 @@
 \section{Introduction}
-in this chapter we are going to compare the various descussed methods  depending on multiple criterias and different point of views, in other terms the comparaison will be based on the different datasets used, the different methods and there performance, interpritability and applicability in real life scenarious
+In this chapter we are going to compare the various descussed methods  depending on multiple criterias and different point of views, in other terms the comparaison will be based on the different datasets used, the different methods and there performance, interpritability and applicability in real life scenarious.
 
-\section{datasets}
+\section{Datasets}
     These are the famous dataset used and some of the problems encountered using them:\\ 
     \begin{itemize}
     \item \textbf{ISIC 2019}
@@ -23,7 +23,7 @@ in this chapter we are going to compare the various descussed methods  depending
     After talking about these datasets, we are going to talk about the features extracted from them, which are GLCM, ABCD, LBP, Autocorrelation, correlation, Standard vector and other statistical features (such has arithmetic mean, standard deviation for Raman spectra) all of these features are proven to play an important role in the classification process but depending on your situation and the dataset you use you could find for example a single feature that presents the same performance as the group of features (like in the case of ~\cite{Daniella2021} where they used the derivative only) and you can simply check that by trainning the model with different combination of features untill you find an important difference or by using statistical methods that tells you the degree of discrimination of each feature.
 
 \section{Methods}
-    these are the used algorithms:
+    These are the used algorithms:
     \begin{itemize}
         \item SVM 
         \item hybrid adaboost SVM (Adaboost: adaptive boosting, it can be used with various algorithms to increase the performance)
@@ -45,31 +45,31 @@ in this chapter we are going to compare the various descussed methods  depending
             \item DLS (deep learning studio) 
         \end{itemize}
     \end{itemize}
-    An overall view of letirature tells us that the performance metric of both deep learning and machine learning is the same with deep learning being slightly better. the best of both sides are: (MSVM reaching an accuracy of 96.25\% and lightGBM acheiving an AUC $>$97\%) and (ANN performance metric, accuracy, specificity... all being above 97\% and inceptionv3 CNN architecture reaching and AUC of 99\%) 
+    An overall view of letirature tells us that the performance metric of both deep learning and machine learning is the same with deep learning being slightly better. the best of both sides are: (MSVM reaching an accuracy of 96.25\% and lightGBM acheiving an AUC $>$97\%) and (ANN performance metric, accuracy, specificity... all being above 97\% and inceptionv3 CNN architecture reaching and AUC of 99\%).
 
 
     
 \section{Applicability}
-    when we talk about applicability we need to consider 4 things (place, dataset, method, interpretability)
+    When we talk about applicability we need to consider 4 things (place, dataset, method, interpretability)
     
-    \textbf{I-} where do plan on using your algorithm: in a local clinic or a national hospital or internationnaly ?
+    \textbf{I-} where do plan on using your algorithm: in a local clinic or a national hospital or internationnaly?.
     
-    \textbf{II-} is the dataset used compatible with place off applicability, in other words if you plan on applying your method locally your trainning set need to be local also, and not from another country (so famous international datasets wont be sufficant) or if you plan on using your method in a national/international level your dataset need to be comprehensive and balanced in all ways: skin color tones, ethnicity, age, sex...etc 
+    \textbf{II-} Is the dataset used compatible with place off applicability, in other words if you plan on applying your method locally your trainning set need to be local also, and not from another country (so famous international datasets wont be sufficant) or if you plan on using your method in a national/international level your dataset need to be comprehensive and balanced in all ways: skin color tones, ethnicity, age, sex...etc.
     
-    \textbf{III-} thirdly your method need to take into consideration the available dataset and the place of applicability, do you want milticlass classification or binary classification ?, is the place you planing on applying you method in capable of aquiring the needed technology ? (like in the case of Raman Spectroscopy, not all clinics are capable of having such a technology), is your method of diagnosis compatible with cultural specifications (invasive or non-invasive)? 
+    \textbf{III-} Thirdly your method need to take into consideration the available dataset and the place of applicability, do you want milticlass classification or binary classification ?, is the place you planing on applying you method in capable of aquiring the needed technology ? (like in the case of Raman Spectroscopy, not all clinics are capable of having such a technology), is your method of diagnosis compatible with cultural specifications (invasive or non-invasive)?.
 
-    \textbf{IV-} lastly, is your method interpretabe? because most the mentioned algorithms above are not naturally interpretabe (black boxes), so unless they get interpreted they cant be trusted in high stakes scenarios.
+    \textbf{IV-} Lastly, is your method interpretabe? because most the mentioned algorithms above are not naturally interpretabe (black boxes), so unless they get interpreted they cant be trusted in high stakes scenarios.
 
 
 \section{Line Of Reasoning}
     Here made a line of reasoning that could help futur researchers and contributors to better navigate this field, from different point of views 
     \begin{description}
         \item[Dataset] \hfill \\
-            \textbf{consider} the different datasets mentioneda above, each with its benefits and limitations, some are under representing of skin color tones or sex or age \\
+            \textbf{Consider} the different datasets mentioneda above, each with its benefits and limitations, some are under representing of skin color tones or sex or age \\
             \emph{solution}: combination of multiple datasets to cover each one's limitations \\
             \emph{challenge}: pre-processing to eliminate heteroginity and imbalances \\
 
-            \textbf{use a hybrid dataset} by combining different data that can help in the diagnosis process, \\
+            \textbf{Use a hybrid dataset} by combining different data that can help in the diagnosis process, \\
             \begin{itemize}
                 \item \emph{bare in mind}:  that not all data can be discriminative, working with the wrong feature could lead you in the opposit way 
             \end{itemize}
@@ -79,19 +79,19 @@ in this chapter we are going to compare the various descussed methods  depending
                 \item \emph{solution}: use feature reducer NN on the image features before combining it with clinical data \\ 
             \end{itemize}
                 
-            \textbf{use a novel dataset} you can come up with your own new idea as we've seen with
+            \textbf{Use a novel dataset} you can come up with your own new idea as we've seen with
                 \begin{itemize}
                     \item Raman spectra
                     \item microsopic images
                     \item But dont forget the labeling process, that needs expertise
                 \end{itemize}
         \item[Extracted Featues] \hfill \\ 
-            ther are famous features used in this field which are mentioned above use either one of them or a combination but take into consideration that depending on your situation not all features could be as helpfull in the discrimination (classification) process
+            Ther are famous features used in this field which are mentioned above use either one of them or a combination but take into consideration that depending on your situation not all features could be as helpfull in the discrimination (classification) process.
             
-            So study the effect of each features if you want to use hybrid features so you dont waste resources and time on a non discriminative feature 
+            So study the effect of each features if you want to use hybrid features so you dont waste resources and time on a non discriminative feature. 
         \item[Patient Experience and Target Users] \hfill \\ 
-            consider the experience of the patients,
-            is your diagnosis system going to be invasive or non-invasive?, is it affordable or not? does it require some special tool to use which is not available to all target users?
+            Consider the experience of the patients,
+            is your diagnosis system going to be invasive or non-invasive?, is it affordable or not? does it require some special tool to use which is not available to all target users?.
         \item[Methods] \hfill \\
             famous and performant algorithms
             \begin{itemize}
@@ -116,9 +116,9 @@ in this chapter we are going to compare the various descussed methods  depending
                 \end{itemize}
             \end{itemize}
         \item[No programming experience] \hfill \\
-            Open software made it possible for non programmers to participate in the process of building mahince learing models, an example of said software is (Deep Learing Studio)
+            Open software made it possible for non programmers to participate in the process of building mahince learing models, an example of said software is (Deep Learing Studio).
         \item [Your available resources and budget] \hfill \\
-            can you afford a server to train you algorithm?, if not is your available computational resources sufficant to build a big and performant model ?
+            Can you afford a server to train you algorithm?, if not is your available computational resources sufficant to build a big and performant model?.
         \item [interpritability] \hfill \\
-            lastly if your model is intended for real world application, you really need to consider the interpretability aspect, because if the end result algorithm isnt interpretable, the probavility of using your solution in high stake scenarios (and all health issues are high stake) is very low
+            Lastly if your model is intended for real world application, you really need to consider the interpretability aspect, because if the end result algorithm isnt interpretable, the probavility of using your solution in high stake scenarios (and all health issues are high stake) is very low.
     \end{description}

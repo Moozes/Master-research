@@ -9,8 +9,8 @@
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Benign and Malignant tumors \nobreakspace {}\cite {benignMalignant}\relax }}{14}{figure.caption.15}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces 3 Most Common Types of Skin Cancer\relax }}{16}{figure.caption.17}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces AI vs ML vs DL \nobreakspace {}\cite {versus}\relax }}{23}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Machine Learning in Computer Vision \nobreakspace {}\cite {mldlcv}\relax }}{24}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces AI vs ML vs DL \nobreakspace {}\cite {versus}\relax }}{24}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Machine Learning in Computer Vision \nobreakspace {}\cite {mldlcv}\relax }}{25}{figure.caption.19}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Deep Learning in Computer Vision \nobreakspace {}\cite {mldlcv}\relax }}{25}{figure.caption.20}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Preprocessing: (a)Dull razor image, (b) Gray scale image, (c) Gaussian filter, (d) Median filter.\relax }}{28}{figure.caption.21}%
@@ -19,9 +19,9 @@
 \contentsline {figure}{\numberline {4.4}{\ignorespaces ROC\relax }}{30}{figure.caption.24}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces DLS Interface\relax }}{31}{figure.caption.25}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Model\relax }}{33}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces ANN Structure\relax }}{34}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces ANN Structure\relax }}{35}{figure.caption.27}%
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Evaluation Mesures\relax }}{35}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Whole segmentation model input and output\relax }}{37}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Whole segmentation model input and output\relax }}{40}{figure.caption.29}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces proposed architecture which we have used for melanoma recognition\relax }}{47}{figure.caption.32}%
