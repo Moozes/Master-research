@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.17)  23 JUN 2022 11:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.3.17)  23 JUN 2022 17:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -569,7 +569,7 @@ f skin sam-ples for melanoma
  [4
 
 ] (./head-master.lot
-Overfull \hbox (28.51987pt too wide) in paragraph at lines 8--8
+Overfull \hbox (28.51987pt too wide) in paragraph at lines 7--7
  [][] [][]\OT1/cmr/m/n/12 A com-par-a-tive ta-ble of lat-est meth-ods used in s
 kin le-sion de-tec-tion. DCNN(Deep 
  []
@@ -698,7 +698,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--96
 Chapter 3.
 (./chapter-02-general-ai-information/ai.tex [19
 
-] [20] [21]
+]
+Overfull \hbox (6.51761pt too wide) in paragraph at lines 15--17
+\OT1/cmr/m/n/12 which means learn-ing from ex-pe-ri-ence to try to make op-ti-m
+ized de-ci-sions/predictions,
+ []
+
+[20] [21]
 Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
@@ -793,29 +799,29 @@ Package pdftex.def Info: ./chapter-03-state-of-the-art/clinical-image.png  used
 File: ./chapter-03-state-of-the-art/ann.png Graphic file (type png)
 <use ./chapter-03-state-of-the-art/ann.png>
 Package pdftex.def Info: ./chapter-03-state-of-the-art/ann.png  used on input l
-ine 196.
+ine 198.
 (pdftex.def)             Requested size: 284.52756pt x 331.73007pt.
 <./chapter-03-state-of-the-art/evaluation.png, id=751, 504.88625pt x 300.12125p
 t>
 File: ./chapter-03-state-of-the-art/evaluation.png Graphic file (type png)
 <use ./chapter-03-state-of-the-art/evaluation.png>
 Package pdftex.def Info: ./chapter-03-state-of-the-art/evaluation.png  used on 
-input line 204.
+input line 206.
 (pdftex.def)             Requested size: 284.52756pt x 169.13376pt.
 
-Overfull \hbox (41.01186pt too wide) in paragraph at lines 219--219
+Overfull \hbox (41.01186pt too wide) in paragraph at lines 221--221
 \OT1/cmr/bx/n/17.28 class seg-men-ta-tion and clas-si-fi-ca-tion of non-melanom
 a
  []
 
 [34] [35 <./chapter-03-state-of-the-art/ann.png> <./chapter-03-state-of-the-art
 /evaluation.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
 
@@ -825,10 +831,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 259--260
 File: ./chapter-03-state-of-the-art/seg-input.png Graphic file (type png)
 <use ./chapter-03-state-of-the-art/seg-input.png>
 Package pdftex.def Info: ./chapter-03-state-of-the-art/seg-input.png  used on i
-nput line 283.
+nput line 285.
 (pdftex.def)             Requested size: 147.04901pt x 169.63333pt.
 
-Overfull \hbox (11.15727pt too wide) in paragraph at lines 283--284
+Overfull \hbox (11.15727pt too wide) in paragraph at lines 285--286
  [][] 
  []
 
@@ -837,10 +843,10 @@ Overfull \hbox (11.15727pt too wide) in paragraph at lines 283--284
 File: ./chapter-03-state-of-the-art/seg-output.png Graphic file (type png)
 <use ./chapter-03-state-of-the-art/seg-output.png>
 Package pdftex.def Info: ./chapter-03-state-of-the-art/seg-output.png  used on 
-input line 289.
+input line 291.
 (pdftex.def)             Requested size: 153.57336pt x 165.11646pt.
 
-Overfull \hbox (17.68163pt too wide) in paragraph at lines 289--290
+Overfull \hbox (17.68163pt too wide) in paragraph at lines 291--292
  [][] 
  []
 
@@ -848,537 +854,527 @@ Overfull \hbox (17.68163pt too wide) in paragraph at lines 289--290
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 []\OT1/cmr/m/n/12 classification
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 \OT1/cmr/m/n/12 us-ing light-
  []
 
 
-Underfull \hbox (badness 3590) in paragraph at lines 322--322
+Underfull \hbox (badness 3590) in paragraph at lines 324--324
 \OT1/cmr/m/n/12 GBM (com-plex
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 []\OT1/cmr/m/n/12 436 Ra-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 \OT1/cmr/m/n/12 man spec-tra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 \OT1/cmr/m/n/12 (x:frequency,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
 \OT1/cmr/m/n/12 y:intensity of
  []
 
 
-Underfull \hbox (badness 5147) in paragraph at lines 322--322
+Underfull \hbox (badness 5147) in paragraph at lines 324--324
 \OT1/cmr/m/n/12 scat-tered light)
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 322--322
+Underfull \hbox (badness 1810) in paragraph at lines 324--324
 \OT1/cmr/m/n/12 for be-nign and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
 []\OT1/cmr/m/n/12 CNN fa-mous
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
 \OT1/cmr/m/n/12 ar-chi-tec-tures
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
-\OT1/cmr/m/n/12 (impi-mented
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
+\OT1/cmr/m/n/12 (im-ple-mented
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
 \OT1/cmr/m/n/12 us-ing deep
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
 []\OT1/cmr/m/n/12 Kaggle im-age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
 []\OT1/cmr/m/n/12 classification
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
 \OT1/cmr/m/n/12 us-ing mul-ti-ple
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
 \OT1/cmr/m/n/12 CNN ar-chi-tec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
-[]\OT1/cmr/m/n/12 images (1612
+Underfull \hbox (badness 7030) in paragraph at lines 328--328
+\OT1/cmr/m/n/12 ages of 6 le-
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 326--326
-\OT1/cmr/m/n/12 im-age of 6 le-
- []
-
-
-Underfull \hbox (badness 4353) in paragraph at lines 326--326
+Underfull \hbox (badness 4353) in paragraph at lines 328--328
 \OT1/cmr/m/n/12 sions)+ clin-i-cal
  []
 
 
-Underfull \hbox (badness 6658) in paragraph at lines 328--328
+Underfull \hbox (badness 6658) in paragraph at lines 330--330
 []\OT1/cmr/m/n/12 hybrid fea-tures
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 328--328
+Underfull \hbox (badness 1221) in paragraph at lines 330--330
 \OT1/cmr/m/n/12 ABCD, GLCM,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--328
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
 \OT1/cmr/m/n/12 LBP from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--328
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
 \OT1/cmr/m/n/12 der-mo-scopic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--328
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
 \OT1/cmr/m/n/12 ISIC+PH2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--328
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
 \OT1/cmr/m/n/12 datasets (1940
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 328--328
+Underfull \hbox (badness 1990) in paragraph at lines 330--330
 \OT1/cmr/m/n/12 be-nign + 1448
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
+Underfull \hbox (badness 10000) in paragraph at lines 332--332
 \OT1/cmr/m/n/12 CNN (U-net,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
+Underfull \hbox (badness 10000) in paragraph at lines 332--332
 \OT1/cmr/m/n/12 Resnet) and
  []
 
 
-Underfull \hbox (badness 4391) in paragraph at lines 330--330
-\OT1/cmr/m/n/12 CNN clas-si-fi-ca-
+Underfull \hbox (badness 10000) in paragraph at lines 332--332
+\OT1/cmr/m/n/12 CNN clas-si-fi-
  []
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 330--330
+Underfull \hbox (badness 6016) in paragraph at lines 332--332
+\OT1/cmr/m/n/12 ca-tion (healthy
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 332--332
 []\OT1/cmr/m/n/12 MyLab Pathol-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
+Underfull \hbox (badness 10000) in paragraph at lines 332--332
 \OT1/cmr/m/n/12 ogy pro-vided
  []
 
 
-Underfull \hbox (badness 2951) in paragraph at lines 330--330
+Underfull \hbox (badness 2951) in paragraph at lines 332--332
 \OT1/cmr/m/n/12 ac-cess to their
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
+Underfull \hbox (badness 10000) in paragraph at lines 332--332
 \OT1/cmr/m/n/12 pre-existing
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 330--331
+Underfull \hbox (badness 6396) in paragraph at lines 332--333
 []\OT1/cmr/m/n/12 93.6% ac-cu-racy com-pared to
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 330--331
+Underfull \hbox (badness 2608) in paragraph at lines 332--333
 \OT1/cmr/m/n/12 (Ran-dom For-est 87.2%, KNN
  []
 
 
-Underfull \hbox (badness 3128) in paragraph at lines 330--331
+Underfull \hbox (badness 3128) in paragraph at lines 332--333
 \OT1/cmr/m/n/12 80.9%, Single-layer Per-cep-tron
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--344
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
 []\OT1/cmr/m/n/12 PH2/ISBI
  []
 
 
-Underfull \hbox (badness 2119) in paragraph at lines 346--346
+Underfull \hbox (badness 2119) in paragraph at lines 348--348
 []\OT1/cmr/m/n/12 GLCM fea-tures
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
 []\OT1/cmr/m/n/12 Skin Can-cer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
 \OT1/cmr/m/n/12 and Be-nign
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
 \OT1/cmr/m/n/12 Tu-mor Im-age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--349
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
 []\OT1/cmr/m/n/12 91.7% (Ac-cu-racy) 94.1%(sen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--349
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
 \OT1/cmr/m/n/12 si-tiv-ity) 88.7%(speci-ficity)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--350
-[]\OT1/cmr/m/n/12 ABCD feat-ues
+Underfull \hbox (badness 3907) in paragraph at lines 352--352
+[]\OT1/cmr/m/n/12 ABCD fea-tures
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 356--356
+Underfull \hbox (badness 1024) in paragraph at lines 358--358
 []\OT1/cmr/m/n/12 Large col-lec-tion
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 356--356
+Underfull \hbox (badness 2495) in paragraph at lines 358--358
 \OT1/cmr/m/n/12 of Multi-Source
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--356
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 \OT1/cmr/m/n/12 Der-mato-scopic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--392
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
 []|\OT1/cmr/m/n/10.95 ResNet/ Hal-lym
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--392
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
 \OT1/cmr/m/n/10.95 dataset 19,398 in-
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 392--392
+Underfull \hbox (badness 1248) in paragraph at lines 394--394
 []|\OT1/cmr/m/n/10.95 For Basal Cell Car-ci-
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 392--392
-\OT1/cmr/m/n/10.95 the in-stances of cau-
+Underfull \hbox (badness 1158) in paragraph at lines 394--394
+\OT1/cmr/m/n/10.95 the in-stances of Cau-
  []
 
 
-Underfull \hbox (badness 2253) in paragraph at lines 392--392
-\OT1/cmr/m/n/10.95 96% for the in-stance
+Underfull \hbox (badness 1648) in paragraph at lines 394--394
+\OT1/cmr/m/n/10.95 Asian/ 88% for Cau-
  []
 
 
-Underfull \hbox (badness 6032) in paragraph at lines 394--394
+Underfull \hbox (badness 6032) in paragraph at lines 396--396
 []|\OT1/cmr/m/n/10.95 Whale al-go-rithm ap-
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 394--394
+Underfull \hbox (badness 1681) in paragraph at lines 396--396
 \OT1/cmr/m/n/10.95 plied to op-ti-mize the
  []
 
 
-Underfull \hbox (badness 3189) in paragraph at lines 394--394
+Underfull \hbox (badness 3189) in paragraph at lines 396--396
 \OT1/cmr/m/n/10.95 CNN model/ Around
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
 \OT1/cmr/m/n/10.95 mquest and Der-mIS
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 394--394
+Underfull \hbox (badness 1009) in paragraph at lines 396--396
 \OT1/cmr/m/n/10.95 Sensitivity-97%/ PPV-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
+Underfull \hbox (badness 10000) in paragraph at lines 396--397
 []|\OT1/cmr/m/n/10.95 Results are un-sat-is-fac-tory for
  []
 
 
-Underfull \hbox (badness 5802) in paragraph at lines 396--396
+Underfull \hbox (badness 5802) in paragraph at lines 398--398
 []|\OT1/cmr/m/n/10.95 ResNet/ Clin-i-cal im-
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 398--398
+Underfull \hbox (badness 2781) in paragraph at lines 400--400
 []|\OT1/cmr/m/n/10.95 ResNet/ 1279 der-mo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
 \OT1/cmr/m/n/10.95 scopic in-stances are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
 []|\OT1/cmr/m/n/10.95 Achieved 89.2% for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
 \OT1/cmr/m/n/10.95 ResNet with-out der-
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 398--398
+Underfull \hbox (badness 1701) in paragraph at lines 400--400
 \OT1/cmr/m/n/10.95 ma-tol-o-gist/ 94.3% for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
 []|\OT1/cmr/m/n/10.95 ResNet/ HAM10000
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 400--400
+Underfull \hbox (badness 1194) in paragraph at lines 402--402
 \OT1/cmr/m/n/10.95 dataset, ISIC archive-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
 \OT1/cmr/m/n/10.95 11,444 der-mato-scopic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
 []|\OT1/cmr/m/n/10.95 Mean ac-cu-racy of/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--402
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
 []|\OT1/cmr/m/n/10.95 ResNet/ Dermnet
  []
 
 
-Underfull \hbox (badness 4024) in paragraph at lines 402--403
+Underfull \hbox (badness 4024) in paragraph at lines 404--405
 \OT1/cmr/m/n/10.95 like/ Acne , Rosacea, He-man-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
 []|\OT1/cmr/m/n/10.95 Dragonfly op-ti-mized
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
 \OT1/cmr/m/n/10.95 DNN model is as-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
 \OT1/cmr/m/n/10.95 sessed us-ing ex-ist-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
 \OT1/cmr/m/n/10.95 tech-niques such as
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
 \OT1/cmr/m/n/10.95 Sup-port Vec-tor Ma-
  []
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 404--404
+Underfull \hbox (badness 3895) in paragraph at lines 406--406
 \OT1/cmr/m/n/10.95 chine, ANN, and to
  []
 
 
-Underfull \hbox (badness 5985) in paragraph at lines 404--404
+Underfull \hbox (badness 5985) in paragraph at lines 406--406
 \OT1/cmr/m/n/10.95 dis-play the ef-fi-ciency
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 404--404
+Underfull \hbox (badness 1406) in paragraph at lines 406--406
 \OT1/cmr/m/n/10.95 of the sys-tem di-verse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
-\OT1/cmr/m/n/10.95 eval-u-a-tion cri-te-ria's
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
+\OT1/cmr/m/n/10.95 ac-cu-racy, sen-si-tiv-ity,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
 \OT1/cmr/m/n/10.95 and speci-ficity are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
 []|\OT1/cmr/m/n/10.95 Achieved/ Sen-si-tiv-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
 \OT1/cmr/m/n/10.95 { 84%/ Specificity-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 406--406
 \OT1/cmr/m/n/10.95 99.5%/ Ac-cu-racy {
  []
 
 
-Underfull \hbox (badness 3884) in paragraph at lines 406--406
-[]|\OT1/cmr/m/n/10.95 CNN model used to
+Underfull \hbox (badness 2828) in paragraph at lines 408--408
+\OT1/cmr/m/n/10.95 into Melanoma, nevi,
  []
 
 
-Underfull \hbox (badness 7613) in paragraph at lines 406--406
-\OT1/cmr/m/n/10.95 Cat-e-go-rized the skin
+Underfull \hbox (badness 3657) in paragraph at lines 408--408
+\OT1/cmr/m/n/10.95 basal cell car-ci-noma/
  []
 
 
-Underfull \hbox (badness 4792) in paragraph at lines 406--406
-\OT1/cmr/m/n/10.95 nevi, basal cell car-
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+\OT1/cmr/m/n/10.95 11,444 der-mo-scopic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--406
-\OT1/cmr/m/n/10.95 ci-noma/ 11,444 der-
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+\OT1/cmr/m/n/10.95 im-ages HAM10000
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--406
-\OT1/cmr/m/n/10.95 mo-scopic im-ages
+Underfull \hbox (badness 3199) in paragraph at lines 408--408
+\OT1/cmr/m/n/10.95 dataset, ISIC archive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--406
-\OT1/cmr/m/n/10.95 HAM10000 dataset,
- []
-
-
-Underfull \hbox (badness 1275) in paragraph at lines 406--406
+Underfull \hbox (badness 1275) in paragraph at lines 408--408
 \OT1/cmr/m/n/10.95 tained by the der-ma-
  []
 
 
-Underfull \hbox (badness 4341) in paragraph at lines 406--406
+Underfull \hbox (badness 4341) in paragraph at lines 408--408
 \OT1/cmr/m/n/10.95 CNN model achieved
  []
 
 
-Underfull \hbox (badness 4242) in paragraph at lines 406--406
-\OT1/cmr/m/n/10.95 98.8%. of sen-si-tiv-
- []
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 406--407
+Underfull \hbox (badness 1127) in paragraph at lines 408--409
 \OT1/cmr/m/n/10.95 im-ages CNN model di-ag-nosed it
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 406--407
+Underfull \hbox (badness 1546) in paragraph at lines 408--409
 \OT1/cmr/m/n/10.95 ag-nosed it as melanoma/ model
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
 []|\OT1/cmr/m/n/10.95 GoogleNet CNN
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
 \OT1/cmr/m/n/10.95 model/ 4800 clin-i-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
 []|\OT1/cmr/m/n/10.95 Achieved/ Sen-si-tiv-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--410
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
 []|\OT1/cmr/m/n/10.95 DenseNet, ResNet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--410
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
 \OT1/cmr/m/n/10.95 with Der-ma-tol-o-gist/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--410
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
 \OT1/cmr/m/n/10.95 10,135 der-moscopy
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 410--410
+Underfull \hbox (badness 1264) in paragraph at lines 412--412
 \OT1/cmr/m/n/10.95 im-ages of HAM10000:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--410
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
 []|\OT1/cmr/m/n/10.95 For Melanoma and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--410
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
 \OT1/cmr/m/n/10.95 for ResNet, 99.30%
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 410--410
+Underfull \hbox (badness 1902) in paragraph at lines 412--412
 \OT1/cmr/m/n/10.95 for DenseNet whereas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--411
+Underfull \hbox (badness 10000) in paragraph at lines 412--413
 []|\OT1/cmr/m/n/10.95 Model bi-ased for the di-verse
  []
 
 
-Underfull \vbox (badness 10000) detected at line 414
+Underfull \vbox (badness 10000) detected at line 416
  []
 
 [37] [38] [39] [40 <./chapter-03-state-of-the-art/seg-input.png> <./chapter-03-
@@ -1689,8 +1685,8 @@ Package rerunfilecheck Warning: File `head-master.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `head-master.out':
-(rerunfilecheck)             Before: 319F2109C6BFB1F63555BC5BE3019724;4600
-(rerunfilecheck)             After:  092EBB43E056CDBBAC12A9E67F6A72A3;4600.
+(rerunfilecheck)             Before: 092EBB43E056CDBBAC12A9E67F6A72A3;4600
+(rerunfilecheck)             After:  7D91B0BF3DF2B2639390289EAEE93EAB;4600.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1718,7 +1714,7 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/sha
 re/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1
 /public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /arabtex/xnsh14.pfb>
-Output written on head-master.pdf (56 pages, 6417173 bytes).
+Output written on head-master.pdf (56 pages, 6417299 bytes).
 PDF statistics:
  1066 PDF objects out of 1200 (max. 8388607)
  922 compressed objects within 10 object streams

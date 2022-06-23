@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {2.3.3}Causes}{16}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {2.3.4}Risk Factors}{16}{subsection.2.3.4}%
 \contentsline {subsection}{\numberline {2.3.5}Prevention}{17}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Treatement}{18}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.6}Treatment}{18}{subsection.2.3.6}%
 \contentsline {chapter}{\numberline {3}Artificial Intelligence}{19}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Artificial Intelligence}{19}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Overview}{19}{subsection.3.1.1}%
@@ -47,7 +47,7 @@
 \contentsline {section}{\numberline {4.5}The impact of patient clinical information on automated skin cancer detection}{32}{section.4.5}%
 \contentsline {section}{\numberline {4.6}An artificial neural network based detection and classification of melanoma skin cancer using hybrid texture features}{33}{section.4.6}%
 \contentsline {section}{\numberline {4.7}Interpretable deep learning systems for multi-class segmentation and classification of non-melanoma skin cancer}{34}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Comprehensive Comarative Information}{37}{section.4.8}%
+\contentsline {section}{\numberline {4.8}Comprehensive Comparative Information}{37}{section.4.8}%
 \contentsline {chapter}{\numberline {5}Results and Discussion}{42}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Introduction}{42}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Datasets}{42}{section.5.2}%

@@ -3,11 +3,11 @@
 
     Melanoma is more dangerous because of its ability to spread to other organs more rapidly if it is not treated at an early stage. ~\cite{scfm2022}
 
-    At present, CNN has achieved very good performance in the field of computer vision compared to other mahine learning algorithms, such as object detection, image recognition, classification, etc. 
+    At present, CNN has achieved very good performance in the field of computer vision compared to other machine learning algorithms, such as object detection, image recognition, classification, etc. 
 
     Convolutional Neural Network (CNN) is a type of deep learning model for processing data that has a grid pattern, such as images, which is designed to automatically and adaptively learn spatial hierarchies of features. CNN is a mathematical construct that is typically composed of three types of layers (or building blocks): convolution, pooling, and fully connected layers. The first two, convolution and pooling layers, perform feature extraction, whereas the third, a fully connected layer, maps the extracted features into final output, such as classification. A convolution layer plays a key role in CNN, which is composed of a stack of mathematical operations, such as convolution, a specialized type of linear operation. \cite{Yamashita2018}
 
-    Because of the difficulty of detecting melanoma cancer in an ordinary way CNN is used to classify melanoma skin cancer.
+    Because of the difficulty of detecting melanoma cancer in an ordinary way, CNN is used to classify melanoma skin cancer.
 
     Research on the classification and detection of melanoma cancer by various methods has been carried out. In 2016 there was a paper entitled "Deep Residual Learning for Image Recognition" using the ResNet architecture. The paper was a winner at the 2015 ILSVRC (Imagenet competition). ~\cite{Arief2019}
 
@@ -15,7 +15,7 @@
 \section{Proposed Convolutional Neural Network Model}
     The main aim of this implementation is to detect melanoma skin cancer through RGB images, to achieve this, we build a deep learning model that is capable of extracting features from the given dataset.
 
-    After delving into many articles and studies, we have found that the best convolutional neura network model we can suggest in this case is resnet50 and so we are going to implement i from scratch. as shown in figure ~\ref{fig:architecture}
+    After delving into many articles and studies, we have found that the best convolutional neural network model we can suggest in this case is resnet50, and so we are going to implement i from scratch. As shown in figure ~\ref{fig:architecture}
 
     \begin{figure}[htbp]
     \begin{center}
@@ -29,10 +29,10 @@
 
     The ISIC archive is the largest public database for dermatoscopic image analysis research, and where the original HAM10000 was made available.~\cite{JULIANA2021}
 
-    The HAM10000 dataset is composed of 10.015 dermatoscopic images of pigmented skin lesions. The data was collected from Australian and Austrian patients. Two institutions participated in providing the images: Cliff Rosendahl in Queensland, Australia, and Medical University of Vienna, Austria. According to the authors, seven classes are defined on this dataset where some diagnoses were unified into one class for simplicity. Information regarding patient age, sex, lesion location and diagnosis is also provided with each image. ~\cite{JULIANA2021}
+    The HAM10000 dataset is composed of 10.015 dermatoscopic images of pigmented skin lesions. The data was collected from Australian and Austrian patients. Two institutions participated in providing the images: Cliff Rosendahl in Queensland, Australia, and Medical University of Vienna, Austria. According to the authors, seven classes are defined on this dataset, where some diagnoses were unified into one class for simplicity. Information regarding patient age, sex, lesion location and diagnosis is also provided with each image. ~\cite{JULIANA2021}
 
 
-    The dataset has been collated and published by Tschandl, P., Rosendahl, C. \& Kittler, H.~\cite{JULIANA2021} A sample of each type of skin lesion present in the dataset is demonstrated in the figure ~\ref{fig:dataset}. and the distribution of lesions is show in figure ~\ref{fig:distribution}
+    The dataset has been collated and published by Tschandl, P., Rosendahl, C. \& Kittler, H.~\cite{JULIANA2021} A sample of each type of skin lesion present in the dataset is demonstrated in the figure ~\ref{fig:dataset}. And the distribution of lesions is show in figure ~\ref{fig:distribution}
 
     \begin{figure}[htbp]
     \begin{center}
@@ -58,7 +58,7 @@
     \begin{description}
         \item[Data cleansing: ] \hfill \\  In this step, we remove unused and damaged data, also repair data that is incorrectly formatted.
 
-        \item[Data separation: ] \hfill \\  After cleansing the data set, we separate the data set into two types of skin lesions by changing the data label for the non-melanoma types to non-melanoma and we keep the data label for the type of melanoma as it is.
+        \item[Data separation: ] \hfill \\  After cleansing the data set, we separate the data set into two types of skin lesions by changing the data label for the non-melanoma types to non-melanoma, and we keep the data label for the type of melanoma as it is.
 
         \item[Data balancing: ] \hfill \\  When reclassifying the data set, we notice that the data set is numerically unbalanced. To solve this problem, we increase the number of images of the melanoma type by rotating, cropping and scaling. As for the non-melanoma type, we reduce the number of images by randomly selecting a specified number of images.
 
@@ -110,7 +110,7 @@
         \hline 
         \end{tabular} 
     \end{center}
-    \caption{Evaluation Mesures}
+    \caption{Evaluation Measures}
     \label{tab:eval}
     \end{table}
 
