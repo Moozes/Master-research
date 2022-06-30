@@ -1,0 +1,41 @@
+
+1- https://www.geeksforgeeks.org/jsx-full-form/
+2- https://cssinjs.org/?v=v10.9.1-alpha.2
+3- https://www.simplilearn.com/tutorials/reactjs-tutorial/what-is-reactjs#what_is_react
+4- https://www.json.org/json-en.html
+5- https://www.redhat.com/en/topics/automation/what-is-yaml
+6- https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/
+7- https://aws.amazon.com/what-is/restful-api/
+8- https://www.nginx.com/resources/glossary/web-server/
+9- https://www.cloudflare.com/learning/cdn/glossary/reverse-proxy/
+10- https://www.ibm.com/cloud/learn/containers
+11- https://geekflare.com/understanding-ssh/
+12- https://www.guru99.com/what-is-aws.html
+001 https://chooch.ai/computer-vision/what-is-an-ai-model/
+13- https://blogs.nvidia.com/blog/2012/09/10/what-is-cuda-2/
+14- https://docs.nvidia.com/deeplearning/cudnn/index.html
+15- https://www.python.org/doc/essays/blurb/ and https://corporatefinanceinstitute.com/resources/knowledge/other/python-in-machine-learning/
+16- https://www.mygreatlearning.com/blog/python-numpy-tutorial/
+17- https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-everything-you-need-to-know/
+18- https://matplotlib.org/
+19- https://www.geeksforgeeks.org/python-pillow-a-fork-of-pil/
+20- https://www.tensorflow.org/
+21- https://keras.io/about/
+22- https://blogs.nvidia.com/blog/2012/09/10/what-is-cuda-2/
+23- https://docs.nvidia.com/deeplearning/cudnn/index.html and https://wiki.metacentrum.cz/wiki/CuDNN_library
+24- https://www.anaconda.com/ and  https://www.venturelessons.com/what-is-anaconda/  
+25- https://www.nature.com/articles/d41586-018-07196-1
+26- https://www.hostinger.com/tutorials/what-is-javascript
+27- https://www.c-sharpcorner.com/article/what-and-why-reactjs/
+277 https://www.section.io/engineering-education/how-to-implement-material-ui-in-react/
+28- https://www.javatpoint.com/flutter-dart-programming
+29- https://www.altexsoft.com/blog/engineering/pros-and-cons-of-flutter-app-development/
+30- https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction
+31- https://aws.amazon.com/documentdb/what-is-mongodb/
+32- https://expressjs.com/
+33- https://www.javatpoint.com/flask-tutorial
+34- https://www.getcloudapp.com/blog/what-is-slack/
+35- https://blog.hubspot.com/website/what-is-github-used-for
+36- https://www.nginx.com/resources/glossary/nginx/
+37- https://docs.docker.com/get-started/overview/
+37- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html

@@ -10,45 +10,45 @@ Warning--entry type for "sarah2021" isn't style-file defined
 Warning--entry type for "joseph2020" isn't style-file defined
 --line 49 of file bibliography.bib
 Warning--empty publisher in Arief2019
-You've used 36 entries,
+You've used 69 entries,
             1791 wiz_defined-function locations,
-            609 strings with 8975 characters,
-and the built_in function-call counts, 4572 in all, are:
-= -- 351
-> -- 173
+            670 strings with 11144 characters,
+and the built_in function-call counts, 7542 in all, are:
+= -- 549
+> -- 206
 < -- 0
-+ -- 79
++ -- 112
 - -- 43
 * -- 119
-:= -- 612
-add.period$ -- 84
-call.type$ -- 36
+:= -- 810
+add.period$ -- 117
+call.type$ -- 69
 change.case$ -- 35
 chr.to.int$ -- 0
-cite$ -- 37
-duplicate$ -- 198
-empty$ -- 643
+cite$ -- 70
+duplicate$ -- 363
+empty$ -- 1237
 format.name$ -- 43
-if$ -- 1116
+if$ -- 1941
 int.to.chr$ -- 0
-int.to.str$ -- 36
+int.to.str$ -- 69
 missing$ -- 6
-newline$ -- 159
+newline$ -- 258
 num.names$ -- 15
-pop$ -- 211
+pop$ -- 409
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 160
+skip$ -- 424
 stack$ -- 0
 substring$ -- 21
-swap$ -- 36
+swap$ -- 69
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
 while$ -- 16
-width$ -- 38
-write$ -- 303
+width$ -- 71
+write$ -- 468
 (There were 4 warnings)
