@@ -1,0 +1,252 @@
+general introduction
+    In this presentation we are going to present our master and ingeneering thesises, which revolves around skin cancer detection using machine learning algorithms. in the master thesis we have done a comparative study for machine learning methods used for skin cancer detection and clasification and in the engineering thesis we have built a web based platform for melanoma skin caner detection using a CNN model. 
+plan of the presentation
+    first of all we are going to present the master thesis
+        introduction
+        goal
+        medical background
+        AI background
+        state of the art
+        results and discussion (our commentary and observations)
+            we provided a line of reasoning that could help future researchers and contributors
+        conclusion
+    secondly, we are going to present our engineering thesis in which we will mention
+        goal 
+        background: software+hardware used+chosen development concepts such as REST APIs
+        present the chosen CNN architecture and the final model 
+        after that, we gonna talk about the web platform
+    finaly
+        execute our application, while showcasing the different features and usecases.
+        the execution plan is going to be talked about after the presentation
+    
+
+
+
+
+MASTER
+    introduction
+        *Skin cancer is one of the most common cancers in the world, and it can be fatal if not treated early, that is why its early diagnosis is considered to be the best treatment for it. And under the light of recent advancements in computational power and in the artificial intelligence field, it is considered to be one of the best ways for early skin cancer diagnosis. 
+        
+        *That is why in this article we are going to do a comparative study of recent methods and algorithms applied in skin cancer analysis, detection and classification 
+        
+        *our comparison is going to be based on different types of datasets used for training, different algorithms applied, and famous performance metrics calculated by researchers such as accuracy, specificity, AUC (area under curve) ...etc. 
+
+    goal
+        In the hopes of better understanding the problem at hand and its applied solutions, and understanding some new explored ideas and challenges faced by researchers and contributors and finally this article will help new researchers to understand what is ahead of them and get a general view on the various applied methods before engaging and contributing to this field.
+
+
+    medical background
+        Skin 
+            The skin is a complex organ , it is interactive, self renewing and represents the first and primary defense line against hostile environment, and it has several characteristics and functions. It represents the largest sensory organ (15% of total body weight and a total area of 1.86 m2), it has a highly adaptive structure that makes it vital for the survival of the human body, the balance between its static and dynamic properties makes it highly adaptive to the variations of the outer world.
+        skin anatomy
+            Epidermis: regeneration, pigment
+            Dermis: flexibility and strength to epidermis
+            Hypodermis: main support and shock absorption
+            other entities contained in the skin: hair and, sweat glands
+            ---skin-anatomy image here---
+            
+        Cancer
+            Cancer is an illness caused by the uncontrolled division and spreading of normal cells  unlike other diseases, cancer is caused by our own bodies and not by foreign entities, and it is one of the biggest causes of death among human beings nowadays, and that is because of the ineffectiveness of traditional treatment methods such as hormones, surgery, radiation, and chemotherapy. Their ineffectiveness is due to their side effects that lead the body to deteriorate more and more.
+        origin
+            genetic mutations or rearrangements or various elements in our environment such as chemicals in tobacco, ultraviolet rays...etc
+            ---genetic-mutation image here---
+            
+        types
+            benign: non fatal, doesn't spread to other organs
+            malignant: fatal, spreads to other organs, hard to remove
+        Skin cancer
+            *Skin cancer is the abnormal growth of cells found in the epidermis (the outer layer of the skin) , it is one of the most common cancers in the world and it falls under the category of a malignant tumor that is formed by fast multiplication of cells which is caused by mutations/damage in the DNA of those cells, 
+            
+            *caused by exposure to ultraviolet rays  which can come from various sources but the most common are sunlight and tanning beds. 
+            
+            *The most common types of skin cancer are basal cell carcinoma, squamous cell carcinoma , melanoma. The good news is that if it is discovered in an early stage or pre cancerous stage, it can be treated easily without leaving a scar.
+        Symptoms
+            It has various signs
+                bump
+                brown scar
+                brownish spot
+                ...etc
+            ----Symptoms image here-------
+        How do doctors detect skin cancer
+            naked eye analysis (depends on experience)
+            using a dermatoscope
+            Lab tests (biopsies)
+
+    AI background
+        AI
+            ”Artificial intelligence (AI) is a wide-ranging branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence.” 
+            source: [https://builtin.com/artificial-intelligence]
+-----------------------
+        ML
+            ”Machine learning is a subset of artificial intelligence that gives systems the ability to learn and optimize processes without having to be consistently programmed. Simply put, machine learning uses data, statistics and trial and error to “learn” a specific task without ever having to be specifically coded for the task.”
+            source: [https://builtin.com/machine-learning]
+-----------------------
+
+        types
+            Supervised Learning: trained with pre-labeled data
+
+            Unsupervised Learning: trained with Unlabeled data, tries to find commonalities or lack of commonalities
+
+            Semi-Supervised Learning: middle ground, trained wilh both, tries to find a pattern in the unlabeled data through the pattern of labeled data
+-----------------------
+        DL
+            ”Deep learning (sometimes known as deep structured learning) is a subset of machine learning, where machines employ artificial neural networks to process information. Inspired by biological nodes in the human body, deep learning helps computers to quickly recognize and process images and speech. Computers then ”learn” what these images or sounds represent and build an enormous database of stored knowledge for future tasks. In essence, deep learning enables computers to do what humans do naturally-learn by immersion and example.”
+            source: [https://builtin.com/artificial-intelligence/deep-learning]
+-----------------------
+
+        Latest advancements in deep learning
+            ONE-SHOT LEARNING and NAS (neural architecture search)
+                One-shot: less data needed, 
+                Nas: an algorithm finds the best neural network architecture
+            GANS (Generative Adversarial Networks)
+                2 networks put against each other
+            AUTOML
+                ML algorithms find the design of the network and, all we have to do is provide data
+-----------------------
+        Computer vision
+            Building algorithms that understand, analyses and extracts useful information from images just like us human beings
+------------------------
+        computer vision using ML
+            Images as input
+            Preprocess and feature extraction done by developers
+            Algorithms train using extracted features
+            Prediction
+------------------------
+        computer vision using DL (CNN)
+            Images as input
+            Preprocess and feature extraction done by the algorithm
+            Algorithms train using extracted features
+            Prediction
+------------------------
+
+    state of the art
+        In this chapter we did a recap of recent articles and research papers talking about skin cancer detection and classification, in the beginning we talked about traditional methods then we explored new and novel ideas
+
+            All methods follow the same 6 step process  
+                input data 
+                preprocessing 
+                segmentation 
+                feature extraction 
+                classification 
+                output data 
+            and the differences are in datasets used, preprocessing techniques, chosen features and, the performance acheived by each method
+---------------------------
+            Datasets
+                • ISIC 2019
+                • Kaggle
+                • PH2
+                • Hallym, problem performance depends on ethnicity
+                • Dermquest, problem unsatisfactory for non-melanoma
+                • DermIS, problem unsatisfactory for non-melanoma
+                • HAM10000 ISIC 2018, problem biased for diverse dataset (but works good for binary
+                classification)
+                • Dermnet, problem able to identify only few skin lesions
+                • ISBI
+                • Atlas Contents
+
+                Compile your own dataset if you have a new idea (such as: Raman spectra, clinical
+                data+image)
+
+                A general problem met with all datasets is the preprocessing and cleaning (such as smooth-
+                ing and hair removal)
+---------------------------
+
+            preprocessing: 
+                gray scale conversion, 
+                Gaussian and median filter for noise removal and enhancement, 
+                Dull Razor method (hair removal) 
+                and other
+---------------------------
+
+            feature extraction 
+                GLCM(Grey Level Cooccurrence Matrix), 
+                ABCD(Asymmetry, Border, Color and Diameter), 
+                LBP (local binary pattern), 
+                Autocorrelation, 
+                correlation, 
+                Standard vector 
+                and other statistical features (such has arithmetic mean, standard deviation for Raman spectra) 
+                
+                all of these features are proven to play an important role in the classification process but depending on your situation and the dataset you use you could find for example a single feature that presents the same performance as the group of features (like in the case of [36] where they used the derivative only) and you can simply check that by training the model with different combination of features until you find an important difference or by using statistical methods that tells you the degree of discrimination of each feature.
+---------------------------
+            classification: 
+            • SVM
+            • hybrid adaboost SVM (Adaboost: adaptive boosting, it can be used with various algo-
+            rithms to increase the performance)
+            • MSVM (multi-class)
+            • lightGBM (complex decision tree, open source software)
+            • ANN
+            • DNN (deep neural networks) with Dragonfly optimization algorithm
+            • CNN and its famous architectures
+                – DCNN (deep CNN)
+                – u-net for medical image segmentation
+                – Resnet
+                – FCRN (Fully Convolutional Residual Networks)
+                – CNN + Whale algorithm applied for optimization
+                – GoogleNet
+                – DenseNet
+                – MobileNet
+                – Inception v3
+            • DLS (deep learning studio)
+---------------------------
+        evaluation
+            both deep learning and machine learning is the same, with deep learning being slightly better. The best of both sides are: (MSVM reaching an accuracy of 96.25% and lightGBM achieving an AUC >97%) and (ANN performance metric, accuracy, specificity... all being above 97% and inceptionv3 CNN architecture reaching and AUC of 99%).
+---------------------------
+        Applicability
+            we need to consider 4 things 
+            place: local or global?
+            dataset: compatible with the population that you are going to apply the algorithm on?
+            method: is the place you’re planing on applying your method in capable of acquiring the needed technology?
+            interpretability: is your method interpretable or works as a black boxes?
+---------------------------
+        Line of reasoning
+            Dataset 
+                consider the different limitations, 
+                consider using a hybrid dataset 
+                Use a novel dataset (as we have seen with: Raman spectra, microsopic images)
+
+            Extracted Features
+                a lot of predefined features, use one of them or a combination, 
+
+            Patient Experience and Target Users
+                invasive or non-invasive?
+                is it affordable or not?
+
+            Methods
+                in ML
+                    needs less data
+                    MSVM
+                    lightGBM
+                in DL
+                    requires a huge amount of data
+                    +optimization algorithms like: Dragonfly, Whale
+                    ANN
+                    CNN
+                    ∗ inceptionv3
+                    ∗ Resnet
+                    for multiclassification use transfer learning
+                    for binary classification you can train from scratch
+            
+            No programming experience: some tools help in that such as DLS(deep learning studio)
+
+            Your available resources and budget
+
+            interpretability: if your model is intended for real world application, you really need to consider the interpretability aspect
+
+    conclusion
+    We conclude that there are a lot of things to take into considerations when building a machine learning model, there is no right or wrong way. but in the hopes of drawing a guidance map for future contributorswe we did a recap of most famous methods, algorithms and datasets used.
+PFE
+    introduction
+        Skin cancer is one of the most common cancers in the world especially melanoma, and it is fatal if not treated early, that is why its early diagnosis is considered to be the best treatment for it. 
+------------------------
+    goal
+        That is why we are going to make a diagnosis system for melanoma skin cancer, which has the most fatality rates compared to the 2 most common types of skin cancer. Our system is going to be a web-based platform, easy to use and, accessible to everyone through the Internet.
+-------------------------
+    background: software + hardware used+rest api ...
+    the CNN model 
+    the web based platform
+    phone app
+    conclusion
+        we have built a diagnosis system that could facilitate the process of detection and early discovery of melanoma skin cancer, it is web-based, easy to use and accessible to everyone, all you need is internet connection, a laptop or a smartphone, and you are set to go. It can either be used by normal users who think that they might have melanoma, they can check that using the app before actually going to a doctor and do invasive tests (such as biopsy), or it can be used by doctors to facilitate the process of diagnosis and improve patients experience.
+general conclusion
+plan of the execution of app+website (steps to avoid bugs, always user settings before anything else)
