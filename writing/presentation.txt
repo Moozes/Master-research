@@ -154,6 +154,12 @@ MASTER
                 Compile your own dataset if you have a new idea (such as: Raman spectra, clinical
                 data+image)
 
+                EXPLAIN RAMAN SPECTRA 
+                EXPLAIN IMAGE+CLINICAL DATA
+                DLS
+                INTERPRITANILITY
+                ADD TABLE OF COMPARISON
+
                 A general problem met with all datasets is the preprocessing and cleaning (such as smooth-
                 ing and hair removal)
 ---------------------------
