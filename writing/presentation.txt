@@ -119,6 +119,13 @@ MASTER
             Prediction
 ------------------------
 
+
+
+
+
+
+
+
     state of the art
         In this chapter we did a recap of recent articles and research papers talking about skin cancer detection and classification, in the beginning we talked about traditional methods then we explored new and novel ideas
 
@@ -233,6 +240,13 @@ MASTER
 
             interpretability: if your model is intended for real world application, you really need to consider the interpretability aspect
 
+
+
+
+
+
+
+
     conclusion
     We conclude that there are a lot of things to take into considerations when building a machine learning model, there is no right or wrong way. but in the hopes of drawing a guidance map for future contributorswe we did a recap of most famous methods, algorithms and datasets used.
 PFE
@@ -242,11 +256,67 @@ PFE
     goal
         That is why we are going to make a diagnosis system for melanoma skin cancer, which has the most fatality rates compared to the 2 most common types of skin cancer. Our system is going to be a web-based platform, easy to use and, accessible to everyone through the Internet.
 -------------------------
-    background: software + hardware used+rest api ...
     the CNN model 
-    the web based platform
     phone app
+
+    the web based platform
+        conception
+            The Idea
+                main Goal: facilitate the diagnotic process
+                patients: 
+                    confirmation, second opinion, verification 
+                    decide wether or not to go to a dermatologist for further testing
+                doctors: 
+                    help in the initial testing phase, 
+                    naked eye analysis replacement or confirmation
+                    decide wether or not to do further Lab testing (biopsies)
+                    if algo same as doctor testing or no testing
+
+            class diagram
+            use case diagram
+            component diagram
+            deployement diagram
+
+        the web based platform
+            we will talk about the tools used, features of the app
+
+            hardware
+                ASUS vivobook: which was mainly used to develop the website
+                Dell XPS: was used to develop the mobile app and, train the CNN model using its GPU, 
+                    GPU NVIDIA GeForce GTX 1050
+                    VRAM 4GB DDR5
+            
+            software
+                main technologies
+                frontend: ReactJS, Material-UI, Flutter, Material Design
+                backend: NodeJS, ExpressJS, MongoDB, Flask, Tensorflow, Keras, Docker 
+                architecture: mentioned in component diagram
+
+            Hosting
+                mentioned in deployement diagram
+
+            main features of the application
+                account management
+                upload lesion images with a description and get the CNN model prediction
+                get professional opinions in the comment section
+                direct communication with a doctor
+                creation of a new dataset
+        
+            Future Work
+                to extend the usability of our project
+                • Detect and classify more lesions and not just melanoma.
+                • Take model interpretability into account, so it will be more acceptable in real world
+                scenarios.
+                • Present more in-app features to facilitate and enhance user experience.
+
+
     conclusion
-        we have built a diagnosis system that could facilitate the process of detection and early discovery of melanoma skin cancer, it is web-based, easy to use and accessible to everyone, all you need is internet connection, a laptop or a smartphone, and you are set to go. It can either be used by normal users who think that they might have melanoma, they can check that using the app before actually going to a doctor and do invasive tests (such as biopsy), or it can be used by doctors to facilitate the process of diagnosis and improve patients experience.
+        we have built a diagnosis system that could facilitate the process of detection and early discovery of melanoma skin cancer, it is web-based, easy to use and accessible to everyone, all you need is internet connection, a laptop or a smartphone, and you are set to go. It can either be used by normal users or doctors.
+
+
 general conclusion
+    The work of an engineer is to find solutions either by using existant tools or inventing new ones, and our work on our master's thesis and final year project (PFE) has helped us a lot to grow as engineers. our theoretical work helped us to develop as beginner researchers and our practical work gave us the feel and experience of real worl work environment.  
+    So we want to thank our school and all of its staff for providing us with opportunity to aquire both degrees 
+    
 plan of the execution of app+website (steps to avoid bugs, always user settings before anything else)
+
