@@ -126,51 +126,51 @@ MASTER
 
 
 
-    state of the art
+    State of the art
         In this chapter we did a recap of recent articles and research papers talking about skin cancer detection and classification, in the beginning we talked about traditional methods then we explored new and novel ideas
 
-        first of all we are going to present the articles that came up with relatively new ideas and then we will present our comparison between all methods
+        first of all we are going to present the articles that came up with relatively new ideas, and then we will present our comparison between all methods
 
 
-        EXPLAIN RAMAN SPECTRA 
+        RAMAN SPECTRA 
             Raman Spectroscopy is a way to analyze the chemical structure using light and vibrational energy modes of molecules
 
             dataset
-                they brought tissue samples and applied a laser on these tissues to get back Raman scatter radiation. the intensity of this radiation was calculated according to its different frequencies (800- 1800 cm⁻¹)
-                (y=f(x), x: frequency, y: intensity) and that is there data set 
+                they brought tissue samples and applied a laser on these tissues to get back Raman scatter radiation. The intensity of this radiation was calculated according to its different frequencies (800- 1800 cm⁻¹)
+                (y=f(x), x: frequency, y: intensity) and that is their data set 
 
             features 
-                from these obtained spectrums they extracted different statistical mesures: arithmetic mean, derivative ...etc
+                from these obtained spectrums they extracted different statistical measures: arithmetic mean, derivative ...etc
 
             classification: lightGBM (complex decision tree)
 
-        EXPLAIN IMAGE+CLINICAL DATA
-            they wanted to combine image data with clinical inforamtion (such as: age, place of lesion, degree of pain...etc), but before combining they applied a NN feature reducer on the image features to create the balance between image features and clinical features
+        IMAGE+CLINICAL DATA
+            they wanted to combine image data with clinical information (such as: age, place of lesion, degree of pain...etc.), but before combining they applied a NN feature reducer on the image features to create the balance between image features and clinical features
 
-            the affect of clinical data: almost all metrics, f1-score, accuracy... improved by 7% 
+            the effect of clinical data: almost all metrics, f1-score, accuracy... improved by 7% 
             
         DLS (deep learning studio)
-            drag and drop interface for building models desktop/cloud versions + host as Rest API + possibility to download the source code
+            drag and drop interface for building models with desktop/cloud versions + automatic hosting as a Rest API + possibility to download the source code
 
-        INTERPRITANILITY
-            most of ML algorithms are black boxes => cant be trusted in high stake scenarios
-            the researchers wanted to impliment an understandable CNN model by training it to detect cancer the same way a real doctor would, which is by analysing the whole tissue
-            and for that they implimented 2 models one for scemantic segmentation and the second for classification 
-            so the input image (which is a microscopic image) is gonna pass through 2 model, the first will segment it into 12 scemantic classes and the second will receive the result of the first model as input and then will output the classification result (healthy, BCC, SCC, IEC)
-            side effect: because their method takes into consideration the whole tissue they say that it can be enhanced to detect surgical margins and much more 
+        INTERPRETABILITY
+            most ML algorithms are black boxes => can't be trusted in high stake scenarios
+            the researchers wanted to implement an understandable CNN model by training it to detect cancer the same the same way a real doctor would, which is by analyzing the whole tissue
+            and for that they implemented 2 models, one for semantic segmentation and the second for classification 
+            so the input image (which is a microscopic image) is going to pass through 2 model, the first will segment it into 12 semantic (dermis, hair, sweat glands...) classes and the second will receive the result of the first model as input and then will output the classification result (healthy, BCC, SCC, IEC)
+            side effect: because their method takes into consideration the whole tissue, they say that it can be enhanced to detect surgical margins and much more 
 
-        ADD TABLE OF COMPARISON
+        ADD TABLE OF COMPARISON!!!!just talk about it 
 
 
 
-            All methods follow the same 6 step process  
+            All methods follow the same 6-step process  
                 input data 
                 preprocessing 
                 segmentation 
                 feature extraction 
                 classification 
                 output data 
-            and the differences are in datasets used, preprocessing techniques, chosen features and, the performance acheived by each method
+            and the differences are in datasets used, preprocessing techniques, chosen features and, the performance achieved by each method
 ---------------------------
             Datasets
                 • ISIC 2019
@@ -188,8 +188,7 @@ MASTER
                 Compile your own dataset if you have a new idea (such as: Raman spectra, clinical
                 data+image)
 
-                A general problem met with all datasets is the preprocessing and cleaning (such as smooth-
-                ing and hair removal)
+                A general problem met with all datasets is the preprocessing and cleaning (such as smoothing and hair removal)
 ---------------------------
 
             preprocessing: 
@@ -208,7 +207,7 @@ MASTER
                 Standard vector 
                 and other statistical features (such has arithmetic mean, standard deviation for Raman spectra) 
                 
-                all of these features are proven to play an important role in the classification process but depending on your situation and the dataset you use you could find for example a single feature that presents the same performance as the group of features (like in the case of [36] where they used the derivative only) and you can simply check that by training the model with different combination of features until you find an important difference or by using statistical methods that tells you the degree of discrimination of each feature.
+                All of these features are proven to play an important role in the classification process but depending on your situation and the dataset you use you could find for example a single feature that presents the same performance as the group of features (like in the case of [36] where they used the derivative only) and you can simply check that by training the model with different combination of features until you find an important difference or by using statistical methods that tells you the degree of discrimination of each feature.
 ---------------------------
             classification: 
             • SVM
@@ -235,12 +234,11 @@ MASTER
 ---------------------------
         Applicability
             we need to consider 4 things 
-            place: local or global?
-            dataset: compatible with the population that you are going to apply the algorithm on?
-            method: is the place you’re planing on applying your method in capable of acquiring the needed technology?
-            interpretability: is your method interpretable or works as a black boxes?
+            Place: local or global?
+            Dataset: compatible with the population that you are going to apply the algorithm on?
+            Method: is the place you’re planing on applying your method in capable of acquiring the needed technology?
+            Interpretability: is your method interpretable or works as a black boxes?
 ---------------------------
-
     
 
 ---------------------------
@@ -297,32 +295,23 @@ PFE
     the CNN model 
     phone app
 
-    the web based platform
+    The web based platform
         conception
             The Idea
-                main Goal: facilitate the diagnotic process
+                main Goal: facilitate the diagnostic process
                 patients: 
                     confirmation, second opinion, verification 
-                    decide wether or not to go to a dermatologist for further testing
+                    decide whether or not to go to a dermatologist for further testing
                 doctors: 
                     help in the initial testing phase, 
                     naked eye analysis replacement or confirmation
-                    decide wether or not to do further Lab testing (biopsies)
-                    if algo same as doctor testing or no testing
+                    decide whether or not to do further Lab testing (biopsies)
 
             class diagram
             use case diagram
             component diagram
-            deployement diagram
+            deployment diagram
 
-        the web based platform
-            we will talk about the tools used, features of the app
-
-            hardware
-                ASUS vivobook: which was mainly used to develop the website
-                Dell XPS: was used to develop the mobile app and, train the CNN model using its GPU, 
-                    GPU NVIDIA GeForce GTX 1050
-                    VRAM 4GB DDR5
             
             software
                 main technologies
@@ -330,15 +319,6 @@ PFE
                 backend: NodeJS, ExpressJS, MongoDB, Flask, Tensorflow, Keras, Docker 
                 architecture: mentioned in component diagram
 
-            Hosting
-                mentioned in deployement diagram
-
-            main features of the application
-                account management
-                upload lesion images with a description and get the CNN model prediction
-                get professional opinions in the comment section
-                direct communication with a doctor
-                creation of a new dataset
         
             Future Work
                 to extend the usability of our project
@@ -347,14 +327,13 @@ PFE
                 scenarios.
                 • Present more in-app features to facilitate and enhance user experience.
 
-
-    conclusion
+    Conclusion
         we have built a diagnosis system that could facilitate the process of detection and early discovery of melanoma skin cancer, it is web-based, easy to use and accessible to everyone, all you need is internet connection, a laptop or a smartphone, and you are set to go. It can either be used by normal users or doctors.
 
 
-general conclusion
-    The work of an engineer is to find solutions either by using existant tools or inventing new ones, and our work on our master's thesis and final year project (PFE) has helped us a lot to grow as engineers. our theoretical work helped us to develop as beginner researchers and our practical work gave us the feel and experience of real worl work environment.  
-    So we want to thank our school and all of its staff for providing us with opportunity to aquire both degrees 
+General conclusion
+    The work of an engineer is to find solutions, either by using existent tools or inventing new ones, and our work on our master's thesis and final year project (PFE) has helped us a lot to grow as engineers. Our theoretical work helped us to develop as beginner researchers, and our practical work gave us the feel and experience of real world work environment.  
+    So we want to thank our school and all of its staff for providing us with the opportunity to acquire both degrees 
     
-plan of the execution of app+website (steps to avoid bugs, always user settings before anything else)
 
+plan of the execution of app+website (steps to avoid bugs, always user settings before anything else)

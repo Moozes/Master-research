@@ -1,0 +1,3 @@
+2: remove results and dicussion
+CNN model comes before web-platform
+maybe modify AI definitions slide 21 and above
