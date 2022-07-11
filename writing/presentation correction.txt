@@ -1,3 +1,61 @@
+
+
+
 2: remove results and dicussion
-CNN model comes before web-platform
-maybe modify AI definitions slide 21 and above
+
+add planing of app execution
+    create user account
+    user uploads lesion image
+    comment on his own lesion image
+    publish his lesion image
+    ceate a doctor account
+    verify doctor account by admin
+    view published lesion images
+    comment on a lesion image
+    chat between doctor and user
+    view new dataset by admin
+
+
+consider running app localy incase of cloud error
+
+
+
+
+
+===================================================
+
+need:
+    lesion images
+    user and doctor images
+    create another user so he can be deleted by admin
+
+add planing of app execution
+    create user account
+        verify email
+        upload profile image
+        upload lesion
+            comment on his own lesion
+            publish lesion
+        upload another lesion image
+            dont publish
+    create doctor account
+        verify email 
+        upload profile image
+    doctor enter forum
+        note: need to verify with admin
+    admin
+        verify doctor
+    doctor enter forum
+        comment on patient lesion
+    user see the comment 
+        unpublish lesion 
+    doctor can't see lesion image
+    user send message to doctor
+    doctor send message to user
+    admin see new data set
+
+
+mobile 
+    login
+    upload lesion
+    comment

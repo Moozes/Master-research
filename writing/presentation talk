@@ -1,0 +1,58 @@
+general introduction---
+plan of presentation--- 
+MASTER 
+    introduction--- 
+    goal---
+    medical background---
+        skin
+        anatomy
+        cancer 
+        origin
+        types
+        skin cancer
+        main causes
+        most common types
+        symptoms: look the same hard to differetiate
+        how doctors detect skin cacner 
+    ai background
+        AI
+        ml
+        types
+        dl
+        latest advancements in dl
+        cv
+        cv using ml
+        cv using dl
+
+
+    STATE OF THE ART---
+        intro
+        raman spectra
+        image + clinical data
+        DLS
+        Interpretability
+        Recap
+            6-step process
+            datasets
+            preprocessing
+            features
+            classification
+            evaluation
+        Line of reasoning
+    master conclusion---
+
+PFE
+    intro 
+    goal
+    the model
+    platform main idea---
+    diagrams: class, use case---,component
+    deployemet
+    mobile app
+    software
+    future work
+    pfe conclusion
+
+general conclusion---
+scenario of execution---
+
